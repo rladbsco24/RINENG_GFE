@@ -1,0 +1,18 @@
+\begin{table}[htbp]\centering\scriptsize
+\caption{Native objective diagnostics for the first predeclared final-benchmark command per method and task. Initial and terminal values use identical final-stage settings. IB/GS gradients are not applicable; the AD initial gradient is unavailable.}
+\label{tab:selected_gradients}
+\begin{tabular}{llrrrrrr}\toprule
+Task & Method & $J_0$ & $J_f$ & $\|g_0\|_2$ & $\|g_f\|_2$ & Ratio & Iter.\\\midrule
+Single & Conventional & 1006.87 & -55.459 & 703.712 & 696.951 & 0.990392 & 6130\\
+Single & FE & -0.00072861 & -0.0590548 & 0.000925085 & 3.61986e-08 & 3.913e-05 & 31\\
+Single & GFE & -0.00072359 & -0.0590437 & 0.000924775 & 1.39575e-08 & 1.50929e-05 & 31\\
+Single & AD & 0.898195 & 0.230233 & N/A & 7.48105e-05 & N/A & 150\\
+Single & IB & N/A & N/A & N/A & N/A & N/A & 1\\
+Single & GS & N/A & N/A & N/A & N/A & N/A & 100\\
+Triple & Conventional & 1109.96 & -35.4411 & 552.679 & 408.059 & 0.738329 & 30000\\
+Triple & FE & 0.0576159 & -0.0504795 & 0.030546 & 3.79374e-08 & 1.24197e-06 & 3669\\
+Triple & GFE & 0.0603438 & -0.0496489 & 0.0300251 & 2.92142e-08 & 9.72993e-07 & 2482\\
+Triple & AD & 0.832546 & 0.503483 & N/A & 0.000189531 & N/A & 150\\
+Triple & IB & N/A & N/A & N/A & N/A & N/A & 200\\
+Triple & GS & N/A & N/A & N/A & N/A & N/A & 100\\
+\bottomrule\end{tabular}\end{table}

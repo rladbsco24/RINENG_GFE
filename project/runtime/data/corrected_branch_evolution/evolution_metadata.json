@@ -1,0 +1,24 @@
+{
+  "config": {
+    "seed_start": 260826,
+    "base_seeds": 10,
+    "max_seeds": 24,
+    "minimum_per_branch": 2,
+    "anchor_maxiter": 2000,
+    "conventional_maxiter": 10000,
+    "gtol": 0.0,
+    "tilt_deg": 25.0,
+    "chart_mode": "core-volume",
+    "workers": 8
+  },
+  "landmark_definition": "corrected-Gorkov final FE+RH medoids only",
+  "landmark_count": 196,
+  "conventional_in_landmark_fit": false,
+  "stage_refitting": false,
+  "trajectory_identity": "terminal Conventional medoid seed reused at every checkpoint",
+  "checkpoints": [
+    500,
+    2000,
+    10000
+  ]
+}

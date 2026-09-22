@@ -1,0 +1,35 @@
+{
+  "configuration": {
+    "levels": [
+      4,
+      8,
+      10,
+      16,
+      32,
+      128,
+      2048
+    ],
+    "targets": 15,
+    "timing_repeats": 3,
+    "fd_h_m": 0.0005,
+    "root_h_m": 0.0005
+  },
+  "paired_shift_comparison": {
+    "mechanics_better_than_fixed_count": 104,
+    "mechanics_tied_fixed_count": 1,
+    "mechanics_better_than_best_offset_count": 101,
+    "mechanics_tied_best_offset_count": 3,
+    "pairs": 105
+  },
+  "prediction": {
+    "spearman_rho": 0.9981443085216669,
+    "median_absolute_error_mm": 8.67081939335346e-05
+  },
+  "software": {
+    "python": "3.12.13",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3"
+  },
+  "scope": "Same-Rayleigh-model mechanics; 16x16 single-sided array; 15 target positions. No finite-ka, calibration-error, or experimental validation claim."
+}

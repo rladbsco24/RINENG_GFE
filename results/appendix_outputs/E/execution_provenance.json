@@ -1,0 +1,23 @@
+{
+  "schema": "appendix_de_compact_v3",
+  "fe_solver_policy": "fe-compact-task-specific-v3",
+  "status": "SMOKE source-study calculation",
+  "source_runtime_notebook": "appendix_sources/E_prescriptions/final/rule_based_projection_prescription_engineering.ipynb",
+  "executed_source_cell_indices": [
+    3,
+    5,
+    6,
+    7,
+    9,
+    11
+  ],
+  "source_edits": "Current compact FE reference; unchanged prescription candidates and morphology metrics.",
+  "candidate_count": 310,
+  "numerical_execution_wall_s": 16.687445300005493,
+  "timing_scope": "synthesis_wall_s times projection recurrence only after control transfer setup; total numerical execution includes source-kernel import, transfer construction, candidate projection and profile evaluation, and table export. It excludes final maps/rendering. Human hours unmeasured.",
+  "single_reference": "Compact L-BFGS-B FE, seed 172817509.",
+  "scope": "Pressure morphology transfer/refinement; no new elastic mechanical or levitation claim.",
+  "opposed_reference": "same-method D=26.7 lambda, R=1.4 lambda; each profile normalized by global maximum in 0--18 mm",
+  "single_reference_normalization": "each radial profile divided by its first annular maximum",
+  "field_scope": "Exact historical source runtime with calibrated Murata transfer; isolated from active main runtime."
+}

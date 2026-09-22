@@ -1,0 +1,2 @@
+case_id,source_strength_pa_m_peak,include_effective_gravity,root_found,on_search_boundary,search_half_width_a,starts,max_nfev,root_residual_scaled,reported_search_candidate_distance_um,interpretation
+X+0_Y+0_Z50,1.0,True,False,True,4.0,1,35,0.9517391399985154,2600.0000004816866,One declared unit-amplitude pilot reached the search boundary without a force root; not an equilibrium displacement measurement.

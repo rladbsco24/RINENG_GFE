@@ -1,0 +1,170 @@
+{
+  "configuration": {
+    "cache_schema": "gorkov-surrogate-generalization-v1",
+    "convergence": {
+      "control_radius_a": [
+        1.1,
+        1.3,
+        1.5,
+        1.6
+      ],
+      "fermat_refined_partial_wave": {
+        "control_radius_a": 1.5,
+        "lmax": 8,
+        "surface_n_mu": 20,
+        "surface_n_phi": 40
+      },
+      "jacobian_steps_a": [
+        0.05,
+        0.075,
+        0.1,
+        0.15
+      ],
+      "lmax_values": [
+        3,
+        4,
+        6,
+        8
+      ],
+      "rayleigh_radius_scales": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "root_tolerances": [
+        0.01,
+        0.001,
+        0.0001
+      ],
+      "surface_pairs": [
+        [
+          8,
+          16
+        ],
+        [
+          12,
+          24
+        ],
+        [
+          16,
+          32
+        ],
+        [
+          20,
+          40
+        ]
+      ]
+    },
+    "deterministic_seed": 20260825,
+    "frequency_hz": {
+      "bandwidth_claim": false,
+      "baseline": 40000.0,
+      "interpretation": "physical arrays and target coordinates fixed in metres",
+      "spoke": [
+        32000.0,
+        36000.0,
+        40000.0,
+        44000.0,
+        48000.0
+      ]
+    },
+    "gorkov_numerics": {
+      "potential_gradient_step_a": 0.05,
+      "pressure_gradient_step_a": 0.02
+    },
+    "hub": {
+      "chart_coordinates": [
+        -0.6666666666666666,
+        0.0,
+        0.6666666666666666
+      ],
+      "endpoint_roles": [
+        "B1 medoid",
+        "B2 medoid",
+        "weakest axial independent start"
+      ],
+      "local_directions": 14,
+      "local_radii_a": [
+        0.25,
+        0.5,
+        0.75
+      ]
+    },
+    "medium": {
+      "density_kg_m3": 1.225,
+      "gravity_m_s2": 9.80665,
+      "sound_speed_m_s": 343.0
+    },
+    "mode": "full",
+    "parallel_workers": 6,
+    "partial_wave": {
+      "control_radius_a": 1.3,
+      "fit_n_mu": 12,
+      "fit_n_phi": 24,
+      "fit_rcond": 1e-12,
+      "fit_shell_wavelengths": [
+        0.1,
+        0.15,
+        0.2
+      ],
+      "lmax": 4,
+      "surface_n_mu": 16,
+      "surface_n_phi": 32,
+      "velocity_step_a": 0.002
+    },
+    "particles": {
+      "elastic": {
+        "c_L_m_s": 2400.0,
+        "c_T_m_s": 1000.0,
+        "density_kg_m3": 100.0,
+        "diameter_m": 0.0013,
+        "label": "representative homogeneous isotropic elastic sphere",
+        "radius_m": 0.00065
+      },
+      "fluid": {
+        "c_L_m_s": 2400.0,
+        "c_T_m_s": null,
+        "density_kg_m3": 100.0,
+        "diameter_m": 0.0013,
+        "label": "compressible-fluid sphere",
+        "radius_m": 0.00065
+      }
+    },
+    "root": {
+      "jacobian_step_a": 0.1,
+      "max_nfev": 60,
+      "numerical_root_tolerance_scaled_force": 0.001,
+      "search_half_width_a": 4.0,
+      "start_distances_a": [
+        0.5,
+        1.0,
+        1.5
+      ]
+    },
+    "source": {
+      "directivity": "murata_table",
+      "front_only": true,
+      "phasor": "p(x,t)=Re[p_hat(x) exp(-i omega t)]; outgoing exp(+ikr)/r",
+      "source_strength_pa_m_peak": 8.48528137423857
+    },
+    "spokes": {
+      "array_optimizer_maxiter": 800,
+      "arrays": [
+        "SQ256",
+        "FERMAT256",
+        "OPP512"
+      ],
+      "designs": [
+        0,
+        1,
+        2
+      ],
+      "elastic_optimizer_maxiter": 800,
+      "fermat_optimizer_maxiter": 2000,
+      "frequency_optimizer_maxiter": 800,
+      "gtol": 0.0,
+      "nonsmooth_force_zero_relative_effective_weight": 1.4901161193847656e-08,
+      "stationarity_rms": 1e-05
+    }
+  }
+}

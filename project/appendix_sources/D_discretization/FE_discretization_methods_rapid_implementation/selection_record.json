@@ -1,0 +1,49 @@
+{
+  "claim_boundary": "No finite-ka, calibration-error, or experimental validation claim.",
+  "command_archive": "mechanics_offset_phase_indices.npz",
+  "command_encoding": "phase_rad = 2*pi*uint16_index/Q; channel 0 gauge index is zero",
+  "command_manifest": "mechanics_offset_command_manifest.csv",
+  "levels": [
+    4,
+    8,
+    10,
+    16,
+    32,
+    128,
+    2048
+  ],
+  "paired_audit": {
+    "better_than_FE_best_offset": 101,
+    "better_than_fixed": 104,
+    "pairs": 105,
+    "ties_FE_best_offset": 3,
+    "ties_fixed": 1
+  },
+  "prediction": {
+    "median_absolute_error_mm": 8.67081939335346e-05,
+    "spearman_rho": 0.9981443085216669
+  },
+  "scope": "SQ256, 40 kHz, 15 single-target conditions; same-Rayleigh root validation",
+  "selected_method": "mechanics_offset",
+  "selected_metrics": {
+    "cases": 105,
+    "effective_transition_median_ms": 30.021889,
+    "end_to_end_ratio_median": 1.0938619404096879,
+    "method": "mechanics_offset",
+    "shift_max_mm": 0.0368644781794881,
+    "shift_median_mm": 0.0044232495462233,
+    "shift_p90_mm": 0.017023288770970483,
+    "stable_fraction": 1.0,
+    "stiffness_abs_error_median_pct": 1.0840691464224648,
+    "transition_median_ms": 22.929033
+  },
+  "selection_description": "mechanics-aware exact global-offset rounding",
+  "selection_order": [
+    "stable_fraction_desc",
+    "pooled_p90_equilibrium_shift_asc",
+    "maximum_equilibrium_shift_asc",
+    "stiffness_abs_error_asc",
+    "effective_transition_time_asc"
+  ],
+  "targets": 15
+}

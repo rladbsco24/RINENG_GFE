@@ -1,0 +1,18 @@
+{
+  "schema": "focused-editor-response-20260908-v2-si-visual",
+  "mode": "smoke",
+  "figure_stems": [
+    "Figure_C1_objective_weight_sensitivity",
+    "Figure_C2_multitrap_regularization",
+    "Figure_C3_RH_beta_choice"
+  ],
+  "figures": [
+    "appendix_outputs\\C_GFE\\reviewer_focused\\figures\\Figure_C1_objective_weight_sensitivity.png",
+    "appendix_outputs\\C_GFE\\reviewer_focused\\figures\\Figure_C2_multitrap_regularization.png",
+    "appendix_outputs\\C_GFE\\reviewer_focused\\figures\\Figure_C3_RH_beta_choice.png"
+  ],
+  "reference": "frozen same-seed nominal GFE; RH panel uses frozen FE and RH",
+  "focused_core_completed": true,
+  "report_only_smoke_replay": false,
+  "archived_exploration_executed": false
+}

@@ -1,0 +1,3033 @@
+[
+  {
+    "figure": "Appendix_4A_EquilibriumPressure_Arrays",
+    "layout": [
+      3,
+      3
+    ],
+    "setting_ids": [
+      "A06",
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "A07",
+      "A08",
+      "A09"
+    ],
+    "task": "Triple",
+    "case_tile_count": 9,
+    "data_axes_count": 9,
+    "axes_count": 9,
+    "array_inset_axes_count": 0,
+    "horizontal_measurement": "displacement_m",
+    "vertical_measurement": "pressure_abs_at_exact_equilibrium_pa",
+    "measurements": [
+      "pressure_abs_at_exact_equilibrium_pa",
+      "displacement_m"
+    ],
+    "pressure_unit": "Pa (peak)",
+    "displacement_unit": "m",
+    "marker_statistic": "Median over resolved roots",
+    "error_bars": "Minimum and maximum over the same resolved roots; no confidence interval interpretation",
+    "missing_data": "Unresolved target values remain undefined; zero-root commands are not plotted; counts retained for every method",
+    "aggregation_filter": "Numerical finite-ka root found, without a restoring classification filter",
+    "rendering_source": "Native main Figure8 markers, colors and min/max bar style; both physical coordinates linear",
+    "raw_outcomes_retained": 210,
+    "commands_retained": 70,
+    "endpoints_per_panel": 5,
+    "legend_methods": [
+      "Conventional",
+      "FE",
+      "GFE",
+      "IB",
+      "GS"
+    ],
+    "source_hashes": {
+      "selector": "data\\generated_triple_source.json",
+      "generation_plan.json": "data\\generated_campaign\\smoke\\triple_generation\\generation_plan.json",
+      "outcomes.csv": "data\\generated_campaign\\smoke\\triple_generation\\outcomes.csv",
+      "command_index.csv": "data\\generated_campaign\\smoke\\triple_generation\\command_index.csv"
+    },
+    "active_data_scope": "generated_smoke",
+    "final_root_provenance": {
+      "resolved_target_count": 210,
+      "native_width_root_found_count": 204,
+      "expanded_root_found_count": 6,
+      "search_disclosure": "Native Cartesian search within +/-4 bead radii; deposited low-frequency interventions allow unresolved searches to expand to +/-8 bead radii. Full mode uses the declared native lmax=8 validation protocol.",
+      "expanded_targets": [
+        {
+          "setting_id": "F20",
+          "method": "Conventional",
+          "seed": 260869,
+          "target_id": "T1",
+          "displacement_um": 3400.2748144947395,
+          "pressure_abs_at_exact_equilibrium_pa": 244.4888499983537,
+          "root_search_half_width_a": 8.0
+        },
+        {
+          "setting_id": "F20",
+          "method": "Conventional",
+          "seed": 260869,
+          "target_id": "T3",
+          "displacement_um": 2977.553300313676,
+          "pressure_abs_at_exact_equilibrium_pa": 391.9942490494872,
+          "root_search_half_width_a": 8.0
+        },
+        {
+          "setting_id": "F20",
+          "method": "IB",
+          "seed": 260869,
+          "target_id": "T1",
+          "displacement_um": 2916.5269488247286,
+          "pressure_abs_at_exact_equilibrium_pa": 1024.224162983635,
+          "root_search_half_width_a": 8.0
+        },
+        {
+          "setting_id": "F20",
+          "method": "IB",
+          "seed": 260869,
+          "target_id": "T2",
+          "displacement_um": 2901.7148869880784,
+          "pressure_abs_at_exact_equilibrium_pa": 493.6350658936449,
+          "root_search_half_width_a": 8.0
+        },
+        {
+          "setting_id": "F28",
+          "method": "Conventional",
+          "seed": 260869,
+          "target_id": "T2",
+          "displacement_um": 3816.7182140330815,
+          "pressure_abs_at_exact_equilibrium_pa": 379.1223111707364,
+          "root_search_half_width_a": 8.0
+        },
+        {
+          "setting_id": "F28",
+          "method": "GS",
+          "seed": 260869,
+          "target_id": "T2",
+          "displacement_um": 2903.63725603385,
+          "pressure_abs_at_exact_equilibrium_pa": 970.6376998999956,
+          "root_search_half_width_a": 8.0
+        }
+      ]
+    },
+    "paths": [
+      "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_4A_EquilibriumPressure_Arrays.png",
+      "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_4A_EquilibriumPressure_Arrays.pdf",
+      "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_4A_EquilibriumPressure_Arrays.svg"
+    ],
+    "panels": [
+      {
+        "setting_id": "A06",
+        "title": "(a) Square \u00b7 N = 256",
+        "source_count": 256,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -9.105088844100333e-05,
+          0.0013202378823945484
+        ],
+        "y_limits": [
+          -75.9251800668213,
+          1100.9151109689087
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f71e28d9443d329f9",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 422.6938233743737,
+            "displacement_um": 787.6800364541593,
+            "pressure_range_pa": [
+              170.78414270129753,
+              491.3136723922942
+            ],
+            "displacement_range_um": [
+              534.4556407528935,
+              904.5553272547096
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A06\\seed260869\\commands\\Conventional_0_cold\\command.npz",
+            "displacement_m": 0.0007876800364541594,
+            "displacement_range_m": [
+              0.0005344556407528935,
+              0.0009045553272547096
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fe19c058199350a12",
+            "candidate_id": "alpha30000",
+            "plotted": true,
+            "pressure_pa": 25.16304054562496,
+            "displacement_um": 550.9746547141385,
+            "pressure_range_pa": [
+              12.00842412473914,
+              47.72317889852254
+            ],
+            "displacement_range_um": [
+              332.48933719662006,
+              622.8005181816774
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A06\\seed260869\\commands\\FE_30000_cold\\command.npz",
+            "displacement_m": 0.0005509746547141386,
+            "displacement_range_m": [
+              0.00033248933719662007,
+              0.0006228005181816773
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f41d566cd4e7b05fe",
+            "candidate_id": "native_alpha3000",
+            "plotted": true,
+            "pressure_pa": 15.189069103455834,
+            "displacement_um": 230.43462563315435,
+            "pressure_range_pa": [
+              6.890683078938972,
+              21.83995204463698
+            ],
+            "displacement_range_um": [
+              189.3979170549712,
+              294.5681216003555
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A06\\seed260869\\commands\\GFE_3000_cold\\command.npz",
+            "displacement_m": 0.00023043462563315434,
+            "displacement_range_m": [
+              0.0001893979170549712,
+              0.0002945681216003555
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f7394607617ae2cc5",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 713.1816135050938,
+            "displacement_um": 834.0655805534304,
+            "pressure_range_pa": [
+              646.963903254082,
+              736.5089598613291
+            ],
+            "displacement_range_um": [
+              819.9648351186003,
+              1005.6716013971286
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A06\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.0008340655805534305,
+            "displacement_range_m": [
+              0.0008199648351186002,
+              0.0010056716013971286
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fccf70c7088d42180",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 917.0173578356272,
+            "displacement_um": 1049.236342272243,
+            "pressure_range_pa": [
+              829.890698147369,
+              949.0647508352662
+            ],
+            "displacement_range_um": [
+              209.3719111072232,
+              1138.1361055125417
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A06\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.0010492363422722431,
+            "displacement_range_m": [
+              0.00020937191110722322,
+              0.0011381361055125417
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      },
+      {
+        "setting_id": "S01",
+        "title": "(b) Rectangular \u00b7 N = 256",
+        "source_count": 256,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -9.652309283240708e-05,
+          0.0013995848460699027
+        ],
+        "y_limits": [
+          -83.69338873222452,
+          1213.5541366172556
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fff26b6f6e4f8f664",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 534.422024964369,
+            "displacement_um": 1192.0835108009385,
+            "pressure_range_pa": [
+              17.82535283088286,
+              548.2664104455162
+            ],
+            "displacement_range_um": [
+              489.45206878852406,
+              1206.5386604050884
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S01\\seed260869\\commands\\Conventional_0_cold\\command.npz",
+            "displacement_m": 0.0011920835108009385,
+            "displacement_range_m": [
+              0.0004894520687885241,
+              0.0012065386604050885
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f489518233d0afaf9",
+            "candidate_id": "alpha30000",
+            "plotted": true,
+            "pressure_pa": 21.4204006029311,
+            "displacement_um": 300.978039209442,
+            "pressure_range_pa": [
+              0.0003616170006099,
+              21.420843260042307
+            ],
+            "displacement_range_um": [
+              300.9776864360834,
+              398.01597611430725
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S01\\seed260869\\commands\\FE_30000_cold\\command.npz",
+            "displacement_m": 0.000300978039209442,
+            "displacement_range_m": [
+              0.0003009776864360834,
+              0.00039801597611430727
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f72dad4ce8146057e",
+            "candidate_id": "native_alpha3000",
+            "plotted": true,
+            "pressure_pa": 27.94955731864764,
+            "displacement_um": 188.52974034356623,
+            "pressure_range_pa": [
+              0.0001157088628186,
+              27.949572087097145
+            ],
+            "displacement_range_um": [
+              188.52920437454196,
+              231.611603947944
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S01\\seed260869\\commands\\GFE_3000_cold\\command.npz",
+            "displacement_m": 0.00018852974034356623,
+            "displacement_range_m": [
+              0.00018852920437454197,
+              0.00023161160394794399
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f4038ff1f6b3a027b",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 566.130251982952,
+            "displacement_um": 583.023743117972,
+            "pressure_range_pa": [
+              417.4601778938443,
+              1046.1673591528065
+            ],
+            "displacement_range_um": [
+              370.8442859890644,
+              855.9967652527756
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S01\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.000583023743117972,
+            "displacement_range_m": [
+              0.0003708442859890644,
+              0.0008559967652527756
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f069b2bd51b04fc53",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 547.9298963181943,
+            "displacement_um": 589.2960972008045,
+            "pressure_range_pa": [
+              436.2323899159501,
+              679.3186188826905
+            ],
+            "displacement_range_um": [
+              582.4255916421345,
+              951.5551736528435
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S01\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.0005892960972008045,
+            "displacement_range_m": [
+              0.0005824255916421345,
+              0.0009515551736528435
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      },
+      {
+        "setting_id": "S02",
+        "title": "(c) Opposed \u00b7 N = 512",
+        "source_count": 512,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -2.8207944704973886e-05,
+          0.0004090151982221213
+        ],
+        "y_limits": [
+          -39.98774564494859,
+          579.8223118517545
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000100f4b012931e9fe319d",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 242.9493239665852,
+            "displacement_um": 209.0336446767105,
+            "pressure_range_pa": [
+              188.67137042894657,
+              417.9877152615457
+            ],
+            "displacement_range_um": [
+              95.28727140168152,
+              238.33052619749236
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 512,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S02\\seed260869\\commands\\Conventional_0_cold\\command.npz",
+            "displacement_m": 0.0002090336446767105,
+            "displacement_range_m": [
+              9.528727140168152e-05,
+              0.00023833052619749237
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000100fa9eb36da34e70b22",
+            "candidate_id": "alpha30000",
+            "plotted": true,
+            "pressure_pa": 203.869574145546,
+            "displacement_um": 6.3743752876920485,
+            "pressure_range_pa": [
+              184.5175413334105,
+              253.35825841611532
+            ],
+            "displacement_range_um": [
+              5.904685556339228,
+              18.91819331311026
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 512,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S02\\seed260869\\commands\\FE_30000_cold\\command.npz",
+            "displacement_m": 6.374375287692048e-06,
+            "displacement_range_m": [
+              5.9046855563392275e-06,
+              1.891819331311026e-05
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000100f5c0a8a650c84fd54",
+            "candidate_id": "alpha30000",
+            "plotted": true,
+            "pressure_pa": 216.2336865235768,
+            "displacement_um": 7.391390749188161,
+            "pressure_range_pa": [
+              171.75187665417636,
+              251.8453251034697
+            ],
+            "displacement_range_um": [
+              3.2412141066742,
+              15.6642084552782
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 512,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S02\\seed260869\\commands\\GFE_30000_cold\\command.npz",
+            "displacement_m": 7.391390749188161e-06,
+            "displacement_range_m": [
+              3.2412141066742e-06,
+              1.56642084552782e-05
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000100fc824f9fd8962fd9b",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 430.86431579362863,
+            "displacement_um": 317.0868017866151,
+            "pressure_range_pa": [
+              429.47281877405663,
+              474.94920825284095
+            ],
+            "displacement_range_um": [
+              144.26505051423973,
+              352.5993088121736
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 512,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S02\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.00031708680178661513,
+            "displacement_range_m": [
+              0.00014426505051423974,
+              0.0003525993088121736
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000100fb99034be3a5e3054",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 455.7415049689489,
+            "displacement_um": 231.5516976123088,
+            "pressure_range_pa": [
+              425.4411267523802,
+              499.8468205618574
+            ],
+            "displacement_range_um": [
+              213.71536918279108,
+              325.80800715537936
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 512,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S02\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.0002315516976123088,
+            "displacement_range_m": [
+              0.0002137153691827911,
+              0.00032580800715537934
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      },
+      {
+        "setting_id": "S03",
+        "title": "(d) Spherical cap \u00b7 N = 256",
+        "source_count": 256,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -5.652614994422731e-05,
+          0.000819629174191296
+        ],
+        "y_limits": [
+          -47.65647346325208,
+          691.0188652171552
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f690a2534183804b7",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 335.01686968135,
+            "displacement_um": 443.0969944278653,
+            "pressure_range_pa": [
+              304.8920021962943,
+              534.7864508217242
+            ],
+            "displacement_range_um": [
+              299.08590758506034,
+              701.0133222141162
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S03\\seed260869\\commands\\Conventional_0_cold\\command.npz",
+            "displacement_m": 0.0004430969944278653,
+            "displacement_range_m": [
+              0.0002990859075850603,
+              0.0007010133222141162
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f3c153af1d50a1389",
+            "candidate_id": "native_alpha3000",
+            "plotted": true,
+            "pressure_pa": 10.494407918822455,
+            "displacement_um": 13.294496066144822,
+            "pressure_range_pa": [
+              3.087863454207411,
+              34.708722274891784
+            ],
+            "displacement_range_um": [
+              12.91195788075722,
+              31.82652005382212
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S03\\seed260869\\commands\\FE_3000_cold\\command.npz",
+            "displacement_m": 1.3294496066144822e-05,
+            "displacement_range_m": [
+              1.2911957880757219e-05,
+              3.182652005382212e-05
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f76c6c110478915aa",
+            "candidate_id": "native_alpha3000",
+            "plotted": true,
+            "pressure_pa": 23.91082817776719,
+            "displacement_um": 147.91595386805594,
+            "pressure_range_pa": [
+              11.207534425032222,
+              24.80056590267735
+            ],
+            "displacement_range_um": [
+              131.11609788888725,
+              171.732358726249
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S03\\seed260869\\commands\\GFE_3000_cold\\command.npz",
+            "displacement_m": 0.00014791595386805595,
+            "displacement_range_m": [
+              0.00013111609788888726,
+              0.000171732358726249
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fc15f7de5a03d1235",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 356.2895041232237,
+            "displacement_um": 432.9398047649941,
+            "pressure_range_pa": [
+              135.91736572118478,
+              595.705918290651
+            ],
+            "displacement_range_um": [
+              373.4866420184607,
+              706.5768743028414
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S03\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.0004329398047649941,
+            "displacement_range_m": [
+              0.0003734866420184607,
+              0.0007065768743028414
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f0c1cd0e48b8e0865",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 183.15327234157465,
+            "displacement_um": 373.6080484752089,
+            "pressure_range_pa": [
+              145.24934478081374,
+              471.8349337822798
+            ],
+            "displacement_range_um": [
+              220.645534564058,
+              466.4023950968377
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S03\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.00037360804847520886,
+            "displacement_range_m": [
+              0.000220645534564058,
+              0.0004664023950968377
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      },
+      {
+        "setting_id": "S04",
+        "title": "(e) Fermat disk \u00b7 N = 256",
+        "source_count": 256,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -0.00013108199133245275,
+          0.0019006888743205647
+        ],
+        "y_limits": [
+          -63.47682843783107,
+          920.4140123485504
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f01912776f8c604f5",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 352.6323243653798,
+            "displacement_um": 1363.5751230894846,
+            "pressure_range_pa": [
+              80.33901567621125,
+              597.2827703988407
+            ],
+            "displacement_range_um": [
+              905.8425316765788,
+              1638.524891655659
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S04\\seed260869\\commands\\Conventional_0_cold\\command.npz",
+            "displacement_m": 0.0013635751230894845,
+            "displacement_range_m": [
+              0.0009058425316765788,
+              0.0016385248916556592
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fcaa5359ec0de0bec",
+            "candidate_id": "alpha30000",
+            "plotted": true,
+            "pressure_pa": 49.87701252126853,
+            "displacement_um": 694.8416836561596,
+            "pressure_range_pa": [
+              10.772088567775365,
+              183.0370709023818
+            ],
+            "displacement_range_um": [
+              627.4119970852129,
+              1032.715765551404
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S04\\seed260869\\commands\\FE_30000_cold\\command.npz",
+            "displacement_m": 0.0006948416836561596,
+            "displacement_range_m": [
+              0.0006274119970852129,
+              0.001032715765551404
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fa19c2a18df64073b",
+            "candidate_id": "alpha30000",
+            "plotted": true,
+            "pressure_pa": 25.42647983351854,
+            "displacement_um": 237.08712176841323,
+            "pressure_range_pa": [
+              24.311165679249743,
+              31.852580584732674
+            ],
+            "displacement_range_um": [
+              187.8991013710324,
+              240.5172548279573
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S04\\seed260869\\commands\\GFE_30000_cold\\command.npz",
+            "displacement_m": 0.00023708712176841323,
+            "displacement_range_m": [
+              0.0001878991013710324,
+              0.00024051725482795728
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080ffe87c8da6ffd11ca",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 392.3790696078962,
+            "displacement_um": 1210.2135028890928,
+            "pressure_range_pa": [
+              319.65762655744555,
+              693.6490250735181
+            ],
+            "displacement_range_um": [
+              365.4975418478373,
+              1464.617158999626
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S04\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.0012102135028890927,
+            "displacement_range_m": [
+              0.00036549754184783727,
+              0.001464617158999626
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080ffddd95cbbbfb2b6c",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 594.73495064477,
+            "displacement_um": 952.0995679409937,
+            "pressure_range_pa": [
+              309.5655403875254,
+              793.4603554728883
+            ],
+            "displacement_range_um": [
+              455.86423269861996,
+              1235.2834449788854
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S04\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.0009520995679409937,
+            "displacement_range_m": [
+              0.00045586423269862,
+              0.0012352834449788853
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      },
+      {
+        "setting_id": "S05",
+        "title": "(f) Arbitrary 3D \u00b7 N = 256",
+        "source_count": 256,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -0.00018417424597914203,
+          0.0026705265666975594
+        ],
+        "y_limits": [
+          -63.26058408551953,
+          917.2784692400332
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fc694f658cd9dffa6",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 471.6171083211141,
+            "displacement_um": 2025.925005353737,
+            "pressure_range_pa": [
+              251.97986236647128,
+              772.9128799976062
+            ],
+            "displacement_range_um": [
+              1212.9642952980266,
+              2174.943510469408
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S05\\seed260869\\commands\\Conventional_0_cold\\command.npz",
+            "displacement_m": 0.002025925005353737,
+            "displacement_range_m": [
+              0.0012129642952980267,
+              0.002174943510469408
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fd8daecff47501b71",
+            "candidate_id": "native_alpha3000",
+            "plotted": true,
+            "pressure_pa": 18.673669241071728,
+            "displacement_um": 71.27088971293131,
+            "pressure_range_pa": [
+              1.1866048925292692,
+              44.123470932228976
+            ],
+            "displacement_range_um": [
+              19.365946341586326,
+              99.99031301054934
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S05\\seed260869\\commands\\FE_3000_cold\\command.npz",
+            "displacement_m": 7.127088971293131e-05,
+            "displacement_range_m": [
+              1.9365946341586327e-05,
+              9.999031301054935e-05
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f12c5e5f798321455",
+            "candidate_id": "native_alpha3000",
+            "plotted": true,
+            "pressure_pa": 47.91036301642069,
+            "displacement_um": 625.0855597394193,
+            "pressure_range_pa": [
+              46.640702552336656,
+              95.03904411678586
+            ],
+            "displacement_range_um": [
+              504.3783801113689,
+              759.0025578457004
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S05\\seed260869\\commands\\GFE_3000_cold\\command.npz",
+            "displacement_m": 0.0006250855597394193,
+            "displacement_range_m": [
+              0.0005043783801113689,
+              0.0007590025578457003
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fe575fbc52d212472",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 744.348624265716,
+            "displacement_um": 1375.3500301376323,
+            "pressure_range_pa": [
+              653.1951701545315,
+              790.7573010689941
+            ],
+            "displacement_range_um": [
+              932.6911291099292,
+              1467.295147762036
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S05\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.0013753500301376322,
+            "displacement_range_m": [
+              0.0009326911291099292,
+              0.001467295147762036
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f0d0b2d7607ab0d8e",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 366.2587406169216,
+            "displacement_um": 910.122245557822,
+            "pressure_range_pa": [
+              344.0041024965516,
+              390.74922885429606
+            ],
+            "displacement_range_um": [
+              427.00005585911606,
+              2302.1780747392754
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S05\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.000910122245557822,
+            "displacement_range_m": [
+              0.0004270000558591161,
+              0.0023021780747392753
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      },
+      {
+        "setting_id": "A07",
+        "title": "(g) Annular \u00b7 N = 1024",
+        "source_count": 1024,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -0.0001256240476822017,
+          0.0018215486913919247
+        ],
+        "y_limits": [
+          -83.62535634032461,
+          1212.567666934707
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000200f6207f33289b957b7",
+            "candidate_id": "GFEwarm4000",
+            "plotted": true,
+            "pressure_pa": 708.1403643448616,
+            "displacement_um": 571.4657007592215,
+            "pressure_range_pa": [
+              502.5456589860276,
+              973.887244004665
+            ],
+            "displacement_range_um": [
+              225.93785709647491,
+              593.6421654285311
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 1024,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A07\\seed260869\\commands\\Conventional_0_warm\\command.npz",
+            "displacement_m": 0.0005714657007592214,
+            "displacement_range_m": [
+              0.0002259378570964749,
+              0.0005936421654285311
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000200fac1dda710f2b4cc2",
+            "candidate_id": "GFEwarm4000",
+            "plotted": true,
+            "pressure_pa": 20.37697213247324,
+            "displacement_um": 326.15582570684063,
+            "pressure_range_pa": [
+              18.102884867286388,
+              54.04527693754366
+            ],
+            "displacement_range_um": [
+              308.6601200738403,
+              349.90009032186845
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 1024,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A07\\seed260869\\commands\\FE_30000_warm\\command.npz",
+            "displacement_m": 0.00032615582570684064,
+            "displacement_range_m": [
+              0.0003086601200738403,
+              0.00034990009032186847
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000200fc920de8bc6f41fb8",
+            "candidate_id": "alpha3000",
+            "plotted": true,
+            "pressure_pa": 29.812117083794263,
+            "displacement_um": 510.08703242991453,
+            "pressure_range_pa": [
+              1.3080931979303083,
+              40.94087289012603
+            ],
+            "displacement_range_um": [
+              442.93148248996056,
+              554.7216411049978
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 1024,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A07\\seed260869\\commands\\GFE_3000_cold\\command.npz",
+            "displacement_m": 0.0005100870324299145,
+            "displacement_range_m": [
+              0.00044293148248996056,
+              0.0005547216411049979
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000200fc1edafabe80a4d1b",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 453.6490106653816,
+            "displacement_um": 780.568594016875,
+            "pressure_range_pa": [
+              321.7312370676788,
+              538.634234845618
+            ],
+            "displacement_range_um": [
+              377.6434229232683,
+              1031.407587544302
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 1024,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A07\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.0007805685940168749,
+            "displacement_range_m": [
+              0.0003776434229232683,
+              0.001031407587544302
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000200f3984c08bed5d3f92",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 605.2850673302592,
+            "displacement_um": 440.1709732586823,
+            "pressure_range_pa": [
+              319.98992376606765,
+              1045.3169542540577
+            ],
+            "displacement_range_um": [
+              384.0018594411214,
+              1570.3005960275214
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 1024,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A07\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.0004401709732586823,
+            "displacement_range_m": [
+              0.0003840018594411214,
+              0.0015703005960275213
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      },
+      {
+        "setting_id": "A08",
+        "title": "(h) Four clusters \u00b7 N = 576",
+        "source_count": 576,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -0.00013258442948809468,
+          0.0019224742275773727
+        ],
+        "y_limits": [
+          -139.88327321522334,
+          2028.3074616207384
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120fd26a3c516cb614d9",
+            "candidate_id": "warm_FE_alpha300",
+            "plotted": true,
+            "pressure_pa": 350.2062084825139,
+            "displacement_um": 428.9722401121661,
+            "pressure_range_pa": [
+              10.784747554982514,
+              359.3777226122647
+            ],
+            "displacement_range_um": [
+              410.09222501041575,
+              696.7893997157339
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A08\\seed260869\\commands\\Conventional_0_warm\\command.npz",
+            "displacement_m": 0.0004289722401121661,
+            "displacement_range_m": [
+              0.00041009222501041577,
+              0.0006967893997157339
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120f3b04e6bd0fe029ba",
+            "candidate_id": "alpha3000",
+            "plotted": true,
+            "pressure_pa": 9.897935616564878,
+            "displacement_um": 93.12974710871516,
+            "pressure_range_pa": [
+              0.0001438727009584,
+              9.897961712025618
+            ],
+            "displacement_range_um": [
+              85.37833508705869,
+              93.13056684648753
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A08\\seed260869\\commands\\FE_3000_cold\\command.npz",
+            "displacement_m": 9.312974710871517e-05,
+            "displacement_range_m": [
+              8.537833508705868e-05,
+              9.313056684648753e-05
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120ffa67dce1693425a3",
+            "candidate_id": "alpha3000",
+            "plotted": true,
+            "pressure_pa": 23.99646720045337,
+            "displacement_um": 245.1526315064294,
+            "pressure_range_pa": [
+              0.0002607472166306,
+              23.996823773794667
+            ],
+            "displacement_range_um": [
+              245.15236904304737,
+              249.84171890128167
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A08\\seed260869\\commands\\GFE_3000_cold\\command.npz",
+            "displacement_m": 0.0002451526315064294,
+            "displacement_range_m": [
+              0.00024515236904304737,
+              0.00024984171890128165
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120f67288eae46173217",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 723.8306256546468,
+            "displacement_um": 665.3536890809106,
+            "pressure_range_pa": [
+              677.3398429237554,
+              1748.5409151902918
+            ],
+            "displacement_range_um": [
+              655.6497218885062,
+              1657.3053686011833
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A08\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.0006653536890809106,
+            "displacement_range_m": [
+              0.0006556497218885062,
+              0.0016573053686011834
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120fdfdf976d37e917f8",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 735.719695719857,
+            "displacement_um": 752.9352883985737,
+            "pressure_range_pa": [
+              507.73317467254896,
+              900.891538935674
+            ],
+            "displacement_range_um": [
+              645.5046181993391,
+              985.8793651337967
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A08\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.0007529352883985737,
+            "displacement_range_m": [
+              0.0006455046181993391,
+              0.0009858793651337967
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      },
+      {
+        "setting_id": "A09",
+        "title": "(i) Tilted plane \u00b7 N = 256",
+        "source_count": 256,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -0.0002163807531012783,
+          0.0031375209199685354
+        ],
+        "y_limits": [
+          -98.59235434834252,
+          1429.5891380509665
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f80caec4b690efef0",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 681.6677981754664,
+            "displacement_um": 1701.5565189081615,
+            "pressure_range_pa": [
+              319.03726257334927,
+              689.6965291080639
+            ],
+            "displacement_range_um": [
+              579.7342547191271,
+              2704.7594137659785
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A09\\seed260869\\commands\\Conventional_0_cold\\command.npz",
+            "displacement_m": 0.0017015565189081616,
+            "displacement_range_m": [
+              0.0005797342547191271,
+              0.0027047594137659787
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080ffd08465753acf00c",
+            "candidate_id": "alpha300",
+            "plotted": true,
+            "pressure_pa": 231.777618787823,
+            "displacement_um": 1120.1915664815344,
+            "pressure_range_pa": [
+              207.62429765435624,
+              295.42776981684494
+            ],
+            "displacement_range_um": [
+              1075.8122447670926,
+              1950.0164528487746
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A09\\seed260869\\commands\\FE_300_cold\\command.npz",
+            "displacement_m": 0.0011201915664815344,
+            "displacement_range_m": [
+              0.0010758122447670927,
+              0.0019500164528487747
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f2f74294a6304fc28",
+            "candidate_id": "native_alpha3000",
+            "plotted": true,
+            "pressure_pa": 32.22311357940254,
+            "displacement_um": 389.29824438597,
+            "pressure_range_pa": [
+              26.786199046422524,
+              91.52175385446375
+            ],
+            "displacement_range_um": [
+              45.93018618179621,
+              617.9948910008385
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A09\\seed260869\\commands\\GFE_3000_cold\\command.npz",
+            "displacement_m": 0.00038929824438597,
+            "displacement_range_m": [
+              4.593018618179621e-05,
+              0.0006179948910008385
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080ff101bf4c7f440fe0",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 988.1480973413236,
+            "displacement_um": 1486.4054613650806,
+            "pressure_range_pa": [
+              646.6284024314696,
+              1232.4044293542815
+            ],
+            "displacement_range_um": [
+              1019.3123173329902,
+              2363.437003796948
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A09\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.0014864054613650806,
+            "displacement_range_m": [
+              0.0010193123173329903,
+              0.002363437003796948
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fb42ea3eebab80e80",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 355.0081029254195,
+            "displacement_um": 1053.1915355830704,
+            "pressure_range_pa": [
+              310.9519289117509,
+              560.2967511589549
+            ],
+            "displacement_range_um": [
+              872.618983690792,
+              2193.605436045594
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A09\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.0010531915355830705,
+            "displacement_range_m": [
+              0.000872618983690792,
+              0.002193605436045594
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "figure": "Appendix_4B_EquilibriumPressure_Frequencies",
+    "layout": [
+      2,
+      3
+    ],
+    "setting_ids": [
+      "F20",
+      "S06",
+      "F28",
+      "A06",
+      "S07",
+      "S08"
+    ],
+    "task": "Triple",
+    "case_tile_count": 6,
+    "data_axes_count": 6,
+    "axes_count": 6,
+    "array_inset_axes_count": 0,
+    "horizontal_measurement": "displacement_m",
+    "vertical_measurement": "pressure_abs_at_exact_equilibrium_pa",
+    "measurements": [
+      "pressure_abs_at_exact_equilibrium_pa",
+      "displacement_m"
+    ],
+    "pressure_unit": "Pa (peak)",
+    "displacement_unit": "m",
+    "marker_statistic": "Median over resolved roots",
+    "error_bars": "Minimum and maximum over the same resolved roots; no confidence interval interpretation",
+    "missing_data": "Unresolved target values remain undefined; zero-root commands are not plotted; counts retained for every method",
+    "aggregation_filter": "Numerical finite-ka root found, without a restoring classification filter",
+    "rendering_source": "Native main Figure8 markers, colors and min/max bar style; both physical coordinates linear",
+    "raw_outcomes_retained": 210,
+    "commands_retained": 70,
+    "endpoints_per_panel": 5,
+    "legend_methods": [
+      "Conventional",
+      "FE",
+      "GFE",
+      "IB",
+      "GS"
+    ],
+    "source_hashes": {
+      "selector": "data\\generated_triple_source.json",
+      "generation_plan.json": "data\\generated_campaign\\smoke\\triple_generation\\generation_plan.json",
+      "outcomes.csv": "data\\generated_campaign\\smoke\\triple_generation\\outcomes.csv",
+      "command_index.csv": "data\\generated_campaign\\smoke\\triple_generation\\command_index.csv"
+    },
+    "active_data_scope": "generated_smoke",
+    "final_root_provenance": {
+      "resolved_target_count": 210,
+      "native_width_root_found_count": 204,
+      "expanded_root_found_count": 6,
+      "search_disclosure": "Native Cartesian search within +/-4 bead radii; deposited low-frequency interventions allow unresolved searches to expand to +/-8 bead radii. Full mode uses the declared native lmax=8 validation protocol.",
+      "expanded_targets": [
+        {
+          "setting_id": "F20",
+          "method": "Conventional",
+          "seed": 260869,
+          "target_id": "T1",
+          "displacement_um": 3400.2748144947395,
+          "pressure_abs_at_exact_equilibrium_pa": 244.4888499983537,
+          "root_search_half_width_a": 8.0
+        },
+        {
+          "setting_id": "F20",
+          "method": "Conventional",
+          "seed": 260869,
+          "target_id": "T3",
+          "displacement_um": 2977.553300313676,
+          "pressure_abs_at_exact_equilibrium_pa": 391.9942490494872,
+          "root_search_half_width_a": 8.0
+        },
+        {
+          "setting_id": "F20",
+          "method": "IB",
+          "seed": 260869,
+          "target_id": "T1",
+          "displacement_um": 2916.5269488247286,
+          "pressure_abs_at_exact_equilibrium_pa": 1024.224162983635,
+          "root_search_half_width_a": 8.0
+        },
+        {
+          "setting_id": "F20",
+          "method": "IB",
+          "seed": 260869,
+          "target_id": "T2",
+          "displacement_um": 2901.7148869880784,
+          "pressure_abs_at_exact_equilibrium_pa": 493.6350658936449,
+          "root_search_half_width_a": 8.0
+        },
+        {
+          "setting_id": "F28",
+          "method": "Conventional",
+          "seed": 260869,
+          "target_id": "T2",
+          "displacement_um": 3816.7182140330815,
+          "pressure_abs_at_exact_equilibrium_pa": 379.1223111707364,
+          "root_search_half_width_a": 8.0
+        },
+        {
+          "setting_id": "F28",
+          "method": "GS",
+          "seed": 260869,
+          "target_id": "T2",
+          "displacement_um": 2903.63725603385,
+          "pressure_abs_at_exact_equilibrium_pa": 970.6376998999956,
+          "root_search_half_width_a": 8.0
+        }
+      ]
+    },
+    "paths": [
+      "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_4B_EquilibriumPressure_Frequencies.png",
+      "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_4B_EquilibriumPressure_Frequencies.pdf",
+      "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_4B_EquilibriumPressure_Frequencies.svg"
+    ],
+    "panels": [
+      {
+        "setting_id": "F20",
+        "title": "(a) 20 kHz \u00b7 N = 576",
+        "source_count": 576,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -0.0002720219851595792,
+          0.0039443187848138975
+        ],
+        "y_limits": [
+          -94.34231690616369,
+          1367.9635951393734
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120f02cbbad35504213c",
+            "candidate_id": "warm_FE_alpha300",
+            "plotted": true,
+            "pressure_pa": 351.49456574286614,
+            "displacement_um": 2977.5533003136757,
+            "pressure_range_pa": [
+              244.4888499983537,
+              391.9942490494872
+            ],
+            "displacement_range_um": [
+              1114.018389429781,
+              3400.2748144947395
+            ],
+            "native_width_root_found_count": 1,
+            "expanded_root_found_count": 2,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\F20\\seed260869\\commands\\Conventional_0_warm\\command.npz",
+            "displacement_m": 0.002977553300313676,
+            "displacement_range_m": [
+              0.001114018389429781,
+              0.0034002748144947395
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120f4d7116af6de535b1",
+            "candidate_id": "alpha3000",
+            "plotted": true,
+            "pressure_pa": 98.61696528828776,
+            "displacement_um": 993.0988335970954,
+            "pressure_range_pa": [
+              86.60296329749134,
+              131.9572846747521
+            ],
+            "displacement_range_um": [
+              903.4319286497712,
+              1142.1128865793942
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\F20\\seed260869\\commands\\FE_3000_cold\\command.npz",
+            "displacement_m": 0.0009930988335970954,
+            "displacement_range_m": [
+              0.0009034319286497711,
+              0.0011421128865793941
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120f137f58d19932230d",
+            "candidate_id": "alpha30000",
+            "plotted": true,
+            "pressure_pa": 35.98659658807447,
+            "displacement_um": 117.08392003746998,
+            "pressure_range_pa": [
+              17.129390442646212,
+              39.40808715484199
+            ],
+            "displacement_range_um": [
+              76.07276562944953,
+              148.0005447287584
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\F20\\seed260869\\commands\\GFE_30000_cold\\command.npz",
+            "displacement_m": 0.00011708392003746999,
+            "displacement_range_m": [
+              7.607276562944953e-05,
+              0.0001480005447287584
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120f7f2a649156802c5f",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 1024.224162983635,
+            "displacement_um": 2901.714886988078,
+            "pressure_range_pa": [
+              493.6350658936449,
+              1167.0830644568637
+            ],
+            "displacement_range_um": [
+              2406.4259180971694,
+              2916.5269488247286
+            ],
+            "native_width_root_found_count": 1,
+            "expanded_root_found_count": 2,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\F20\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.002901714886988078,
+            "displacement_range_m": [
+              0.0024064259180971693,
+              0.0029165269488247284
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120f8a999622d90a02c7",
+            "candidate_id": "iter20000",
+            "plotted": true,
+            "pressure_pa": 767.699084617664,
+            "displacement_um": 1578.080320288318,
+            "pressure_range_pa": [
+              535.478612713044,
+              1179.278961327046
+            ],
+            "displacement_range_um": [
+              676.9751520733054,
+              2777.0073106532377
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\F20\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.001578080320288318,
+            "displacement_range_m": [
+              0.0006769751520733054,
+              0.0027770073106532377
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      },
+      {
+        "setting_id": "S06",
+        "title": "(b) 25 kHz \u00b7 N = 576",
+        "source_count": 576,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -0.00019593907641371215,
+          0.002841116607998826
+        ],
+        "y_limits": [
+          -111.9183746727173,
+          1622.816432754401
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120f4c9a3993e61b3638",
+            "candidate_id": "warm_GFE_alpha30000",
+            "plotted": true,
+            "pressure_pa": 195.81946792660167,
+            "displacement_um": 985.213235727998,
+            "pressure_range_pa": [
+              61.618328065777774,
+              688.0120573463446
+            ],
+            "displacement_range_um": [
+              861.6742719592906,
+              1210.216041701211
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S06\\seed260869\\commands\\Conventional_0_warm\\command.npz",
+            "displacement_m": 0.000985213235727998,
+            "displacement_range_m": [
+              0.0008616742719592907,
+              0.001210216041701211
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120f6c9c4038a2d929a9",
+            "candidate_id": "warm_GFE_alpha30000",
+            "plotted": true,
+            "pressure_pa": 106.73284943579296,
+            "displacement_um": 696.0104555106725,
+            "pressure_range_pa": [
+              34.96163015256416,
+              147.5743219765881
+            ],
+            "displacement_range_um": [
+              538.8181190396621,
+              1135.2429156343458
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S06\\seed260869\\commands\\FE_3000_warm\\command.npz",
+            "displacement_m": 0.0006960104555106725,
+            "displacement_range_m": [
+              0.0005388181190396621,
+              0.0011352429156343458
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120f951b65ae534229c8",
+            "candidate_id": "alpha30000",
+            "plotted": true,
+            "pressure_pa": 15.021999182942118,
+            "displacement_um": 63.00857856946632,
+            "pressure_range_pa": [
+              10.749808393031618,
+              28.821058773834245
+            ],
+            "displacement_range_um": [
+              13.99035908613745,
+              187.83661995168853
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S06\\seed260869\\commands\\GFE_30000_cold\\command.npz",
+            "displacement_m": 6.300857856946632e-05,
+            "displacement_range_m": [
+              1.399035908613745e-05,
+              0.00018783661995168855
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120f3cceda8649bf258a",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 965.9862832007634,
+            "displacement_um": 1125.555998080513,
+            "pressure_range_pa": [
+              622.9402715568503,
+              1301.410007044271
+            ],
+            "displacement_range_um": [
+              845.9586781279435,
+              1658.243033357219
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S06\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.001125555998080513,
+            "displacement_range_m": [
+              0.0008459586781279435,
+              0.0016582430333572191
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000120f64f6e226bc041563",
+            "candidate_id": "iter1000",
+            "plotted": true,
+            "pressure_pa": 950.734497237654,
+            "displacement_um": 1075.6639050730428,
+            "pressure_range_pa": [
+              540.4984213159978,
+              1398.9796834089664
+            ],
+            "displacement_range_um": [
+              269.8495818697801,
+              2449.2384551714017
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 576,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S06\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.0010756639050730427,
+            "displacement_range_m": [
+              0.00026984958186978007,
+              0.0024492384551714017
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      },
+      {
+        "setting_id": "F28",
+        "title": "(c) 28 kHz \u00b7 N = 256",
+        "source_count": 256,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -0.0003053374571226465,
+          0.004427393128278374
+        ],
+        "y_limits": [
+          -77.65101599199964,
+          1125.939731883995
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fa9086d7d729f0d0c",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 603.5588389249403,
+            "displacement_um": 1898.590232555088,
+            "pressure_range_pa": [
+              379.1223111707364,
+              638.2705779070279
+            ],
+            "displacement_range_um": [
+              979.029241519157,
+              3816.7182140330815
+            ],
+            "native_width_root_found_count": 2,
+            "expanded_root_found_count": 1,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\F28\\seed260869\\commands\\Conventional_0_cold\\command.npz",
+            "displacement_m": 0.001898590232555088,
+            "displacement_range_m": [
+              0.000979029241519157,
+              0.0038167182140330814
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f3d7966e389131121",
+            "candidate_id": "native_alpha3000",
+            "plotted": true,
+            "pressure_pa": 114.52061217263952,
+            "displacement_um": 1714.8318903985537,
+            "pressure_range_pa": [
+              41.66072755207488,
+              577.0720336238168
+            ],
+            "displacement_range_um": [
+              1171.9593953175008,
+              1945.6896430121808
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\F28\\seed260869\\commands\\FE_3000_cold\\command.npz",
+            "displacement_m": 0.0017148318903985537,
+            "displacement_range_m": [
+              0.001171959395317501,
+              0.0019456896430121808
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fc37f1a87cb90087c",
+            "candidate_id": "alpha30000",
+            "plotted": true,
+            "pressure_pa": 15.060216853301869,
+            "displacement_um": 71.64250597035213,
+            "pressure_range_pa": [
+              8.749123657726145,
+              31.03781572087544
+            ],
+            "displacement_range_um": [
+              20.959076926383496,
+              149.51502874411534
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\F28\\seed260869\\commands\\GFE_30000_cold\\command.npz",
+            "displacement_m": 7.164250597035214e-05,
+            "displacement_range_m": [
+              2.0959076926383497e-05,
+              0.00014951502874411534
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f2b8e2ca9904e0a18",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 625.1820759798869,
+            "displacement_um": 1291.4442385050029,
+            "pressure_range_pa": [
+              440.2857371423856,
+              897.8892029709342
+            ],
+            "displacement_range_um": [
+              772.524369377946,
+              2560.431466537849
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\F28\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.001291444238505003,
+            "displacement_range_m": [
+              0.000772524369377946,
+              0.002560431466537849
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fe2be237666f910a7",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 748.4936840147961,
+            "displacement_um": 2574.715167309006,
+            "pressure_range_pa": [
+              719.8245021919402,
+              970.6376998999956
+            ],
+            "displacement_range_um": [
+              1616.4496608329896,
+              2903.63725603385
+            ],
+            "native_width_root_found_count": 2,
+            "expanded_root_found_count": 1,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\F28\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.002574715167309006,
+            "displacement_range_m": [
+              0.0016164496608329895,
+              0.00290363725603385
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      },
+      {
+        "setting_id": "A06",
+        "title": "(d) 40 kHz \u00b7 N = 256",
+        "source_count": 256,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -9.105088844100333e-05,
+          0.0013202378823945484
+        ],
+        "y_limits": [
+          -75.9251800668213,
+          1100.9151109689087
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f71e28d9443d329f9",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 422.6938233743737,
+            "displacement_um": 787.6800364541593,
+            "pressure_range_pa": [
+              170.78414270129753,
+              491.3136723922942
+            ],
+            "displacement_range_um": [
+              534.4556407528935,
+              904.5553272547096
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A06\\seed260869\\commands\\Conventional_0_cold\\command.npz",
+            "displacement_m": 0.0007876800364541594,
+            "displacement_range_m": [
+              0.0005344556407528935,
+              0.0009045553272547096
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fe19c058199350a12",
+            "candidate_id": "alpha30000",
+            "plotted": true,
+            "pressure_pa": 25.16304054562496,
+            "displacement_um": 550.9746547141385,
+            "pressure_range_pa": [
+              12.00842412473914,
+              47.72317889852254
+            ],
+            "displacement_range_um": [
+              332.48933719662006,
+              622.8005181816774
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A06\\seed260869\\commands\\FE_30000_cold\\command.npz",
+            "displacement_m": 0.0005509746547141386,
+            "displacement_range_m": [
+              0.00033248933719662007,
+              0.0006228005181816773
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f41d566cd4e7b05fe",
+            "candidate_id": "native_alpha3000",
+            "plotted": true,
+            "pressure_pa": 15.189069103455834,
+            "displacement_um": 230.43462563315435,
+            "pressure_range_pa": [
+              6.890683078938972,
+              21.83995204463698
+            ],
+            "displacement_range_um": [
+              189.3979170549712,
+              294.5681216003555
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A06\\seed260869\\commands\\GFE_3000_cold\\command.npz",
+            "displacement_m": 0.00023043462563315434,
+            "displacement_range_m": [
+              0.0001893979170549712,
+              0.0002945681216003555
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f7394607617ae2cc5",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 713.1816135050938,
+            "displacement_um": 834.0655805534304,
+            "pressure_range_pa": [
+              646.963903254082,
+              736.5089598613291
+            ],
+            "displacement_range_um": [
+              819.9648351186003,
+              1005.6716013971286
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A06\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.0008340655805534305,
+            "displacement_range_m": [
+              0.0008199648351186002,
+              0.0010056716013971286
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fccf70c7088d42180",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 917.0173578356272,
+            "displacement_um": 1049.236342272243,
+            "pressure_range_pa": [
+              829.890698147369,
+              949.0647508352662
+            ],
+            "displacement_range_um": [
+              209.3719111072232,
+              1138.1361055125417
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\A06\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.0010492363422722431,
+            "displacement_range_m": [
+              0.00020937191110722322,
+              0.0011381361055125417
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      },
+      {
+        "setting_id": "S07",
+        "title": "(e) 58 kHz \u00b7 N = 256",
+        "source_count": 256,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -7.240327764004337e-05,
+          0.0010498475257806287
+        ],
+        "y_limits": [
+          -79.88156899509107,
+          1158.2827504288207
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fa7e025af1924156b",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 232.74449002943416,
+            "displacement_um": 826.171070216647,
+            "pressure_range_pa": [
+              113.5353327844052,
+              318.5162751443325
+            ],
+            "displacement_range_um": [
+              168.6935469726258,
+              905.040970500542
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S07\\seed260869\\commands\\Conventional_0_cold\\command.npz",
+            "displacement_m": 0.000826171070216647,
+            "displacement_range_m": [
+              0.0001686935469726258,
+              0.000905040970500542
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fa5e8d01d9e0ef969",
+            "candidate_id": "native_alpha3000_continuation",
+            "plotted": true,
+            "pressure_pa": 36.32737853595989,
+            "displacement_um": 162.00886667444533,
+            "pressure_range_pa": [
+              0.000121878495244,
+              36.32745383124301
+            ],
+            "displacement_range_um": [
+              106.77139033780323,
+              162.0090394846532
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S07\\seed260869\\commands\\FE_3000_continuation\\command.npz",
+            "displacement_m": 0.00016200886667444532,
+            "displacement_range_m": [
+              0.00010677139033780323,
+              0.0001620090394846532
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fe882b376e8d51439",
+            "candidate_id": "alpha300_continuation",
+            "plotted": true,
+            "pressure_pa": 53.34144396249967,
+            "displacement_um": 273.41323916444964,
+            "pressure_range_pa": [
+              53.341002054623175,
+              302.1463824820887
+            ],
+            "displacement_range_um": [
+              273.4120587849394,
+              514.3893995782936
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S07\\seed260869\\commands\\GFE_300_continuation\\command.npz",
+            "displacement_m": 0.00027341323916444966,
+            "displacement_range_m": [
+              0.00027341205878493943,
+              0.0005143893995782936
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080ff77a0d7b057ffec6",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 772.2420793893021,
+            "displacement_um": 340.27340779454414,
+            "pressure_range_pa": [
+              643.7292532057169,
+              859.094953665073
+            ],
+            "displacement_range_um": [
+              95.77804022880689,
+              608.2070619197173
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S07\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.00034027340779454416,
+            "displacement_range_m": [
+              9.577804022880689e-05,
+              0.0006082070619197172
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f13b41eccb9a30cbd",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 883.7398804878212,
+            "displacement_um": 377.4165502325393,
+            "pressure_range_pa": [
+              683.1430071953301,
+              998.5196124386384
+            ],
+            "displacement_range_um": [
+              187.1960099140361,
+              620.868660316654
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S07\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.00037741655023253927,
+            "displacement_range_m": [
+              0.0001871960099140361,
+              0.000620868660316654
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      },
+      {
+        "setting_id": "S08",
+        "title": "(f) 100 kHz \u00b7 N = 256",
+        "source_count": 256,
+        "displayed_methods": [
+          "Conventional",
+          "FE",
+          "GFE",
+          "IB",
+          "GS"
+        ],
+        "root_found_counts": {
+          "Conventional": 3,
+          "FE": 3,
+          "GFE": 3,
+          "IB": 3,
+          "GS": 3
+        },
+        "expected_targets_per_method": 3,
+        "xscale": "linear",
+        "yscale": "linear",
+        "x_limits": [
+          -6.98168309137986e-05,
+          0.0010123440482500798
+        ],
+        "y_limits": [
+          -72.46849805948816,
+          1050.793221862578
+        ],
+        "pressure_axis": {
+          "scale": "linear",
+          "omitted_interval_pa": null
+        },
+        "points": [
+          {
+            "method": "Conventional",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f0184404be0400d5a",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 238.2577534249756,
+            "displacement_um": 470.4402485238182,
+            "pressure_range_pa": [
+              70.7324442751345,
+              244.3187678232377
+            ],
+            "displacement_range_um": [
+              466.1286011593652,
+              872.7103864224825
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S08\\seed260869\\commands\\Conventional_0_cold\\command.npz",
+            "displacement_m": 0.0004704402485238182,
+            "displacement_range_m": [
+              0.0004661286011593652,
+              0.0008727103864224825
+            ],
+            "marker": "o",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "FE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fb6372c80a8c9196a",
+            "candidate_id": "alpha30000",
+            "plotted": true,
+            "pressure_pa": 111.57369568995983,
+            "displacement_um": 524.481251074378,
+            "pressure_range_pa": [
+              13.76688582240276,
+              136.89153897083952
+            ],
+            "displacement_range_um": [
+              406.39346239278757,
+              535.8134534060939
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S08\\seed260869\\commands\\FE_30000_cold\\command.npz",
+            "displacement_m": 0.0005244812510743779,
+            "displacement_range_m": [
+              0.0004063934623927876,
+              0.0005358134534060939
+            ],
+            "marker": "s",
+            "marker_area_pt2": 92
+          },
+          {
+            "method": "GFE",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080f4a14d20c1960180c",
+            "candidate_id": "alpha300_perturbed_restart",
+            "plotted": true,
+            "pressure_pa": 211.33442096993403,
+            "displacement_um": 601.3628295328058,
+            "pressure_range_pa": [
+              0.0007978084923389,
+              211.33600135068983
+            ],
+            "displacement_range_um": [
+              384.82441631927003,
+              601.3637485064431
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S08\\seed260869\\commands\\GFE_300_perturbed_restart\\command.npz",
+            "displacement_m": 0.0006013628295328058,
+            "displacement_range_m": [
+              0.00038482441631927005,
+              0.0006013637485064431
+            ],
+            "marker": "P",
+            "marker_area_pt2": 135
+          },
+          {
+            "method": "IB",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fd33d6687a161075e",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 633.9493822239194,
+            "displacement_um": 445.92169877239576,
+            "pressure_range_pa": [
+              441.65213599849966,
+              905.8562257436018
+            ],
+            "displacement_range_um": [
+              396.5988031115552,
+              819.9079364707402
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S08\\seed260869\\commands\\IB_0_cold\\command.npz",
+            "displacement_m": 0.00044592169877239574,
+            "displacement_range_m": [
+              0.0003965988031115552,
+              0.0008199079364707402
+            ],
+            "marker": "^",
+            "marker_area_pt2": 160
+          },
+          {
+            "method": "GS",
+            "root_found_count": 3,
+            "expected_targets": 3,
+            "phase_fingerprint": "000000000000080fd1f403f4cf6a1ec7",
+            "candidate_id": "native_baseline",
+            "plotted": true,
+            "pressure_pa": 559.144255033101,
+            "displacement_um": 532.783817129127,
+            "pressure_range_pa": [
+              552.1248150207649,
+              566.4159895588656
+            ],
+            "displacement_range_um": [
+              389.8921048397189,
+              618.3897100052967
+            ],
+            "native_width_root_found_count": 3,
+            "expanded_root_found_count": 0,
+            "source_count": 256,
+            "data_scope": "generated_smoke",
+            "command_path": "data\\generated_campaign\\smoke\\triple_generation\\S08\\seed260869\\commands\\GS_0_cold\\command.npz",
+            "displacement_m": 0.000532783817129127,
+            "displacement_range_m": [
+              0.0003898921048397189,
+              0.0006183897100052967
+            ],
+            "marker": "v",
+            "marker_area_pt2": 135
+          }
+        ]
+      }
+    ]
+  }
+]

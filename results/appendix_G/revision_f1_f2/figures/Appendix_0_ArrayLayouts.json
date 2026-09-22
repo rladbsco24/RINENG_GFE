@@ -1,0 +1,144 @@
+{
+  "figure": "Appendix_0_ArrayLayouts",
+  "task": "Geometry",
+  "setting_ids": [
+    "A06",
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "A07",
+    "A08",
+    "A09"
+  ],
+  "subplot_count": 9,
+  "cylinder_count": 2816,
+  "array_inset_axes_count": 0,
+  "normal_arrow_count": 0,
+  "schematic_cylinder_radius_m": 0.004,
+  "schematic_cylinder_height_m": 0.004,
+  "model_unchanged": true,
+  "projection": "Common-scale orthographic",
+  "view_azimuth_deg": -62.0,
+  "view_elevation_deg": 28.0,
+  "common_x_limits_mm": [
+    -172.28838159063983,
+    172.28838159063983
+  ],
+  "common_y_limits_mm": [
+    -134.3849376406991,
+    134.3849376406991
+  ],
+  "frequency_scope": "Final Triple array cases at 40 kHz; Square 20/25 kHz use 24x24, other Square carriers 16x16. Single Annular/Four clusters retain 512/256 sources.",
+  "records": [
+    {
+      "setting_id": "A06",
+      "source_count": 256,
+      "task": "Triple",
+      "positions_fingerprint": "00000000000018005c45da259d4cda2a",
+      "normals_fingerprint": "0000000000001800281c7596d7582f10",
+      "source_point": "Exact top-face center",
+      "cylinder_axis": "Saved unit source normal",
+      "housing_extends": "From source point in minus-normal direction",
+      "top_center_max_error_m": 1.962615573354719e-17,
+      "normal_arrow_indices": []
+    },
+    {
+      "setting_id": "S01",
+      "source_count": 256,
+      "task": "Triple",
+      "positions_fingerprint": "0000000000001800a176ec04e0064ba9",
+      "normals_fingerprint": "0000000000001800281c7596d7582f10",
+      "source_point": "Exact top-face center",
+      "cylinder_axis": "Saved unit source normal",
+      "housing_extends": "From source point in minus-normal direction",
+      "top_center_max_error_m": 2.7809732887839817e-17,
+      "normal_arrow_indices": []
+    },
+    {
+      "setting_id": "S02",
+      "source_count": 512,
+      "task": "Triple",
+      "positions_fingerprint": "000000000000300045eb0773364c43ad",
+      "normals_fingerprint": "00000000000030000a527e26e6b9de2e",
+      "source_point": "Exact top-face center",
+      "cylinder_axis": "Saved unit source normal",
+      "housing_extends": "From source point in minus-normal direction",
+      "top_center_max_error_m": 2.4037033579794548e-17,
+      "normal_arrow_indices": []
+    },
+    {
+      "setting_id": "S03",
+      "source_count": 256,
+      "task": "Triple",
+      "positions_fingerprint": "00000000000018009509ab77e3923cb6",
+      "normals_fingerprint": "000000000000180010646724382ecb98",
+      "source_point": "Exact top-face center",
+      "cylinder_axis": "Saved unit source normal",
+      "housing_extends": "From source point in minus-normal direction",
+      "top_center_max_error_m": 1.993045536433795e-17,
+      "normal_arrow_indices": []
+    },
+    {
+      "setting_id": "S04",
+      "source_count": 256,
+      "task": "Triple",
+      "positions_fingerprint": "0000000000001800524114513896377c",
+      "normals_fingerprint": "0000000000001800281c7596d7582f10",
+      "source_point": "Exact top-face center",
+      "cylinder_axis": "Saved unit source normal",
+      "housing_extends": "From source point in minus-normal direction",
+      "top_center_max_error_m": 1.5515838457795457e-17,
+      "normal_arrow_indices": []
+    },
+    {
+      "setting_id": "S05",
+      "source_count": 256,
+      "task": "Triple",
+      "positions_fingerprint": "0000000000001800f7157c504cfe8415",
+      "normals_fingerprint": "0000000000001800b80b18117c08abe3",
+      "source_point": "Exact top-face center",
+      "cylinder_axis": "Saved unit source normal",
+      "housing_extends": "From source point in minus-normal direction",
+      "top_center_max_error_m": 2.8185920280518337e-17,
+      "normal_arrow_indices": []
+    },
+    {
+      "setting_id": "A07",
+      "source_count": 512,
+      "task": "Triple",
+      "positions_fingerprint": "0000000000003000f451514567baa656",
+      "normals_fingerprint": "0000000000003000c82ec35a58f55e1f",
+      "source_point": "Exact top-face center",
+      "cylinder_axis": "Saved unit source normal",
+      "housing_extends": "From source point in minus-normal direction",
+      "top_center_max_error_m": 2.8609792490763984e-17,
+      "normal_arrow_indices": []
+    },
+    {
+      "setting_id": "A08",
+      "source_count": 256,
+      "task": "Triple",
+      "positions_fingerprint": "0000000000001800f87ff0fb5257ac39",
+      "normals_fingerprint": "0000000000001800281c7596d7582f10",
+      "source_point": "Exact top-face center",
+      "cylinder_axis": "Saved unit source normal",
+      "housing_extends": "From source point in minus-normal direction",
+      "top_center_max_error_m": 1.962615573354719e-17,
+      "normal_arrow_indices": []
+    },
+    {
+      "setting_id": "A09",
+      "source_count": 256,
+      "task": "Triple",
+      "positions_fingerprint": "00000000000018005ce1d37b603a7b45",
+      "normals_fingerprint": "0000000000001800b31696e75d3b2c5b",
+      "source_point": "Exact top-face center",
+      "cylinder_axis": "Saved unit source normal",
+      "housing_extends": "From source point in minus-normal direction",
+      "top_center_max_error_m": 1.6996749443881478e-17,
+      "normal_arrow_indices": []
+    }
+  ]
+}

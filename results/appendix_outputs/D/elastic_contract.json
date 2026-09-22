@@ -1,0 +1,84 @@
+{
+  "fingerprint": "00000000000006ee65354f6728ee3e91",
+  "schema": "appendix_de_compact_v3",
+  "physics": "current elastic-solid-sphere partial-wave reference",
+  "field": "source-matched 5-mm piston directivity and channel order, front-only; current nominal source amplitude",
+  "calibration": "New deployment evaluation scales historical unit piston to current nominal 120 dB SPL at 0.30m (peak pressure phasor); historical source had no measured absolute calibration.",
+  "include_effective_gravity": true,
+  "source_strength_pa_m_peak": 8.48528137423857,
+  "sphere": {
+    "radius_m": 0.00065,
+    "density_kg_m3": 100.0,
+    "longitudinal_sound_speed_m_s": 2400.0,
+    "shear_sound_speed_m_s": 1150.0,
+    "material_label": "declared homogeneous isotropic elastic bead",
+    "parameter_provenance": "declared simulation defaults; replace density and elastic wave speeds with measured bead values for quantitative experiment matching"
+  },
+  "medium": {
+    "density_kg_m3": 1.225,
+    "sound_speed_m_s": 343.0,
+    "gravity_m_s2": 9.80665,
+    "dynamic_viscosity_pa_s": 1.854e-05
+  },
+  "numerics": {
+    "lmax": 3,
+    "fit_shell_wavelengths": [
+      0.1,
+      0.16,
+      0.22
+    ],
+    "fit_n_mu": 6,
+    "fit_n_phi": 12,
+    "control_radius_a": 2.0,
+    "surface_n_mu": 8,
+    "surface_n_phi": 16,
+    "velocity_step_a": 0.002,
+    "fit_rcond": 1e-12
+  },
+  "root_starts_a": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      -0.0,
+      -0.0,
+      -1.0
+    ]
+  ],
+  "search_half_width_a": 4.0,
+  "max_nfev_per_start": 14,
+  "root_tolerance_scaled": 0.0025,
+  "jacobian_step_a": 0.1,
+  "source_phases_content_id": "00000000000082a2c7434242b25eaf2a",
+  "source_indices_content_id": "000000000000c54d8b5828f873501b0c",
+  "validator_content_id": "00000000000137faca480367529b3468",
+  "empirical_scope": "15 compact FE targets; 105 mechanics-selected quantized commands and 15 continuous references. GFE Single and Triple quantization is reported separately in D3_GFE_quantization_target_results.csv.",
+  "numerical_scope": "SMOKE"
+}

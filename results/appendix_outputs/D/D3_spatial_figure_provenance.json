@@ -1,0 +1,79 @@
+{
+  "schema": "GFE-D3-spatial-pressure-v1",
+  "levels": 32,
+  "selection": "Illustrative coarse resolution, held identical for Single and Triple; full resolution table retained.",
+  "field_points_per_axis": 181,
+  "field_half_width_m": 0.004,
+  "plane": "XZ at the commanded y coordinate of T1",
+  "field_sources": [
+    {
+      "task": "Single",
+      "target_index": 1,
+      "target_m": [
+        0.0,
+        0.0,
+        0.05
+      ],
+      "field": {
+        "field_type": "ArbitraryArrayPressureField",
+        "frequency_hz": 40000.0,
+        "sound_speed_m_s": 343.0,
+        "wavenumber_rad_m": 732.7329804291063,
+        "number_of_elements": 256,
+        "source_strength_pa_m_peak": 8.48528137423857,
+        "source_calibration": "120 dB SPL re 20 uPa RMS at 0.30 m on axis; converted to peak phasor",
+        "directivity_model": "murata_table",
+        "piston_radius_m": 0.005,
+        "front_only": true,
+        "pressure_phasor": {
+          "amplitude_convention": "peak pressure phasor",
+          "time_dependence": "p(x,t) = Re[p_hat(x) exp(-i omega t)]",
+          "outgoing_wave": "exp(+i k r) / r"
+        }
+      }
+    },
+    {
+      "task": "Triple",
+      "target_index": 1,
+      "target_m": [
+        0.0,
+        0.010066666666666666,
+        0.03
+      ],
+      "field": {
+        "field_type": "ArbitraryArrayPressureField",
+        "frequency_hz": 40000.0,
+        "sound_speed_m_s": 343.0,
+        "wavenumber_rad_m": 732.7329804291063,
+        "number_of_elements": 256,
+        "source_strength_pa_m_peak": 8.48528137423857,
+        "source_calibration": "120 dB SPL re 20 uPa RMS at 0.30 m on axis; converted to peak phasor",
+        "directivity_model": "murata_table",
+        "piston_radius_m": 0.005,
+        "front_only": true,
+        "pressure_phasor": {
+          "amplitude_convention": "peak pressure phasor",
+          "time_dependence": "p(x,t) = Re[p_hat(x) exp(-i omega t)]",
+          "outgoing_wave": "exp(+i k r) / r"
+        }
+      }
+    }
+  ],
+  "command_content_id": {
+    "Single_continuous": "000000000000080f57f18575ab090e06",
+    "Single_nearest": "000000000000080fbc9efde796a5f3e0",
+    "Single_offset": "000000000000080f7ed7ea8fd289f3a6",
+    "Triple_continuous": "000000000000080f41d566cd4e7b05fe",
+    "Triple_nearest": "000000000000080f24ea2cbdc7e7d294",
+    "Triple_offset": "000000000000080f47c78e583e66c2a9"
+  },
+  "force_equilibrium": "Cached independent elastic-sphere plus gravity roots; no new root solves.",
+  "implementation_content_id": "00000000000047123acbcfaca9af2d51",
+  "figure": "Figure_D3_GFE_fields_and_equilibria",
+  "field_sections": 6,
+  "displayed_quantized_commands": 4,
+  "displayed_quantized_equilibria": 8,
+  "displayed_continuous_reference_equilibria": 4,
+  "evidence_status": "SMOKE",
+  "sample_scaling": "Keep the spatial illustration and its two frozen source commands fixed; no additional quantization population is required."
+}

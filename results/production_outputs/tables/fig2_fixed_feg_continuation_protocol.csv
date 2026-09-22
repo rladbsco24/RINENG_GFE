@@ -1,0 +1,2 @@
+source_archive_alpha_per_m,source_archive_role,production_alpha_per_m,production_iteration_cap,continued_anchor_count,component_count,conventional_in_frame_fit,rh_in_frame_fit,frame,reference_method,force_target_z_n,worker_count,root_paired_initializations,root_methods,chart_target_count,primary_method
+9.0,branch-identified initialization only,10.0,10000,98,2,False,False,"GFE-only projective-distance MDS, fixed before Conventional projection",GFE,1.1142852793561358e-06,4,100,Conventional;GFE,49,GFE

@@ -1,0 +1,6 @@
+task,method,optimizer,parameter,parameter_value,n,native_success,raw_gtol_met
+Single,Conventional,Adam,optimizer,Adam,3,0,0
+Single,Conventional,BFGS,optimizer,BFGS,3,0,0
+Single,Conventional,L-BFGS-B,optimizer,L-BFGS-B,3,3,0
+Single,FE,L-BFGS-B,optimizer,L-BFGS-B,3,3,3
+Single,GFE,L-BFGS-B,optimizer,L-BFGS-B,3,3,3

@@ -1,0 +1,26 @@
+{
+  "half_ranges_l2_rad": {
+    "S01": 3.0,
+    "S02": 20.0,
+    "S03": 3.0,
+    "S04": 3.0,
+    "S05": 3.0,
+    "S06": 20.0,
+    "S07": 3.0,
+    "S08": 3.0,
+    "A06": 3.0,
+    "A07": 3.0,
+    "A08": 3.0,
+    "A09": 20.0,
+    "F20": 20.0,
+    "F28": 20.0
+  },
+  "selected_cache_paths": {
+    "S02": "data/decision_reveal/range20/S02_decision.npz",
+    "S06": "data/decision_reveal/range20/S06_decision.npz",
+    "A09": "data/decision_reveal/range20/A09_decision.npz",
+    "F20": "data/decision_reveal/range20/F20_decision.npz",
+    "F28": "data/decision_reveal/range20/F28_decision.npz"
+  },
+  "paired_comparison": "Identical range for both methods in each setting."
+}

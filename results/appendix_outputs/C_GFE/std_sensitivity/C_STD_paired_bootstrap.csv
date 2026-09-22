@@ -1,0 +1,51 @@
+sweep,ablation,gamma_uniformity,std_scale_multiplier,metric,n_paired_seeds,median_paired_change,ci95_lower,ci95_upper,bootstrap_seed,bootstrap_resamples,interval_scope
+ablation,FE,1.0,1.0,field_cosine_to_fixed_GFE,3,-0.005479130105939145,-0.6982404873125514,-0.0054730782452421245,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,FE,1.0,1.0,worst_displacement_a,3,0.4951602122224702,0.44121734484152686,0.49543518506059697,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,FE,1.0,1.0,common_nominal_loss_std_n_m,3,-2.6059673644668675e-07,-1.0507502761424682e-06,-1.3536945918959125e-07,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,FE,1.0,1.0,minimum_stiffness_n_m,3,5.038260453220627e-05,4.9618237363118715e-05,6.810027448671653e-05,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,FE,1.0,1.0,terminal_gradient_l2,3,3.0817548231186744e-09,-2.221334111899006e-09,8.72312807805604e-09,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No force smoothing,1.0,1.0,field_cosine_to_fixed_GFE,3,-6.646812063926255e-05,-0.8208970407493397,-1.1302719537309436e-05,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No force smoothing,1.0,1.0,worst_displacement_a,3,0.005389202224568845,-0.05356793133217752,0.005726752262686874,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No force smoothing,1.0,1.0,common_nominal_loss_std_n_m,3,-3.114011380126028e-08,-8.363176498688215e-07,3.0403697939288307e-07,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No force smoothing,1.0,1.0,minimum_stiffness_n_m,3,6.335843187835416e-06,5.675173790922533e-06,3.346464632059164e-05,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No force smoothing,1.0,1.0,terminal_gradient_l2,3,0.007338240202150563,0.005399252066419102,0.008126687246194648,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No pressure,1.0,1.0,field_cosine_to_fixed_GFE,3,-0.06677515289305591,-0.6133179784627096,-0.06677352974055828,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No pressure,1.0,1.0,worst_displacement_a,3,0.08710374770633866,0.03396856546193561,0.08732155905026245,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No pressure,1.0,1.0,common_nominal_loss_std_n_m,3,0.015744984381635324,0.015738190709053197,0.015752073336513656,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No pressure,1.0,1.0,minimum_stiffness_n_m,3,7.024690138931252e-06,6.815843742703819e-06,2.292376831477638e-05,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No pressure,1.0,1.0,terminal_gradient_l2,3,1.7792572310990425e-08,-7.4416859856174175e-09,2.1822156737776082e-08,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No uniformity,1.0,1.0,field_cosine_to_fixed_GFE,3,-0.0009340565612502294,-0.7098714968799837,-0.0009278587266207117,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No uniformity,1.0,1.0,worst_displacement_a,3,0.009325486766060653,-0.04385961740546368,0.009547685441791742,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No uniformity,1.0,1.0,common_nominal_loss_std_n_m,3,0.002819528438405339,0.002812825466717609,0.0028221769444063856,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No uniformity,1.0,1.0,minimum_stiffness_n_m,3,-9.62841781017563e-05,-9.66355182817995e-05,-7.79005366533447e-05,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+ablation,No uniformity,1.0,1.0,terminal_gradient_l2,3,-4.6658694014403216e-09,-8.725850830795663e-09,1.583286187698652e-08,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,0.0,field_cosine_to_fixed_GFE,3,-0.0004267246289378912,-0.8728575785191809,-8.693423646222165e-05,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,0.0,worst_displacement_a,3,0.00015676559214844454,-0.06117588968483234,0.0007788062091344528,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,0.0,common_nominal_loss_std_n_m,3,-3.618998800288889e-06,-1.1762254094174682e-05,-1.9580926759080445e-06,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,0.0,minimum_stiffness_n_m,3,6.021225783551729e-08,-0.00010500280290965205,2.777742586060816e-06,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,0.0,terminal_gradient_l2,3,0.0054584503039641005,0.005067792642818198,0.005933292980267869,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,0.1,field_cosine_to_fixed_GFE,3,-1.360243861991961e-08,-0.20254571784555586,-1.257214554684083e-09,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,0.1,worst_displacement_a,3,-5.690326128632295e-05,-0.028268185064665163,-1.7118433183305193e-05,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,0.1,common_nominal_loss_std_n_m,3,-3.25669267636356e-06,-1.0581853957377402e-05,-1.7479566487155935e-06,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,0.1,minimum_stiffness_n_m,3,1.1268938435605308e-07,-1.4868431771571967e-06,3.621592558947749e-07,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,0.1,terminal_gradient_l2,3,4.457421242426802e-10,-1.4496668264237987e-08,8.545994672764571e-09,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,10.0,field_cosine_to_fixed_GFE,3,-1.2792555006413409e-06,-0.8511735829066445,-1.2770161383901524e-07,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,10.0,worst_displacement_a,3,0.00017641784742100652,-0.052780124517440796,0.0005248916142964188,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,10.0,common_nominal_loss_std_n_m,3,3.218460672187191e-05,1.008064406111676e-05,0.00010186475437949796,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,10.0,minimum_stiffness_n_m,3,-1.0668479415987513e-06,-3.5017257042080363e-06,1.9412705987362873e-05,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+epsilon_std,GFE,1.0,10.0,terminal_gradient_l2,3,1.6491793228278453e-09,1.6398680132764319e-09,4.216981730029339e-09,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,0.3,1.0,field_cosine_to_fixed_GFE,3,-9.289237445919696e-08,-0.8511739018093657,-8.863582756646338e-09,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,0.3,1.0,worst_displacement_a,3,4.660695777874979e-05,-0.05281733282039491,0.00015007337731687276,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,0.3,1.0,common_nominal_loss_std_n_m,3,8.473501392542832e-06,2.0544934980114103e-06,2.728938869830026e-05,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,0.3,1.0,minimum_stiffness_n_m,3,-2.8660636257273227e-07,-9.216280375606237e-07,1.969901182409398e-05,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,0.3,1.0,terminal_gradient_l2,3,-6.740721046224654e-10,-1.9783747957448902e-09,5.640489588043799e-09,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,1.0,1.0,field_cosine_to_fixed_GFE,3,0.0,0.0,0.0,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,1.0,1.0,worst_displacement_a,3,0.0,0.0,0.0,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,1.0,1.0,common_nominal_loss_std_n_m,3,0.0,0.0,0.0,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,1.0,1.0,minimum_stiffness_n_m,3,0.0,0.0,0.0,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,1.0,1.0,terminal_gradient_l2,3,0.0,0.0,0.0,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,3.0,1.0,field_cosine_to_fixed_GFE,3,-7.3937480582486614e-09,-0.7060631165381793,-6.93680113350581e-10,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,3.0,1.0,worst_displacement_a,3,-4.283962350720705e-05,-0.052832167986513634,-1.3599407543307684e-05,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,3.0,1.0,common_nominal_loss_std_n_m,3,-2.412190236357924e-06,-7.832996630576425e-06,-1.6025113408963256e-06,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,3.0,1.0,minimum_stiffness_n_m,3,2.684893039845825e-07,8.171028294582348e-08,1.983456869248377e-05,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent
+gamma,GFE,3.0,1.0,terminal_gradient_l2,3,-2.325104339975688e-10,-8.20871924826456e-09,8.000428485131225e-09,20260906,10000,Exploratory paired initialization bootstrap; targets are not independent

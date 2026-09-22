@@ -1,0 +1,12 @@
+{
+  "schema": "focused-editor-response-20260908-v2-si-visual",
+  "sensitivity_figures": 3,
+  "optimizer_figures": 1,
+  "main_figures": 8,
+  "total_scientific_figures": 22,
+  "displacement_display_unit": "m",
+  "displacement_conversion": "d_m = (d/a) * ElasticSphere().radius_m; original normalized columns retained",
+  "numerical_grid_and_window": "Tabulated; original standalone equilibrium section retained",
+  "large_alpha_jumps_solver_knobs": "Archived data only; not rerun in the focused default",
+  "generality": "ACTIVE: Appendix G1-G9 (integrated separately by unified_study)"
+}

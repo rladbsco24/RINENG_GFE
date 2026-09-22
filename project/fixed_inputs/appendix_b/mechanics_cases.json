@@ -1,0 +1,60 @@
+[
+  {
+    "case_id": "B3_Vortex",
+    "array_key": "Vortex",
+    "requested": "Vortex",
+    "sign": "standard",
+    "method": "GFE",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "seed": 260828,
+    "alpha_per_m": 10.0,
+    "solver": "BFGS",
+    "maxiter": 10000,
+    "iterations": 301,
+    "success": true,
+    "message": "Optimization terminated successfully.",
+    "status": "SMOKE"
+  },
+  {
+    "case_id": "B3_Twin",
+    "array_key": "Twin",
+    "requested": "Twin",
+    "source_formulation": "corrected_minus",
+    "sign": "standard",
+    "method": "FE",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "seed": 260905,
+    "maxiter": 10000,
+    "iterations": 1774,
+    "success": false,
+    "message": "Desired error not necessarily achieved due to precision loss.",
+    "status": "SMOKE"
+  },
+  {
+    "case_id": "B3_Bottle",
+    "array_key": "Bottle",
+    "requested": "Bottle",
+    "source_formulation": "historical_plus",
+    "sign": "alternative",
+    "method": "RH",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "seed": 260905,
+    "maxiter": 10000,
+    "iterations": 1922,
+    "success": true,
+    "message": "Optimization terminated successfully.",
+    "status": "SMOKE"
+  }
+]

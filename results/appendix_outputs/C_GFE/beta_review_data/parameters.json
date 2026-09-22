@@ -1,0 +1,91 @@
+{
+  "settings": {
+    "smoke_factors": [
+      0.0,
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1.0,
+      3.0,
+      10.0,
+      30.0,
+      100.0
+    ],
+    "full_factors": [
+      0.0,
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1.0,
+      3.0,
+      10.0,
+      30.0,
+      100.0
+    ],
+    "smoke_seeds": [
+      260905
+    ],
+    "full_seeds": [
+      260905,
+      260906,
+      260907,
+      260908,
+      260909,
+      260910,
+      260911,
+      260912,
+      260913,
+      260914
+    ],
+    "bootstrap_seed": 20260907,
+    "bootstrap_resamples": 10000
+  },
+  "nominal_beta": 4.242640687119285e-06,
+  "alpha_per_m": 9.0,
+  "sign": "alternative Bottle",
+  "new_synthesis_runs": 9,
+  "mode": "smoke",
+  "configuration": {
+    "version": "appendix-B-pressure-sensitivity-v1",
+    "requested": "Bottle",
+    "sign": "historical_plus",
+    "method": "RH",
+    "eta": 0.01,
+    "beta_factor": 1.0,
+    "source_content_id": {
+      "gorkov_core.py": "0000000000008bd7e923264916cf9d32",
+      "sota.py": "000000000000c4e94e39b78d8fcd9061"
+    },
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "seed": 260905,
+    "frequency_hz": 40000.0,
+    "side": 16,
+    "pitch_m": 0.01,
+    "alpha_per_m": 9.0,
+    "beta_curvature_per_pa": 4.242640687119285e-06,
+    "curvature_weights": [
+      0.029411764705882353,
+      0.029411764705882353,
+      2.941176470588235
+    ],
+    "curvature_trace": 3.0,
+    "pressure_mode": "smooth_abs",
+    "smooth_pressure_relative": 0.001,
+    "stencil_spacing_m": 0.0005,
+    "solver": "L-BFGS-B",
+    "maxiter": 10000,
+    "gtol": 1e-08,
+    "initial_phase_protocol": "Shared reduced random phase vector, seed 260905; each configuration solved independently; no continuation",
+    "status": "SMOKE",
+    "fe_solver_policy": "fe-compact-task-specific-v3",
+    "evaluator_backend": "compact-single-float64-v1"
+  },
+  "reference_policy": "fixed within paired seed; never refit",
+  "pressure_normalization": "original four beta settings per seed"
+}

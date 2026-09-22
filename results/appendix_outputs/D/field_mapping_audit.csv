@@ -1,0 +1,2 @@
+points,phase_case,original_source_strength_pa_m_peak,deployment_source_strength_pa_m_peak,pressure_scale_factor,relative_complex_pressure_difference,historical_backend_content_id,scope
+7,X+0_Y+0_Z45,1.0,8.48528137423857,8.48528137423857,0.0,000000000000f42eda4c099557fa173f,"same piston directivity, front-only source and channel order; declared uniform amplitude scaling"

@@ -1,0 +1,132 @@
+{
+  "status": "SMOKE",
+  "schema": "appendix_de_compact_v3",
+  "elastic_contract": {
+    "schema": "appendix_de_compact_v3",
+    "physics": "current elastic-solid-sphere partial-wave reference",
+    "field": "source-matched 5-mm piston directivity and channel order, front-only; current nominal source amplitude",
+    "calibration": "New deployment evaluation scales historical unit piston to current nominal 120 dB SPL at 0.30m (peak pressure phasor); historical source had no measured absolute calibration.",
+    "include_effective_gravity": true,
+    "source_strength_pa_m_peak": 8.48528137423857,
+    "sphere": {
+      "radius_m": 0.00065,
+      "density_kg_m3": 100.0,
+      "longitudinal_sound_speed_m_s": 2400.0,
+      "shear_sound_speed_m_s": 1150.0,
+      "material_label": "declared homogeneous isotropic elastic bead",
+      "parameter_provenance": "declared simulation defaults; replace density and elastic wave speeds with measured bead values for quantitative experiment matching"
+    },
+    "medium": {
+      "density_kg_m3": 1.225,
+      "sound_speed_m_s": 343.0,
+      "gravity_m_s2": 9.80665,
+      "dynamic_viscosity_pa_s": 1.854e-05
+    },
+    "numerics": {
+      "lmax": 3,
+      "fit_shell_wavelengths": [
+        0.1,
+        0.16,
+        0.22
+      ],
+      "fit_n_mu": 6,
+      "fit_n_phi": 12,
+      "control_radius_a": 2.0,
+      "surface_n_mu": 8,
+      "surface_n_phi": 16,
+      "velocity_step_a": 0.002,
+      "fit_rcond": 1e-12
+    },
+    "root_starts_a": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        -0.0,
+        -0.0,
+        -1.0
+      ]
+    ],
+    "search_half_width_a": 4.0,
+    "max_nfev_per_start": 14,
+    "root_tolerance_scaled": 0.0025,
+    "jacobian_step_a": 0.1,
+    "source_phases_content_id": "00000000000082a2c7434242b25eaf2a",
+    "source_indices_content_id": "000000000000c54d8b5828f873501b0c",
+    "validator_content_id": "00000000000137faca480367529b3468",
+    "empirical_scope": "15 current compact FE targets; 105 mechanics-selected commands. FE+g quantization not tested.",
+    "numerical_scope": "SMOKE"
+  },
+  "historical_records": [
+    {
+      "path": "appendix_sources\\D_discretization\\FE_discretization_methods_rapid_implementation\\continuous_FE_endpoints.csv",
+      "content_id": "000000000000210a53605f853389f7df"
+    },
+    {
+      "path": "appendix_sources\\D_discretization\\FE_discretization_methods_rapid_implementation\\discretization_overall_ranking.csv",
+      "content_id": "0000000000000252e46bd613f194a06d"
+    },
+    {
+      "path": "appendix_sources\\D_discretization\\FE_discretization_methods_rapid_implementation\\discretization_summary.csv",
+      "content_id": "0000000000000ba230ff0581d766a262"
+    },
+    {
+      "path": "appendix_sources\\D_discretization\\FE_discretization_methods_rapid_implementation\\mechanics_offset_command_manifest.csv",
+      "content_id": "00000000000024728aeaa20ee5176c3a"
+    },
+    {
+      "path": "appendix_sources\\D_discretization\\FE_discretization_methods_rapid_implementation\\mechanics_offset_prediction_audit.csv",
+      "content_id": "000000000000298480e1ab1245fd9bcb"
+    },
+    {
+      "path": "appendix_sources\\D_discretization\\FE_discretization_methods_rapid_implementation\\mechanics_offset_results.csv",
+      "content_id": "0000000000011c5106e8fcdafae5b08a"
+    },
+    {
+      "path": "appendix_sources\\D_discretization\\FE_discretization_methods_rapid_implementation\\mechanics_offset_summary.csv",
+      "content_id": "00000000000009421c48caea47692d12"
+    },
+    {
+      "path": "appendix_sources\\D_discretization\\FE_discretization_methods_rapid_implementation\\objective_polish_ablation_results.csv",
+      "content_id": "000000000004a762b37ba0e6a644c128"
+    }
+  ],
+  "figures": [
+    "C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\appendix_outputs\\D\\figures\\Figure_D1_discretization_comparison.png",
+    "C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\appendix_outputs\\D\\figures\\Figure_D2_elastic_selected_commands.png"
+  ],
+  "original_source_strength_pa_m_peak": 1.0,
+  "deployment_source_strength_pa_m_peak": 8.48528137423857,
+  "deployment_pressure_scale_factor": 8.48528137423857,
+  "amplitude_probe_table": "source_unit_amplitude_probe.csv",
+  "validation_timing_scope": "validation_wall_s includes evaluator setup, 7 prescribed root starts and the force Jacobian. See validation_execution.json for worker/resume scope; elapsed values are observational and are not command-synthesis timings or a controlled cross-method cost comparison.",
+  "figure_D1_scope": "current corrected-Rayleigh source comparisons",
+  "figure_D2_scope": "new current elastic validation of source-selected commands; no reselection"
+}

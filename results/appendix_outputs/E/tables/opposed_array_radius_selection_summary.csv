@@ -1,0 +1,11 @@
+array_separation_lambda,array_separation_mm,target_z_m,method,selected_radius_lambda,selected_profile_rmse,fixed_1p4_profile_rmse,rmse_reduction,candidate_count,selection_rule
+26.7,228.9525,0.0,IB,1.4,0.0,0.0,0.0,29,discrete argmin of normalized radial-profile RMSE
+30.0,257.25,0.0,IB,1.5,0.08848941599733834,0.11268363957883319,0.024194223581494853,29,discrete argmin of normalized radial-profile RMSE
+35.0,300.125,0.0,IB,1.5,0.1669073335092694,0.19852851774501054,0.031621184235741145,29,discrete argmin of normalized radial-profile RMSE
+40.0,343.0,0.0,IB,1.55,0.20867847300506898,0.3068024813013262,0.09812400829625723,29,discrete argmin of normalized radial-profile RMSE
+45.0,385.87499999999994,0.0,IB,1.7,0.23759674773337927,0.31842794438962796,0.08083119665624869,29,discrete argmin of normalized radial-profile RMSE
+26.7,228.9525,0.0,GS,1.4,0.0,0.0,0.0,29,discrete argmin of normalized radial-profile RMSE
+30.0,257.25,0.0,GS,1.5,0.0884373048447964,0.11336507536026409,0.024927770515467698,29,discrete argmin of normalized radial-profile RMSE
+35.0,300.125,0.0,GS,1.5,0.16750218016016805,0.20318514228308462,0.03568296212291658,29,discrete argmin of normalized radial-profile RMSE
+40.0,343.0,0.0,GS,1.6,0.20795440760835654,0.3077280133684241,0.09977360576006755,29,discrete argmin of normalized radial-profile RMSE
+45.0,385.87499999999994,0.0,GS,1.7,0.23670194800440247,0.31795461816986625,0.08125267016546378,29,discrete argmin of normalized radial-profile RMSE

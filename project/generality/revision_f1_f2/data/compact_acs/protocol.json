@@ -1,0 +1,10 @@
+{
+  "schema_version": 2,
+  "displayed_method": "Conventional",
+  "matching_rule": "fixed_same_setting_endpoint_set",
+  "references_per_setting": 8,
+  "paired_starts": 4,
+  "displayed_iteration_max": 25000,
+  "terminal_hold": "Hold the final value after each trajectory ends on the common grid",
+  "reference_method": "FE_or_GFE"
+}

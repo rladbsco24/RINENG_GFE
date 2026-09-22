@@ -1,0 +1,13 @@
+Method,Case,Commands (n),Targets (n),Runtime median (s),Runtime IQR (s),Roots found,Locally restoring,Displacement median (a),Displacement 95% CI (a),Minimum symmetric stiffness median (N/m),Equilibrium pressure median (Pa),Terminal gradient L2 (N/(m rad)),Iteration cap,Run status,recovery_precision,evidence_status
+Conventional,Single,1,1,61.73,,1/1,1/1,0.4057,,0.002027,273.9,7848,10000,SMOKE,source rendered precision; raw replicate arrays not reconstructed,SMOKE
+FE,Single,1,1,1.201,,1/1,1/1,0.04486,,0.002253,0.00254,2.288e-08,10000,SMOKE,source rendered precision; raw replicate arrays not reconstructed,SMOKE
+FE+g,Single,1,1,1.115,,1/1,1/1,0.04486,,0.002253,0.006032,2.222e-08,10000,SMOKE,source rendered precision; raw replicate arrays not reconstructed,SMOKE
+IB,Single,1,1,0.001003,,1/1,1/1,0.3978,,0.002122,8.094e-10,,200,SMOKE,source rendered precision; raw replicate arrays not reconstructed,SMOKE
+GS,Single,1,1,0.0009331,,1/1,1/1,0.3983,,0.002122,1.198e-09,,100,SMOKE,source rendered precision; raw replicate arrays not reconstructed,SMOKE
+AD,Single,1,1,0.288,,1/1,1/1,0.4009,,0.002121,0.7822,Not recorded,150,SMOKE,source rendered precision; raw replicate arrays not reconstructed,SMOKE
+Conventional,Triple,1,3,276.2,,3/3,3/3,1.462,,0.001276,537.2,408.2,10000,SMOKE,source rendered precision; raw replicate arrays not reconstructed,SMOKE
+FE,Triple,1,3,93.75,,3/3,3/3,0.8408,,0.001453,24.96,4.699e-08,10000,SMOKE,source rendered precision; raw replicate arrays not reconstructed,SMOKE
+FE+g,Triple,1,3,20.23,,3/3,3/3,0.353,,0.001332,15.0,3.323e-08,10000,SMOKE,source rendered precision; raw replicate arrays not reconstructed,SMOKE
+IB,Triple,1,3,0.009413,,3/3,3/3,1.276,,0.001329,713.2,,200,SMOKE,source rendered precision; raw replicate arrays not reconstructed,SMOKE
+GS,Triple,1,3,0.002344,,3/3,3/3,1.617,,0.001366,916.3,,100,SMOKE,source rendered precision; raw replicate arrays not reconstructed,SMOKE
+AD,Triple,1,3,0.2782,,3/3,3/3,0.5556,,0.001564,506.1,Not recorded,150,SMOKE,source rendered precision; raw replicate arrays not reconstructed,SMOKE

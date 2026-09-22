@@ -1,0 +1,61 @@
+{
+  "schema": "GFE-STD-independent-sensitivity-30k-v1",
+  "paired_seeds": [
+    260869,
+    260870,
+    260871
+  ],
+  "commands": 30,
+  "target_count": 90,
+  "stage_maxiters": [
+    250,
+    29750
+  ],
+  "gamma_values": [
+    0.3,
+    1.0,
+    3.0
+  ],
+  "std_multipliers": [
+    0.0,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "uniformity_expression": "gamma_u * (sqrt(mean((ell_i-mean(ell))**2)+epsilon_STD**2)-epsilon_STD)",
+  "variance_ddof": 0,
+  "nominal_epsilon_STD": "stage_factor * max(std(initial unsmoothed local losses, ddof=0), 1e-20)",
+  "smooth_stage_factors": [
+    0.05,
+    0.01
+  ],
+  "smooth_scale_floor": 1e-20,
+  "observed_initial_force_scale_range_n": [
+    3.047519613778552e-07,
+    1.2934929155139224e-06
+  ],
+  "observed_initial_STD_scale_range_n_m": [
+    0.001225257678292971,
+    0.037592158905920874
+  ],
+  "force_smoothing_held_fixed_in_STD_sweep": true,
+  "pressure_epsilon_rel": 0.001,
+  "floor_audit": "Floor is not an active experimental hyperparameter here: actual initial force and STD scales are exported and far exceed the floor.",
+  "reference_rule": "Freeze independently solved nominal GFE for each shared seed; never select nearest swept solution",
+  "adapter": "Explicit run_multitrap uniformity_epsilon_multiplier argument; default=1 preserves established nominal behavior.",
+  "physics_source_content_id": {
+    "gorkov_core.py": "0000000000008bd7e923264916cf9d32",
+    "multitrap.py": "000000000000ec123f987a0f672abe89",
+    "sota.py": "000000000000c4e94e39b78d8fcd9061",
+    "exact_validator.py": "00000000000137faca480367529b3468"
+  },
+  "dependencies": {
+    "python": "3.12.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8"
+  },
+  "evidence_status": "SMOKE"
+}

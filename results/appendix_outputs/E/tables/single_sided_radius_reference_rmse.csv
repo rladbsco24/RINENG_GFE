@@ -1,0 +1,21 @@
+method,control_points,radius_lambda,radial_profile_rmse_to_deposited_fe,realized_first_maximum_mm,realized_first_maximum_lambda,radial_samples,angular_samples,normalization,fe_phase_source,synthesis_wall_s
+IB,8,0.35,0.007279336347055771,3.6000000000000005,0.41982507288629745,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.0001951000012923032
+IB,8,0.4,0.007028296429546272,3.6000000000000005,0.41982507288629745,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.0001196000084746629
+IB,8,0.45,0.006671054495527632,3.6000000000000005,0.41982507288629745,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",9.57000011112541e-05
+IB,8,0.5,0.006378723055046995,3.6000000000000005,0.41982507288629745,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.00011910000466741621
+IB,8,0.55,0.006558359483846653,3.6000000000000005,0.41982507288629745,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",9.500001033302397e-05
+IB,8,0.6,0.008287661382023874,3.6000000000000005,0.41982507288629745,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.00010229999315924942
+IB,8,0.7,0.07437884609387836,3.7500000000000004,0.4373177842565598,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",9.689999569673091e-05
+IB,8,0.9,1.019326873302318,2.9250000000000003,0.34110787172011664,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.00010119999933522195
+IB,8,1.1,0.5224674992267506,3.0750000000000006,0.3586005830903791,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.00011020000965800136
+IB,8,1.4,0.5823432021960334,3.975,0.4635568513119534,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.00010130000009667128
+GS,8,0.35,0.0072878290687549245,3.6000000000000005,0.41982507288629745,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.0006946000066818669
+GS,8,0.4,0.007041780840478542,3.6000000000000005,0.41982507288629745,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.0006146000087028369
+GS,8,0.45,0.006690843130827619,3.6000000000000005,0.41982507288629745,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.0006070999952498823
+GS,8,0.5,0.006398326937609357,3.6000000000000005,0.41982507288629745,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.0005972000071778893
+GS,8,0.55,0.006566733846614778,3.6000000000000005,0.41982507288629745,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.0006013999955030158
+GS,8,0.6,0.008285053068500262,3.6000000000000005,0.41982507288629745,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.0005975999956717715
+GS,8,0.7,0.07409474067179266,3.7500000000000004,0.4373177842565598,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.0005966000026091933
+GS,8,0.9,1.0158573013915122,2.9250000000000003,0.34110787172011664,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.0006098000012570992
+GS,8,1.1,0.5230891198703026,3.0750000000000006,0.3586005830903791,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.0006616000027861446
+GS,8,1.4,0.5768232262693782,3.975,0.4635568513119534,161,96,each profile divided by its first annular maximum,"current compact L-BFGS-B FE, seed 172817509",0.0007627000013599172

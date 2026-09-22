@@ -1,0 +1,9 @@
+{
+  "figure": "Figure_C2_GFE_multitrap_regularization_ablations",
+  "iteration_cap": 30000,
+  "command_table": "std_sensitivity/C_STD_command_runs.csv",
+  "mechanics_table": "std_sensitivity/C_target_mechanics.csv",
+  "summary": "std_sensitivity/C_STD_summary.csv",
+  "measured_results": "std_sensitivity/measured_results_smoke.txt",
+  "historical_status": "C_command_runs.csv contains the unchanged C1 alpha study and labeled historical 10000-cap component rows; those rows are not used in current C2."
+}

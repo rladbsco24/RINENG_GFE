@@ -1,0 +1,19 @@
+{
+  "schema": "appendix-a-paired-force-fields-v1",
+  "evidence_status": "SMOKE",
+  "paired_targets": 9,
+  "commands": 18,
+  "selected_fe_commands": 9,
+  "new_command_optimizations": 0,
+  "mechanics_cache_hits": 18,
+  "force_grid_cache_hits": 20,
+  "elastic_roots": 18,
+  "gorkov_roots": 18,
+  "both_restoring": 18,
+  "nearby_pressure_minima": 18,
+  "target_centered_pressure_minima": 10,
+  "representative_case_ids": [
+    "hub_x+0.000_y+0.000_D1",
+    "hub_x+0.667_y+0.000_D1"
+  ]
+}

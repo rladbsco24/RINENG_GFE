@@ -1,0 +1,2 @@
+method,levels,resolved_reference_targets,absolute_target_error_um,absolute_target_error_m,scope
+Continuous FE median,0,15,387.75092916604456,0.0003877509291660445,Frozen current compact FE commands evaluated with the current elastic bead and effective gravity

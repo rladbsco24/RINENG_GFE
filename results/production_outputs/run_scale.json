@@ -1,0 +1,29 @@
+{
+  "profile": "full",
+  "first_result_seed_count": 16,
+  "second_result_seed_count": 100,
+  "last_result_seed_count": 5,
+  "deterministic_timing_repeats": 5,
+  "first_result_domain_x_points": 5,
+  "first_result_domain_z_points": 3,
+  "first_result_domain_restarts": 1,
+  "branch_chart_side": 7,
+  "use_smoke_validation": true,
+  "main_plots_only": false,
+  "configuration_status": "configured; numerical work starts in producer cells",
+  "first_result": "Paper Figure 2 / internal producer 1; unchanged smoke sampling",
+  "second_result": "Paper Figure 3 / internal producer 2; root initialization population",
+  "last_result": "Paper Figure 8 / internal producer 8",
+  "full_expanded_internal_figures": [
+    2,
+    8
+  ],
+  "full_other_figures_and_appendices": "accepted smoke scale",
+  "single_iteration_cap": 10000,
+  "triple_iteration_cap": 30000,
+  "objective_definition": "unchanged",
+  "mechanical_model": "unchanged",
+  "validation_resolution": "accepted smoke protocol",
+  "evidence_status": "FOCUSED FULL SAMPLING",
+  "output_root": "C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\production_outputs"
+}

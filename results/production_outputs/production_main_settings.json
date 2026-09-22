@@ -1,0 +1,242 @@
+{
+  "schema": "gfe-production-main-v2",
+  "status": "configured; execution starts in figure cells",
+  "single_seeds": [
+    172817509,
+    425727192,
+    469986874,
+    519693606,
+    681979972
+  ],
+  "triple_seeds": [
+    260869,
+    260870,
+    260871,
+    260872,
+    260873
+  ],
+  "single_cap": 10000,
+  "triple_cap": 30000,
+  "triple_checkpoints": [
+    10000,
+    20000,
+    30000
+  ],
+  "field_samples": 181,
+  "local_plane_samples": 101,
+  "figure1_xz_shape": [
+    5,
+    3
+  ],
+  "figure1_xz_restarts": 1,
+  "nominal_command_count": 44,
+  "nominal_target_validation_count": 88,
+  "deterministic_timing_repeats": 5,
+  "machine": {
+    "python": "3.12.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+    "logical_cpu_count": 20,
+    "requested_blas_threads": 1,
+    "timing_clock": "time.perf_counter",
+    "timing_clock_resolution_s": 1e-07,
+    "timing_clock_monotonic": true,
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "prefix": "libscipy_openblas",
+        "version": "0.3.30",
+        "num_threads": 1,
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "prefix": "libscipy_openblas",
+        "version": "0.3.30",
+        "num_threads": 1,
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      }
+    ],
+    "blas_thread_contract_satisfied": true,
+    "jax": "0.6.2",
+    "jaxlib": "0.6.2",
+    "requested_device": "cpu",
+    "jax_platform_request": "cpu",
+    "jax_backend": "cpu",
+    "jax_enable_x64": true,
+    "jax_devices": [
+      {
+        "platform": "cpu",
+        "device_kind": "cpu",
+        "id": 0,
+        "process_index": 0,
+        "platform_version": "cpu"
+      }
+    ],
+    "accelerator_package_versions": {}
+  },
+  "timing_campaign": "gfe-final-production-v2-00000000000003f329a2",
+  "source_hashes": {
+    "production_main.py": "0000000000017f1a24e3b3b7e588ae62",
+    "pipeline.py": "000000000003bfc6dab481a346d635c5",
+    "fixed_fe_endpoints.py": "00000000000014066a9f07b14ddc1861",
+    "gorkov_core.py": "0000000000008bd7e923264916cf9d32",
+    "multitrap.py": "000000000000ec123f987a0f672abe89",
+    "sota.py": "000000000000c4e94e39b78d8fcd9061",
+    "compact_single.py": "0000000000001928be42f652ffd7a4f0",
+    "compact_multitrap.py": "00000000000021e6de3010d85b335d71",
+    "diff_pat.py": "0000000000002e04fad55d0bda986824",
+    "exact_validator.py": "00000000000137faca480367529b3468",
+    "triple_long_iteration.py": "0000000000004686a5796f9a6062802c",
+    "fig4_threepoint_selection.py": "0000000000007f492d099b6e9bd2345b"
+  },
+  "benchmark_timing_campaign": "gfe-compact-v3-task-specific-20260920-00000000000003f329a2",
+  "timing_protocol_id": "main-fig8-comparable-end-to-end-v2",
+  "timing_scope": "fresh command construction from declared inputs through terminal host phase: problem/objective initialization, acoustic transfer construction, applicable host-to-device transfer, compilation/warmup, device synchronization, native solve, and result extraction included; independent mechanical validation, cache retrieval, table export, and rendering excluded",
+  "timing_total_ranking_policy": "only timing_comparable=true observations from the common protocol",
+  "timing_missing_component_policy": "JSON null / CSV N/A; never numeric zero",
+  "exact_protocol": {
+    "numerics": {
+      "lmax": 3,
+      "fit_shell_wavelengths": [
+        0.1,
+        0.16,
+        0.22
+      ],
+      "fit_n_mu": 6,
+      "fit_n_phi": 12,
+      "control_radius_a": 2.0,
+      "surface_n_mu": 8,
+      "surface_n_phi": 16,
+      "velocity_step_a": 0.002,
+      "fit_rcond": 1e-12
+    },
+    "root_starts_a": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        -0.0,
+        -0.0,
+        -1.0
+      ]
+    ],
+    "search_half_width_a": 4.0,
+    "max_nfev_per_start": 14,
+    "numerical_root_tolerance": 0.0025,
+    "least_squares": {
+      "algorithm": "scipy.optimize.least_squares with bounded default method",
+      "xtol": 1e-10,
+      "ftol": 1e-10,
+      "gtol": 1e-10
+    },
+    "root_acceptance": "optimizer success and interior point and scaled total-force residual <= numerical_root_tolerance",
+    "boundary_fraction_epsilon": 1e-07,
+    "resolved_root_selection": "minimum displacement norm, then minimum scaled residual",
+    "unresolved_candidate_selection": "interior, then optimizer success, then scaled residual, then displacement norm",
+    "jacobian_step_a": 0.1,
+    "medium": {
+      "density_kg_m3": 1.225,
+      "sound_speed_m_s": 343.0,
+      "gravity_m_s2": 9.80665,
+      "dynamic_viscosity_pa_s": 1.854e-05
+    },
+    "sphere": {
+      "radius_m": 0.00065,
+      "density_kg_m3": 100.0,
+      "longitudinal_sound_speed_m_s": 2400.0,
+      "shear_sound_speed_m_s": 1150.0,
+      "material_label": "declared homogeneous isotropic elastic bead",
+      "parameter_provenance": "declared simulation defaults; replace density and elastic wave speeds with measured bead values for quantitative experiment matching"
+    },
+    "include_effective_gravity": true,
+    "source_strength_pa_m_peak": 8.48528137423857,
+    "directivity": "Murata MA40S4S amplitude table evaluated globally",
+    "front_only": true,
+    "model": "finite-ka elastic-solid-sphere partial-wave reference",
+    "model_role": "independent finite-ka elastic-bead force reference",
+    "model_scope": "homogeneous isotropic elastic solid sphere with internal longitudinal and shear modes; inviscid host momentum-flux integration",
+    "dependencies": {
+      "python": "3.12.4",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.8"
+    }
+  },
+  "generality": "ACTIVE: Appendix G1-G9",
+  "optional_experiments": false,
+  "study_scale": {
+    "profile": "full",
+    "first_result_seed_count": 16,
+    "second_result_seed_count": 100,
+    "last_result_seed_count": 5,
+    "deterministic_timing_repeats": 5,
+    "first_result_domain_x_points": 5,
+    "first_result_domain_z_points": 3,
+    "first_result_domain_restarts": 1,
+    "branch_chart_side": 7,
+    "use_smoke_validation": true,
+    "main_plots_only": false
+  },
+  "first_result_single_seeds": [
+    172817509,
+    425727192,
+    469986874,
+    519693606,
+    681979972,
+    693201818,
+    713854823,
+    731661603,
+    764705224,
+    991245467,
+    260828,
+    260829,
+    260830,
+    260831,
+    260832,
+    260833
+  ],
+  "first_result_paired_initializations": 16,
+  "second_result_paired_initializations": 100,
+  "timing_observations_per_stochastic_method_task": 5,
+  "timing_observations_per_deterministic_method_task": 5,
+  "figure1_xz_target_count": 15
+}

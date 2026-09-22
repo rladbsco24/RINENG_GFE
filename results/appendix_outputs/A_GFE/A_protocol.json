@@ -1,0 +1,401 @@
+{
+  "schema": "appendix-a-paired-force-fields-v1",
+  "status": "SMOKE",
+  "scope": "Eighteen commands at nine paired targets; FE uses compact L-BFGS-B and matched Conventional commands are reused.",
+  "current_validator_content_id": "00000000000137faca480367529b3468",
+  "historical_source_files": {
+    "support/authoritative_anchor_phases.npz": "0000000000189ab9c4417a4ecb21927c",
+    "support/authoritative_anchor_endpoints.csv": "000000000005a699c3d36bff08e5aece",
+    "results/hub_endpoint_audit.csv": "0000000000000d62926fb66e266d73ff",
+    "results/run_provenance.json": "0000000000000e896a9cff85ff5670e2"
+  },
+  "geometry": {
+    "positions_content_id": "000000000000180f333eeff80072de17",
+    "normals_content_id": "000000000000180f4767404b3a7e32fd",
+    "elements": 256,
+    "type": "16x16 single-sided square",
+    "pitch_m": 0.01
+  },
+  "source": {
+    "directivity": "murata_table",
+    "front_only": true,
+    "phasor": "p(x,t)=Re[p_hat(x) exp(-i omega t)]; outgoing exp(+ikr)/r",
+    "source_strength_pa_m_peak": 8.48528137423857
+  },
+  "frequency_hz": 40000.0,
+  "elastic_sphere": {
+    "radius_m": 0.00065,
+    "density_kg_m3": 100.0,
+    "longitudinal_sound_speed_m_s": 2400.0,
+    "shear_sound_speed_m_s": 1150.0,
+    "material_label": "declared homogeneous isotropic elastic bead",
+    "parameter_provenance": "declared simulation defaults; replace density and elastic wave speeds with measured bead values for quantitative experiment matching"
+  },
+  "medium": {
+    "density_kg_m3": 1.225,
+    "sound_speed_m_s": 343.0,
+    "gravity_m_s2": 9.80665,
+    "dynamic_viscosity_pa_s": 1.854e-05
+  },
+  "partial_wave_numerics": {
+    "lmax": 5,
+    "fit_shell_wavelengths": [
+      0.1,
+      0.15,
+      0.2
+    ],
+    "fit_n_mu": 10,
+    "fit_n_phi": 20,
+    "control_radius_a": 1.3,
+    "surface_n_mu": 12,
+    "surface_n_phi": 24,
+    "velocity_step_a": 0.002,
+    "fit_rcond": 1e-12
+  },
+  "root_protocol": {
+    "search_half_width_a": 4.0,
+    "max_nfev": 40,
+    "numerical_root_tolerance": 0.001,
+    "jacobian_step_a": 0.1,
+    "initial_offsets_a": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        -0.0,
+        -0.0,
+        -1.0
+      ]
+    ]
+  },
+  "comparison": "Total-force direction on common 3D neighborhoods and independently resolved Gor'kov-plus-gravity versus elastic-plus-gravity root separation. Force magnitudes, pressure minima and per-model restoring flags are separately exported.",
+  "source_model_boundary": "Historical endpoint mechanics are not reused; target/seed selection is retained and FE commands are regenerated. Current shear speed is 1150 m/s, not the historical elastic-spoke 1000 m/s.",
+  "timing_scope": "Independent force validation; command synthesis timing remains in separate current solver records.",
+  "sample_selection": "Nine recorded B1 target/seed selections re-solved with compact L-BFGS-B, paired with same-target/same-seed Conventional 10000 endpoints.",
+  "statistical_unit": "Target; nine paired target clusters. The other 18 selected FE cases are not extra independent replicates for this paired comparison.",
+  "generality": "This Appendix A protocol uses one deposited 40 kHz array/particle/drive regime; the separate geometry/frequency study is active in Appendix G1-G9.",
+  "command_scope": "FE retains appendix alpha=9, beta=0, W=I and uses compact L-BFGS-B; Conventional retains its original specification.",
+  "source_files": {
+    "runtime\\data\\corrected_branch_evolution\\conventional_snapshots.npz": "00000000002c2d12da586ea8bd7a5cab",
+    "runtime\\data\\corrected_branch_evolution\\conventional_trajectories.csv": "000000000002cd364cfdb41c59303e85"
+  },
+  "neighbor_directions": [
+    [
+      -0.5773502691896258,
+      -0.5773502691896258,
+      -0.5773502691896258
+    ],
+    [
+      -0.5773502691896258,
+      -0.5773502691896258,
+      0.5773502691896258
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.5773502691896258,
+      0.5773502691896258,
+      -0.5773502691896258
+    ],
+    [
+      -0.5773502691896258,
+      0.5773502691896258,
+      0.5773502691896258
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.5773502691896258,
+      -0.5773502691896258,
+      -0.5773502691896258
+    ],
+    [
+      0.5773502691896258,
+      -0.5773502691896258,
+      0.5773502691896258
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.5773502691896258,
+      0.5773502691896258,
+      -0.5773502691896258
+    ],
+    [
+      0.5773502691896258,
+      0.5773502691896258,
+      0.5773502691896258
+    ]
+  ],
+  "neighbor_radii_a": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "direction_threshold": {
+    "both_total_force_norms_exceed_effective_weight_fraction": 0.01,
+    "zeros_have_no_direction": true
+  },
+  "pressure_minimum": {
+    "search_half_width_a": 2.0,
+    "starts_a": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        -0.0,
+        -0.0,
+        -1.0
+      ]
+    ],
+    "least_squares": {
+      "method": "trf",
+      "jac": "3-point",
+      "ftol": 1e-10,
+      "xtol": 1e-10,
+      "gtol": 1e-10,
+      "max_nfev": 150
+    },
+    "sampled_shell_radii_a": [
+      0.5,
+      1.0
+    ],
+    "shell_directions": [
+      [
+        -0.5773502691896258,
+        -0.5773502691896258,
+        -0.5773502691896258
+      ],
+      [
+        -0.7071067811865475,
+        -0.7071067811865475,
+        0.0
+      ],
+      [
+        -0.5773502691896258,
+        -0.5773502691896258,
+        0.5773502691896258
+      ],
+      [
+        -0.7071067811865475,
+        0.0,
+        -0.7071067811865475
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.7071067811865475,
+        0.0,
+        0.7071067811865475
+      ],
+      [
+        -0.5773502691896258,
+        0.5773502691896258,
+        -0.5773502691896258
+      ],
+      [
+        -0.7071067811865475,
+        0.7071067811865475,
+        0.0
+      ],
+      [
+        -0.5773502691896258,
+        0.5773502691896258,
+        0.5773502691896258
+      ],
+      [
+        0.0,
+        -0.7071067811865475,
+        -0.7071067811865475
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.7071067811865475,
+        0.7071067811865475
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.7071067811865475,
+        -0.7071067811865475
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067811865475,
+        0.7071067811865475
+      ],
+      [
+        0.5773502691896258,
+        -0.5773502691896258,
+        -0.5773502691896258
+      ],
+      [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0.0
+      ],
+      [
+        0.5773502691896258,
+        -0.5773502691896258,
+        0.5773502691896258
+      ],
+      [
+        0.7071067811865475,
+        0.0,
+        -0.7071067811865475
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.7071067811865475,
+        0.0,
+        0.7071067811865475
+      ],
+      [
+        0.5773502691896258,
+        0.5773502691896258,
+        -0.5773502691896258
+      ],
+      [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0
+      ],
+      [
+        0.5773502691896258,
+        0.5773502691896258,
+        0.5773502691896258
+      ]
+    ],
+    "intensity_tolerance_fraction_of_shell_mean": 1e-06,
+    "criterion": "Interior candidate with intensity no greater than all 26 shell samples at both radii, within relative tolerance. This is a sampled local minimum; nonisolated pressure-zero minima are allowed.",
+    "candidate_selection": "Among candidates passing the sampled criterion, choose closest to prescribed target; otherwise choose smallest normalized intensity.",
+    "root_to_pressure_distance": "Distance to that selected pressure candidate, not the nearest distance from a model root to a potentially nonisolated pressure-minimum set.",
+    "target_contrast": "I(target) / mean I(shell at 1a)",
+    "nearby_minimum_distinct_from_target_minimum": true
+  },
+  "field_display": {
+    "half_width_a": 2.5,
+    "quiver_grid_points_per_axis": 13,
+    "pressure_grid_points_per_axis": 81,
+    "plane": "XZ at prescribed target y; 3D roots projected onto this plane",
+    "representative_rule": "Central selected FE target/seed case, then the selected FE case with largest valid model-root separation; ties by case_id.",
+    "arrow_encoding": "Unit XZ-projected total-force direction, fixed length; pressure magnitude uses one shared color scale. 3D angular errors and magnitude ratios are reported separately."
+  },
+  "bootstrap": {
+    "seed": 20260906,
+    "resamples": 10000,
+    "interval_percentiles": [
+      2.5,
+      97.5
+    ],
+    "unit": "Paired target, never neighboring force samples",
+    "summary": "Median of within-target Conventional-minus-FE differences",
+    "scope": "Finite deposited target design; not a population-level generality claim"
+  },
+  "root_comparison": "Distances computed only with both independently resolved roots; restoring flags shown and retained separately. All 18 commands remain in denominators.",
+  "gorkov_comparator": "Existing inviscid elastic Rayleigh limit with regular-wave derivatives; same effective gravity as finite-ka elastic reference."
+}

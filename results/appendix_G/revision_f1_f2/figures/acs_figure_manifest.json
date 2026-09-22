@@ -1,0 +1,160 @@
+[
+  {
+    "family": "arrays",
+    "setting_ids": [
+      "A06",
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "A07",
+      "A08",
+      "A09"
+    ],
+    "data_axes_count": 9,
+    "layout": [
+      3,
+      3
+    ],
+    "paths": [
+      "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_3A_ACS_Arrays.pdf",
+      "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_3A_ACS_Arrays.svg",
+      "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_3A_ACS_Arrays.png"
+    ],
+    "axes_count": 9,
+    "array_inset_axes_count": 0,
+    "reference_method": "FE_or_GFE",
+    "matching_rule": "fixed_same_setting_endpoint_set",
+    "references_per_setting": 8,
+    "n_pairs": 4,
+    "xscale": "linear",
+    "yscale": "linear",
+    "displayed_iteration_max": 29000,
+    "displayed_methods": [
+      "Conventional"
+    ],
+    "heading_method": "The closest frozen-bank FE/GFE member to the terminal seed260828 Conventional command; the ACS reference bank remains all eight endpoints",
+    "panels": [
+      {
+        "setting_id": "A06",
+        "title": "(a) Square \u00b7 GFE",
+        "force_equilibrium_representative": "GFE"
+      },
+      {
+        "setting_id": "S01",
+        "title": "(b) Rectangular \u00b7 FE",
+        "force_equilibrium_representative": "FE"
+      },
+      {
+        "setting_id": "S02",
+        "title": "(c) Opposed \u00b7 FE",
+        "force_equilibrium_representative": "FE"
+      },
+      {
+        "setting_id": "S03",
+        "title": "(d) Spherical cap \u00b7 FE",
+        "force_equilibrium_representative": "FE"
+      },
+      {
+        "setting_id": "S04",
+        "title": "(e) Fermat disk \u00b7 GFE",
+        "force_equilibrium_representative": "GFE"
+      },
+      {
+        "setting_id": "S05",
+        "title": "(f) Arbitrary 3D \u00b7 FE",
+        "force_equilibrium_representative": "FE"
+      },
+      {
+        "setting_id": "A07",
+        "title": "(g) Annular \u00b7 GFE",
+        "force_equilibrium_representative": "GFE"
+      },
+      {
+        "setting_id": "A08",
+        "title": "(h) Four clusters \u00b7 FE",
+        "force_equilibrium_representative": "FE"
+      },
+      {
+        "setting_id": "A09",
+        "title": "(i) Tilted plane \u00b7 FE",
+        "force_equilibrium_representative": "FE"
+      }
+    ],
+    "trajectory": "Every native accepted update in the retained completed Conventional search chain",
+    "similarity": "Mean over four trajectories of the maximum absolute complex phase cosine to the frozen eight-reference set; no running maximum or smoothing",
+    "alpha_selection": "First-seed displacement-selected alpha frozen per method and setting for all paired starts",
+    "source_data": "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\data\\compact_acs\\plotgrid.csv"
+  },
+  {
+    "family": "frequencies",
+    "setting_ids": [
+      "F20",
+      "S06",
+      "F28",
+      "A06",
+      "S07",
+      "S08"
+    ],
+    "data_axes_count": 6,
+    "layout": [
+      2,
+      3
+    ],
+    "paths": [
+      "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_3B_ACS_Frequencies.pdf",
+      "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_3B_ACS_Frequencies.svg",
+      "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_3B_ACS_Frequencies.png"
+    ],
+    "axes_count": 6,
+    "array_inset_axes_count": 0,
+    "reference_method": "FE_or_GFE",
+    "matching_rule": "fixed_same_setting_endpoint_set",
+    "references_per_setting": 8,
+    "n_pairs": 4,
+    "xscale": "linear",
+    "yscale": "linear",
+    "displayed_iteration_max": 29000,
+    "displayed_methods": [
+      "Conventional"
+    ],
+    "heading_method": "The closest frozen-bank FE/GFE member to the terminal seed260828 Conventional command; the ACS reference bank remains all eight endpoints",
+    "panels": [
+      {
+        "setting_id": "F20",
+        "title": "(a) 20 kHz \u00b7 GFE",
+        "force_equilibrium_representative": "GFE"
+      },
+      {
+        "setting_id": "S06",
+        "title": "(b) 25 kHz \u00b7 FE",
+        "force_equilibrium_representative": "FE"
+      },
+      {
+        "setting_id": "F28",
+        "title": "(c) 28 kHz \u00b7 FE",
+        "force_equilibrium_representative": "FE"
+      },
+      {
+        "setting_id": "A06",
+        "title": "(d) 40 kHz \u00b7 GFE",
+        "force_equilibrium_representative": "GFE"
+      },
+      {
+        "setting_id": "S07",
+        "title": "(e) 58 kHz \u00b7 GFE",
+        "force_equilibrium_representative": "GFE"
+      },
+      {
+        "setting_id": "S08",
+        "title": "(f) 100 kHz \u00b7 FE",
+        "force_equilibrium_representative": "FE"
+      }
+    ],
+    "trajectory": "Every native accepted update in the retained completed Conventional search chain",
+    "similarity": "Mean over four trajectories of the maximum absolute complex phase cosine to the frozen eight-reference set; no running maximum or smoothing",
+    "alpha_selection": "First-seed displacement-selected alpha frozen per method and setting for all paired starts",
+    "source_data": "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\data\\compact_acs\\plotgrid.csv"
+  }
+]

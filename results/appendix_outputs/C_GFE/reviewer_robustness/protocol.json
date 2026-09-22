@@ -1,0 +1,167 @@
+{
+  "schema": "reviewer-robustness-20260908-v1",
+  "mode": "smoke",
+  "solver_defaults": {
+    "optimizer": "BFGS",
+    "gtol": 1e-08,
+    "c1": 0.0001,
+    "c2": 0.9,
+    "maxcor": 10,
+    "maxls": 40,
+    "ftol": 0.0,
+    "maxfun": 1000000,
+    "learning_rate": 0.03,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "adam_epsilon": 1e-12,
+    "learning_rate_end_ratio": 0.0001,
+    "schedule": "cosine",
+    "weight_decay": 0.0
+  },
+  "optimizer_seeds": [
+    260828,
+    260829,
+    260830
+  ],
+  "sensitivity_seeds": [
+    260828
+  ],
+  "large_alpha_seeds": [
+    260828,
+    260829,
+    260830
+  ],
+  "bootstrap_seed": 20260908,
+  "bootstrap_resamples": 10000,
+  "large_alpha_values": [
+    10.0,
+    100.0,
+    1000.0,
+    10000.0,
+    100000.0,
+    1000000.0,
+    10000000.0,
+    100000000.0
+  ],
+  "jump_rms_rad": [
+    0.05,
+    0.15,
+    0.5,
+    1.0,
+    2.0,
+    3.141592653589793
+  ],
+  "source_hashes": {
+    "gorkov_core.py": "0000000000008bd7e923264916cf9d32",
+    "multitrap.py": "000000000000ec123f987a0f672abe89",
+    "fixed_fe_endpoints.py": "00000000000014066a9f07b14ddc1861",
+    "reviewer_solver": "00000000000037cae9018f9ade641ccb"
+  },
+  "single_cap": 10000,
+  "triple_cap": 30000,
+  "first_stage_nominal_cap": 250,
+  "raw_gtol_norm": "reduced phase infinity norm",
+  "historical_report_threshold": 0.001,
+  "reporting_threshold_is_not_native_stop": true,
+  "objective_scaling": 1.0,
+  "AdamW_scope": "Nonzero decay is a separate coordinate-dependent phase-prior control; only zero-decay equals Adam.",
+  "timing_scope": "Serial CPU solve, including scalar callback bookkeeping; excludes initialization, objective/transfer construction, mechanics, field sampling, cache reads, rendering.",
+  "gpu_claim": "No GPU speedup is asserted. Adam updates are first order; this implementation uses the existing float64 CPU forward model.",
+  "physical_validation": {
+    "numerics": {
+      "lmax": 3,
+      "fit_shell_wavelengths": [
+        0.1,
+        0.16,
+        0.22
+      ],
+      "fit_n_mu": 6,
+      "fit_n_phi": 12,
+      "control_radius_a": 2.0,
+      "surface_n_mu": 8,
+      "surface_n_phi": 16,
+      "velocity_step_a": 0.002,
+      "fit_rcond": 1e-12
+    },
+    "root_starts_a": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        -0.0,
+        -0.0,
+        -1.0
+      ]
+    ],
+    "search_half_width_a": 4.0,
+    "max_nfev_per_start": 14,
+    "numerical_root_tolerance": 0.0025,
+    "least_squares": {
+      "algorithm": "scipy.optimize.least_squares with bounded default method",
+      "xtol": 1e-10,
+      "ftol": 1e-10,
+      "gtol": 1e-10
+    },
+    "root_acceptance": "optimizer success and interior point and scaled total-force residual <= numerical_root_tolerance",
+    "boundary_fraction_epsilon": 1e-07,
+    "resolved_root_selection": "minimum displacement norm, then minimum scaled residual",
+    "unresolved_candidate_selection": "interior, then optimizer success, then scaled residual, then displacement norm",
+    "jacobian_step_a": 0.1,
+    "medium": {
+      "density_kg_m3": 1.225,
+      "sound_speed_m_s": 343.0,
+      "gravity_m_s2": 9.80665,
+      "dynamic_viscosity_pa_s": 1.854e-05
+    },
+    "sphere": {
+      "radius_m": 0.00065,
+      "density_kg_m3": 100.0,
+      "longitudinal_sound_speed_m_s": 2400.0,
+      "shear_sound_speed_m_s": 1150.0,
+      "material_label": "declared homogeneous isotropic elastic bead",
+      "parameter_provenance": "declared simulation defaults; replace density and elastic wave speeds with measured bead values for quantitative experiment matching"
+    },
+    "include_effective_gravity": true,
+    "source_strength_pa_m_peak": 8.48528137423857,
+    "directivity": "Murata MA40S4S amplitude table evaluated globally",
+    "front_only": true,
+    "model": "finite-ka elastic-solid-sphere partial-wave reference",
+    "model_role": "independent finite-ka elastic-bead force reference",
+    "model_scope": "homogeneous isotropic elastic solid sphere with internal longitudinal and shear modes; inviscid host momentum-flux integration",
+    "dependencies": {
+      "python": "3.12.4",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.8"
+    }
+  }
+}

@@ -1,0 +1,7310 @@
+[
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      6.708518922703214e-08,
+      -2.4491104136413535e-08,
+      -0.0465215063856199
+    ],
+    "equilibrium_m": [
+      4.360537299757089e-11,
+      -1.5919217688668798e-11,
+      0.04996976102084935
+    ],
+    "residual_force_n": [
+      -1.568154446899249e-17,
+      -8.860156534182094e-18,
+      -4.648728572768414e-18
+    ],
+    "residual_scaled_norm": 1.6693855412993177e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      6.708472518615754e-08,
+      -2.4490426843758953e-08,
+      -0.04652150639444331
+    ],
+    "equilibrium_m": [
+      4.36050713710024e-11,
+      -1.591877744844332e-11,
+      0.04996976102084361
+    ],
+    "residual_force_n": [
+      -3.012999425523993e-17,
+      3.8189175258674675e-18,
+      2.5688391707854794e-18
+    ],
+    "residual_scaled_norm": 2.735340368599915e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      6.708468749244649e-08,
+      -2.4490567801560673e-08,
+      -0.04652150639181027
+    ],
+    "equilibrium_m": [
+      4.3605046870090214e-11,
+      -1.5918869071014436e-11,
+      0.04996976102084533
+    ],
+    "residual_force_n": [
+      -6.972867866026006e-18,
+      -2.0925982049141992e-18,
+      -5.673426680709304e-18
+    ],
+    "residual_scaled_norm": 8.2830800603527e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      6.70850217405154e-08,
+      -2.4489959083593188e-08,
+      -0.04652150638878636
+    ],
+    "equilibrium_m": [
+      4.3605264131335005e-11,
+      -1.5918473404335573e-11,
+      0.04996976102084729
+    ],
+    "residual_force_n": [
+      -4.714850082213453e-18,
+      4.1178275120196296e-18,
+      1.2516394103339983e-17
+    ],
+    "residual_scaled_norm": 1.2559184580833402e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      6.708483686198456e-08,
+      -2.4491402308322084e-08,
+      -0.046521506390738196
+    ],
+    "equilibrium_m": [
+      4.360514396028996e-11,
+      -1.5919411500409352e-11,
+      0.04996976102084602
+    ],
+    "residual_force_n": [
+      -1.0365446578016293e-17,
+      1.1703163064637049e-17,
+      1.5735754577616765e-18
+    ],
+    "residual_scaled_norm": 1.4100966812492049e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      6.70839116251258e-08,
+      -2.449099230954348e-08,
+      -0.046521506390092206
+    ],
+    "equilibrium_m": [
+      4.360454255633177e-11,
+      -1.5919145001203263e-11,
+      0.049969761020846444
+    ],
+    "residual_force_n": [
+      1.6248460973611832e-17,
+      -5.913451333415041e-18,
+      -5.041963618531223e-19
+    ],
+    "residual_scaled_norm": 1.552423614422852e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      6.70841018951898e-08,
+      -2.4490074191408512e-08,
+      -0.046521506382644275
+    ],
+    "equilibrium_m": [
+      4.360466623187337e-11,
+      -1.5918548224415532e-11,
+      0.04996976102085129
+    ],
+    "residual_force_n": [
+      1.9520099262601966e-17,
+      -3.211781514632326e-17,
+      -3.8749639754516105e-18
+    ],
+    "residual_scaled_norm": 3.3908410709675085e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      6.534952758685193e-08,
+      -2.149265434556593e-08,
+      -1.1062880404299096
+    ],
+    "equilibrium_m": [
+      4.247719293145375e-11,
+      -1.3970225324617854e-11,
+      0.04928091277372056
+    ],
+    "residual_force_n": [
+      2.6114786073694244e-20,
+      8.445877944955923e-20,
+      -2.8587361969832636e-20
+    ],
+    "residual_scaled_norm": 8.338194465528291e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      6.534952973372511e-08,
+      -2.1492655951851526e-08,
+      -1.1062880404299256
+    ],
+    "equilibrium_m": [
+      4.247719432692132e-11,
+      -1.3970226368703492e-11,
+      0.04928091277372055
+    ],
+    "residual_force_n": [
+      2.8429944516814536e-20,
+      1.2197295739929574e-19,
+      -1.4823076576950256e-21
+    ],
+    "residual_scaled_norm": 1.1240496056156058e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      6.534953111620774e-08,
+      -2.1492651757981396e-08,
+      -1.1062880404299371
+    ],
+    "equilibrium_m": [
+      4.247719522553503e-11,
+      -1.3970223642687907e-11,
+      0.04928091277372054
+    ],
+    "residual_force_n": [
+      1.5726947120093252e-20,
+      -5.996613476015746e-20,
+      -1.7999450129153882e-20
+    ],
+    "residual_scaled_norm": 5.793334610791836e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      6.534953002493858e-08,
+      -2.1492653928699283e-08,
+      -1.106288040429922
+    ],
+    "equilibrium_m": [
+      4.2477194516210075e-11,
+      -1.3970225053654533e-11,
+      0.049280912773720556
+    ],
+    "residual_force_n": [
+      1.76828117623818e-20,
+      5.991001483500074e-20,
+      -1.4399560103323106e-20
+    ],
+    "residual_scaled_norm": 5.752866680570976e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      6.534953191822868e-08,
+      -2.1492656215924003e-08,
+      -1.106288040429936
+    ],
+    "equilibrium_m": [
+      4.247719574684864e-11,
+      -1.3970226540350602e-11,
+      0.04928091277372054
+    ],
+    "residual_force_n": [
+      -9.824878575479818e-20,
+      1.1227800702648938e-19,
+      -4.658681209898652e-21
+    ],
+    "residual_scaled_norm": 1.3395834022381124e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      6.53495312930362e-08,
+      -2.1492654433757573e-08,
+      -1.1062880404299695
+    ],
+    "equilibrium_m": [
+      4.247719534047353e-11,
+      -1.3970225381942422e-11,
+      0.04928091277372052
+    ],
+    "residual_force_n": [
+      -3.904612864337091e-20,
+      8.035093885372278e-20,
+      4.298692207315574e-20
+    ],
+    "residual_scaled_norm": 8.897187217209497e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      6.534953228991117e-08,
+      -2.149265047445943e-08,
+      -1.1062880404299165
+    ],
+    "equilibrium_m": [
+      4.247719598844226e-11,
+      -1.3970222808398629e-11,
+      0.049280912773720556
+    ],
+    "residual_force_n": [
+      -1.4018331591459836e-19,
+      -5.1757239004616373e-20,
+      -1.503483481376383e-20
+    ],
+    "residual_scaled_norm": 1.3478351210926522e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 5,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.006359150264243254,
+      -0.02788409147118027,
+      -0.178634141647218
+    ],
+    "equilibrium_m": [
+      4.133447671758115e-06,
+      -1.8124659456267176e-05,
+      0.04988388780792931
+    ],
+    "residual_force_n": [
+      -1.3190142638431774e-17,
+      -1.1122836307926996e-17,
+      -7.612073338737584e-18
+    ],
+    "residual_scaled_norm": 1.6924253618964694e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.006359150264364655,
+      -0.027884091471526214,
+      -0.17863414164835606
+    ],
+    "equilibrium_m": [
+      4.133447671837026e-06,
+      -1.812465945649204e-05,
+      0.04988388780792857
+    ],
+    "residual_force_n": [
+      -7.815003904053993e-18,
+      -1.1110547712746909e-17,
+      -8.067565306123584e-18
+    ],
+    "residual_scaled_norm": 1.4178475009419319e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.0063591502625929535,
+      -0.02788409147179251,
+      -0.17863414165332472
+    ],
+    "equilibrium_m": [
+      4.1334476706854195e-06,
+      -1.8124659456665132e-05,
+      0.04988388780792534
+    ],
+    "residual_force_n": [
+      3.59698629100847e-17,
+      2.1336958464682838e-17,
+      -1.785121936338438e-19
+    ],
+    "residual_scaled_norm": 3.7533104662525116e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.006359150263311317,
+      -0.027884091471522755,
+      -0.17863414165246297
+    ],
+    "equilibrium_m": [
+      4.133447671152356e-06,
+      -1.812465945648979e-05,
+      0.0498838878079259
+    ],
+    "residual_force_n": [
+      6.692208792909214e-18,
+      -2.7086525466416423e-19,
+      -1.253820520173178e-18
+    ],
+    "residual_scaled_norm": 6.115163281745847e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.006359150264283922,
+      -0.02788409147175246,
+      -0.17863414165266306
+    ],
+    "equilibrium_m": [
+      4.133447671784549e-06,
+      -1.8124659456639098e-05,
+      0.04988388780792577
+    ],
+    "residual_force_n": [
+      -1.5525280125113872e-17,
+      2.0938852979473317e-18,
+      -7.463419056494454e-18
+    ],
+    "residual_scaled_norm": 1.5573073992408875e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      0.006359150263116473,
+      -0.02788409147085194,
+      -0.1786341416471628
+    ],
+    "equilibrium_m": [
+      4.133447671025707e-06,
+      -1.812465945605376e-05,
+      0.04988388780792935
+    ],
+    "residual_force_n": [
+      -2.211880957966796e-18,
+      -1.0040652456136121e-17,
+      -9.561096150369729e-18
+    ],
+    "residual_scaled_norm": 1.2600007433741204e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      0.0063591502636478415,
+      -0.027884091470326448,
+      -0.17863414165786629
+    ],
+    "equilibrium_m": [
+      4.133447671371097e-06,
+      -1.812465945571219e-05,
+      0.04988388780792239
+    ],
+    "residual_force_n": [
+      -1.0481370977781924e-18,
+      -8.867316609564353e-18,
+      9.198354290708075e-18
+    ],
+    "residual_scaled_norm": 1.1504615254351208e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.007714144846812583,
+      -0.02645984611025002,
+      -1.2684749220165228
+    ],
+    "equilibrium_m": [
+      5.014194150428179e-06,
+      -1.719889997166251e-05,
+      0.04917549130068926
+    ],
+    "residual_force_n": [
+      6.370584556846289e-20,
+      9.916337162388913e-20,
+      1.4399560103323106e-20
+    ],
+    "residual_scaled_norm": 1.0656146200861669e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.007714144846817057,
+      -0.02645984611024419,
+      -1.2684749220165459
+    ],
+    "equilibrium_m": [
+      5.014194150431087e-06,
+      -1.7198899971658724e-05,
+      0.049175491300689246
+    ],
+    "residual_force_n": [
+      2.481536401666068e-20,
+      -1.036752559905547e-19,
+      6.649208635946258e-20
+    ],
+    "residual_scaled_norm": 1.1275442211175903e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.007714144846817408,
+      -0.0264598461102473,
+      -1.2684749220165552
+    ],
+    "equilibrium_m": [
+      5.014194150431315e-06,
+      -1.7198899971660743e-05,
+      0.04917549130068924
+    ],
+    "residual_force_n": [
+      5.6888976797087725e-21,
+      2.8836826169558264e-20,
+      2.0328790734103208e-20
+    ],
+    "residual_scaled_norm": 3.20723404343943e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.007714144846817573,
+      -0.02645984611024532,
+      -1.268474922016545
+    ],
+    "equilibrium_m": [
+      5.014194150431422e-06,
+      -1.7198899971659456e-05,
+      0.049175491300689246
+    ],
+    "residual_force_n": [
+      1.2947146443475139e-20,
+      3.070043058187665e-20,
+      5.992758101824175e-20
+    ],
+    "residual_scaled_norm": 6.153468472843023e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.0077141448468150565,
+      -0.0264598461102476,
+      -1.2684749220165121
+    ],
+    "equilibrium_m": [
+      5.014194150429787e-06,
+      -1.719889997166094e-05,
+      0.04917549130068927
+    ],
+    "residual_force_n": [
+      4.752191251411897e-20,
+      9.239554507389076e-20,
+      -2.5622746654442585e-20
+    ],
+    "residual_scaled_norm": 9.603739505745887e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      0.00771414484681803,
+      -0.026459846110246144,
+      -1.2684749220165263
+    ],
+    "equilibrium_m": [
+      5.0141941504317195e-06,
+      -1.7198899971659994e-05,
+      0.04917549130068926
+    ],
+    "residual_force_n": [
+      4.659011030795978e-21,
+      4.0803128185497406e-20,
+      1.1858461261560205e-20
+    ],
+    "residual_scaled_norm": 3.836185436429861e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      0.007714144846818658,
+      -0.026459846110247962,
+      -1.2684749220165215
+    ],
+    "equilibrium_m": [
+      5.014194150432127e-06,
+      -1.7198899971661173e-05,
+      0.04917549130068927
+    ],
+    "residual_force_n": [
+      1.9616888550719907e-21,
+      9.935954050939633e-20,
+      -2.4775713707188285e-20
+    ],
+    "residual_scaled_norm": 9.191606059037967e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 5,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.005488930835798577,
+      -0.045153123131996695,
+      -0.9339887584274039
+    ],
+    "equilibrium_m": [
+      -3.567805043269075e-06,
+      0.007970650469964102,
+      0.04939290730702219
+    ],
+    "residual_force_n": [
+      4.5856113833081676e-18,
+      -2.3560108931315057e-17,
+      -4.150673199782885e-18
+    ],
+    "residual_scaled_norm": 2.1860166399035254e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.005488930835159911,
+      -0.045153123132369695,
+      -0.9339887584404836
+    ],
+    "equilibrium_m": [
+      -3.567805042853942e-06,
+      0.007970650469963859,
+      0.049392907307013685
+    ],
+    "residual_force_n": [
+      2.3312239297679867e-17,
+      -1.717236546955191e-17,
+      1.4484263398048536e-17
+    ],
+    "residual_scaled_norm": 2.9054552547441174e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.005488930834398075,
+      -0.04515312313238973,
+      -0.9339887584332013
+    ],
+    "equilibrium_m": [
+      -3.5678050423587488e-06,
+      0.007970650469963847,
+      0.049392907307018424
+    ],
+    "residual_force_n": [
+      -7.631435982516225e-18,
+      -7.518287600886321e-18,
+      2.5836622473624296e-18
+    ],
+    "residual_scaled_norm": 9.889681250070295e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.005488930835345486,
+      -0.04515312313313341,
+      -0.9339887584366428
+    ],
+    "equilibrium_m": [
+      -3.5678050429745654e-06,
+      0.007970650469963363,
+      0.04939290730701618
+    ],
+    "residual_force_n": [
+      -3.863992251806707e-18,
+      3.171771781019871e-17,
+      -1.2053278839428694e-18
+    ],
+    "residual_scaled_norm": 2.8695471388898585e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.005488930835175116,
+      -0.045153123132959945,
+      -0.9339887584343564
+    ],
+    "equilibrium_m": [
+      -3.567805042863825e-06,
+      0.007970650469963475,
+      0.04939290730701767
+    ],
+    "residual_force_n": [
+      4.52122364442704e-18,
+      9.047562573762108e-18,
+      -1.0115690972584482e-18
+    ],
+    "residual_scaled_norm": 9.122258415559369e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.005488930834482421,
+      -0.04515312313307819,
+      -0.9339887584381853
+    ],
+    "equilibrium_m": [
+      -3.5678050424135734e-06,
+      0.007970650469963399,
+      0.049392907307015184
+    ],
+    "residual_force_n": [
+      2.2219222688586997e-17,
+      2.3050780740941655e-17,
+      5.127725704440721e-18
+    ],
+    "residual_scaled_norm": 2.9098613287081813e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.00548893083477787,
+      -0.045153123132383954,
+      -0.9339887584385903
+    ],
+    "equilibrium_m": [
+      -3.5678050426056153e-06,
+      0.00797065046996385,
+      0.04939290730701492
+    ],
+    "residual_force_n": [
+      -1.758215405373313e-18,
+      -1.9213420396136706e-19,
+      4.4221472593778885e-18
+    ],
+    "residual_scaled_norm": 4.274249017470024e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.005603169180763372,
+      -0.10027949233131667,
+      -2.1151701812307326
+    ],
+    "equilibrium_m": [
+      -3.6420599674961915e-06,
+      0.007934818329984543,
+      0.048625139382200026
+    ],
+    "residual_force_n": [
+      1.1789750018982664e-19,
+      6.23817055912893e-20,
+      -1.7152417181899582e-20
+    ],
+    "residual_scaled_norm": 1.206893378952969e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.0056031691807582416,
+      -0.1002794923313144,
+      -2.115170181230722
+    ],
+    "equilibrium_m": [
+      -3.6420599674928567e-06,
+      0.007934818329984545,
+      0.04862513938220003
+    ],
+    "residual_force_n": [
+      -6.15479878278837e-20,
+      -6.27740433623037e-21,
+      -3.197549375884984e-20
+    ],
+    "residual_scaled_norm": 6.249915624766736e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.005603169180760096,
+      -0.10027949233131785,
+      -2.1151701812307095
+    ],
+    "equilibrium_m": [
+      -3.642059967494062e-06,
+      0.007934818329984543,
+      0.04862513938220004
+    ],
+    "residual_force_n": [
+      -4.359853480397499e-20,
+      9.769210498258513e-20,
+      -6.776263578034403e-21
+    ],
+    "residual_scaled_norm": 9.619954556927388e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.005603169180758252,
+      -0.1002794923313181,
+      -2.115170181230769
+    ],
+    "equilibrium_m": [
+      -3.6420599674928635e-06,
+      0.007934818329984543,
+      0.048625139382200006
+    ],
+    "residual_force_n": [
+      -8.36660296688204e-20,
+      2.314792848984949e-20,
+      5.1880768019325896e-20
+    ],
+    "residual_scaled_norm": 9.075847450217622e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.005603169180759008,
+      -0.10027949233131918,
+      -2.115170181230741
+    ],
+    "equilibrium_m": [
+      -3.642059967493355e-06,
+      0.007934818329984543,
+      0.04862513938220002
+    ],
+    "residual_force_n": [
+      -7.498555648512685e-20,
+      3.452572384926704e-20,
+      1.8211208365967457e-20
+    ],
+    "residual_scaled_norm": 7.586658415616675e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.005603169180760481,
+      -0.1002794923313171,
+      -2.115170181230741
+    ],
+    "equilibrium_m": [
+      -3.6420599674943127e-06,
+      0.007934818329984543,
+      0.04862513938220002
+    ],
+    "residual_force_n": [
+      7.601544313403964e-21,
+      5.649663902607333e-20,
+      1.291725244562808e-20
+    ],
+    "residual_scaled_norm": 5.245596709762233e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.00560316918076063,
+      -0.10027949233131593,
+      -2.115170181230737
+    ],
+    "equilibrium_m": [
+      -3.6420599674944097e-06,
+      0.007934818329984545,
+      0.048625139382200026
+    ],
+    "residual_force_n": [
+      4.467746367426459e-20,
+      -1.4124159756518332e-20,
+      -7.835054762102278e-21
+    ],
+    "residual_scaled_norm": 4.263488808527905e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.0337576539984084,
+      -0.05475304600146349,
+      -1.101608212426544
+    ],
+    "equilibrium_m": [
+      -2.194247509896546e-05,
+      0.007964410520098948,
+      0.04928395466192275
+    ],
+    "residual_force_n": [
+      -7.78282988694813e-18,
+      1.377596518313163e-17,
+      -3.119601168913907e-17
+    ],
+    "residual_scaled_norm": 3.1391555435924086e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.033757653998669604,
+      -0.05475304600159014,
+      -1.1016082124365165
+    ],
+    "equilibrium_m": [
+      -2.1942475099135242e-05,
+      0.007964410520098867,
+      0.04928395466191627
+    ],
+    "residual_force_n": [
+      1.8165283298358513e-18,
+      -1.1758964668759876e-17,
+      -1.1167070618363882e-17
+    ],
+    "residual_scaled_norm": 1.4644347296268184e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.03375765399830792,
+      -0.05475304600201833,
+      -1.1016082124485285
+    ],
+    "equilibrium_m": [
+      -2.1942475098900147e-05,
+      0.007964410520098587,
+      0.049283954661908456
+    ],
+    "residual_force_n": [
+      5.684835155717635e-18,
+      1.6933780111112016e-17,
+      -2.1999563222562316e-18
+    ],
+    "residual_scaled_norm": 1.615161039350227e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.0337576539991708,
+      -0.05475304600247799,
+      -1.1016082124479354
+    ],
+    "equilibrium_m": [
+      -2.1942475099461018e-05,
+      0.007964410520098289,
+      0.049283954661908845
+    ],
+    "residual_force_n": [
+      1.4317940537921273e-17,
+      9.135766496839862e-18,
+      -3.809318922039402e-18
+    ],
+    "residual_scaled_norm": 1.5620974483174274e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.03375765399902474,
+      -0.05475304600180717,
+      -1.101608212450816
+    ],
+    "equilibrium_m": [
+      -2.1942475099366083e-05,
+      0.007964410520098724,
+      0.04928395466190697
+    ],
+    "residual_force_n": [
+      -9.257130436313642e-18,
+      -1.7310603893521773e-17,
+      1.6075626547702553e-17
+    ],
+    "residual_scaled_norm": 2.2770439656711578e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.03375765399807835,
+      -0.05475304600171067,
+      -1.1016082124465574
+    ],
+    "equilibrium_m": [
+      -2.1942475098750927e-05,
+      0.007964410520098787,
+      0.04928395466190974
+    ],
+    "residual_force_n": [
+      -2.957129661718691e-17,
+      -8.43861536785772e-18,
+      1.6370605771583863e-17
+    ],
+    "residual_scaled_norm": 3.1264656048341815e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.03375765399837119,
+      -0.05475304600314667,
+      -1.1016082124467135
+    ],
+    "equilibrium_m": [
+      -2.1942475098941272e-05,
+      0.007964410520097854,
+      0.049283954661909636
+    ],
+    "residual_force_n": [
+      -1.2464076583957229e-17,
+      2.840799943452909e-17,
+      -3.9590319954666e-18
+    ],
+    "residual_scaled_norm": 2.8066112661107003e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.02588279088822318,
+      -0.104547832616855,
+      -2.2965218686775093
+    ],
+    "equilibrium_m": [
+      -1.6823814077345067e-05,
+      0.007932043908798944,
+      0.04850726078535962
+    ],
+    "residual_force_n": [
+      8.670664739418199e-20,
+      1.5595426397822326e-20,
+      -2.371692252312041e-20
+    ],
+    "residual_scaled_norm": 8.187723808838464e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.02588279088822471,
+      -0.10454783261685593,
+      -2.29652186867752
+    ],
+    "equilibrium_m": [
+      -1.682381407734606e-05,
+      0.007932043908798944,
+      0.048507260785359614
+    ],
+    "residual_force_n": [
+      9.043385621881877e-20,
+      8.43526207680956e-21,
+      4.0234064994579266e-21
+    ],
+    "residual_scaled_norm": 8.15908437425254e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.025882790888220597,
+      -0.10454783261685614,
+      -2.2965218686775692
+    ],
+    "equilibrium_m": [
+      -1.6823814077343386e-05,
+      0.007932043908798944,
+      0.04850726078535958
+    ],
+    "residual_force_n": [
+      4.4432252567380587e-20,
+      -6.929665880541807e-20,
+      3.3881317890172014e-20
+    ],
+    "residual_scaled_norm": 7.98879363870059e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.025882790888219636,
+      -0.1045478326168585,
+      -2.2965218686775466
+    ],
+    "equilibrium_m": [
+      -1.6823814077342763e-05,
+      0.007932043908798942,
+      0.0485072607853596
+    ],
+    "residual_force_n": [
+      -1.3437568657243135e-20,
+      6.699167440070848e-20,
+      -5.082197683525802e-21
+    ],
+    "residual_scaled_norm": 6.148768863343194e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.025882790888225295,
+      -0.1045478326168574,
+      -2.296521868677524
+    ],
+    "equilibrium_m": [
+      -1.6823814077346442e-05,
+      0.007932043908798942,
+      0.048507260785359614
+    ],
+    "residual_force_n": [
+      1.067158737159163e-19,
+      1.0656874705178589e-19,
+      5.929230630780102e-21
+    ],
+    "residual_scaled_norm": 1.3545143955945846e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.025882790888219088,
+      -0.10454783261685546,
+      -2.296521868677541
+    ],
+    "equilibrium_m": [
+      -1.6823814077342407e-05,
+      0.007932043908798944,
+      0.0485072607853596
+    ],
+    "residual_force_n": [
+      -7.768287866085083e-20,
+      -4.5069801445278984e-20,
+      1.249373597200093e-20
+    ],
+    "residual_scaled_norm": 8.137530122984329e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.02588279088822327,
+      -0.10454783261683268,
+      -2.2965218686770625
+    ],
+    "equilibrium_m": [
+      -1.6823814077345124e-05,
+      0.007932043908798958,
+      0.04850726078535991
+    ],
+    "residual_force_n": [
+      5.924300342317412e-20,
+      -8.827599847823957e-20,
+      -5.734413052911613e-19
+    ],
+    "residual_scaled_norm": 5.23396419104823e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.005488939665500763,
+      0.045153132518516735,
+      -0.9339887261982182
+    ],
+    "equilibrium_m": [
+      -3.5678107825754957e-06,
+      -0.007970650463862965,
+      0.049392907327971164
+    ],
+    "residual_force_n": [
+      -3.9947794328186914e-18,
+      -1.885660776710583e-18,
+      1.1076861609481299e-17
+    ],
+    "residual_scaled_norm": 1.0702123574387287e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.005488939665943439,
+      0.04515313251852955,
+      -0.9339887261865876
+    ],
+    "equilibrium_m": [
+      -3.5678107828632353e-06,
+      -0.007970650463862956,
+      0.04939290732797872
+    ],
+    "residual_force_n": [
+      -8.999354487662517e-18,
+      2.979226633730188e-18,
+      6.873884125205461e-18
+    ],
+    "residual_scaled_norm": 1.0508608884455881e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.005488939666641192,
+      0.045153132518579574,
+      -0.9339887261899482
+    ],
+    "equilibrium_m": [
+      -3.5678107833167744e-06,
+      -0.007970650463862923,
+      0.049392907327976535
+    ],
+    "residual_force_n": [
+      -1.3876384909495567e-18,
+      -1.7282138954282598e-17,
+      -1.1632091706406493e-17
+    ],
+    "residual_scaled_norm": 1.8736943511603678e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.0054889396657637115,
+      0.0451531325184311,
+      -0.9339887261848684
+    ],
+    "equilibrium_m": [
+      -3.567810782746412e-06,
+      -0.00797065046386302,
+      0.04939290732797984
+    ],
+    "residual_force_n": [
+      -2.1059131657983428e-17,
+      4.734950571098491e-18,
+      -5.9730645858005124e-18
+    ],
+    "residual_scaled_norm": 2.0099051680396988e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.005488939665357166,
+      0.045153132518046535,
+      -0.9339887261909561
+    ],
+    "equilibrium_m": [
+      -3.5678107824821577e-06,
+      -0.00797065046386327,
+      0.04939290732797588
+    ],
+    "residual_force_n": [
+      -2.2403134717259587e-17,
+      1.825245159130935e-17,
+      1.1523036214447502e-17
+    ],
+    "residual_scaled_norm": 2.7919251732246887e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.005488939665727777,
+      0.0451531325185204,
+      -0.9339887261960973
+    ],
+    "equilibrium_m": [
+      -3.5678107827230547e-06,
+      -0.007970650463862961,
+      0.04939290732797254
+    ],
+    "residual_force_n": [
+      -3.055618417660685e-18,
+      1.430774305532972e-17,
+      -3.432601018748052e-19
+    ],
+    "residual_scaled_norm": 1.3133455722662738e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.0054889396661538074,
+      0.04515313251981388,
+      -0.9339887261910738
+    ],
+    "equilibrium_m": [
+      -3.567810782999975e-06,
+      -0.007970650463862122,
+      0.049392907327975806
+    ],
+    "residual_force_n": [
+      1.8408672921796116e-18,
+      -1.2248582799497364e-17,
+      -8.050624647178498e-18
+    ],
+    "residual_scaled_norm": 1.3257449078394335e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.005603177109712367,
+      0.10027950261998334,
+      -2.115170144750973
+    ],
+    "equilibrium_m": [
+      -3.6420651213130382e-06,
+      -0.00793481832329701,
+      0.04862513940591187
+    ],
+    "residual_force_n": [
+      8.43526207680956e-21,
+      3.6879750475353425e-20,
+      -3.663417496874849e-20
+    ],
+    "residual_scaled_norm": 4.726118110379874e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.005603177109711622,
+      0.10027950261998511,
+      -2.1151701447509703
+    ],
+    "equilibrium_m": [
+      -3.642065121312554e-06,
+      -0.00793481832329701,
+      0.04862513940591187
+    ],
+    "residual_force_n": [
+      -7.429896538585164e-20,
+      3.962611487245421e-20,
+      -4.277516383634217e-20
+    ],
+    "residual_scaled_norm": 8.476037066305899e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.0056031771097126105,
+      0.10027950261998829,
+      -2.115170144751002
+    ],
+    "equilibrium_m": [
+      -3.6420651213131966e-06,
+      -0.007934818323297007,
+      0.04862513940591185
+    ],
+    "residual_force_n": [
+      4.7374785849988574e-20,
+      -5.610430125505893e-20,
+      6.246867986000465e-20
+    ],
+    "residual_scaled_norm": 8.651955182411339e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.005603177109712939,
+      0.10027950261998668,
+      -2.1151701447509703
+    ],
+    "equilibrium_m": [
+      -3.6420651213134105e-06,
+      -0.007934818323297009,
+      0.04862513940591187
+    ],
+    "residual_force_n": [
+      -2.1725704069922297e-20,
+      -8.239093191302361e-21,
+      -6.37392292808861e-20
+    ],
+    "residual_scaled_norm": 6.08841428130983e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.005603177109713948,
+      0.10027950261998678,
+      -2.115170144750997
+    ],
+    "equilibrium_m": [
+      -3.642065121314066e-06,
+      -0.007934818323297009,
+      0.04862513940591186
+    ],
+    "residual_force_n": [
+      -8.63143096231676e-21,
+      -2.275559071883509e-20,
+      -2.752857078576476e-21
+    ],
+    "residual_scaled_norm": 2.1980716995705276e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.005603177109715113,
+      0.1002795026199848,
+      -2.1151701447509903
+    ],
+    "equilibrium_m": [
+      -3.6420651213148233e-06,
+      -0.00793481832329701,
+      0.04862513940591186
+    ],
+    "residual_force_n": [
+      3.756634157462862e-20,
+      2.981767059709426e-20,
+      -2.0328790734103208e-20
+    ],
+    "residual_scaled_norm": 4.6749307314375537e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.005603177109710261,
+      0.1002795026199861,
+      -2.1151701447509823
+    ],
+    "equilibrium_m": [
+      -3.6420651213116694e-06,
+      -0.007934818323297009,
+      0.048625139405911864
+    ],
+    "residual_force_n": [
+      -1.260875511597522e-19,
+      -3.021000836810866e-20,
+      -8.470329472543003e-21
+    ],
+    "residual_scaled_norm": 1.166061597363101e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.09400694345167482,
+      0.028301716884966677,
+      -1.1638025735647806
+    ],
+    "equilibrium_m": [
+      -6.110451324358862e-05,
+      -0.007981603884024772,
+      0.049243528327182894
+    ],
+    "residual_force_n": [
+      4.4209164146264096e-18,
+      -4.107517532864769e-18,
+      -2.8307841097238717e-18
+    ],
+    "residual_scaled_norm": 5.981905110733319e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.0940069434511901,
+      0.028301716884552054,
+      -1.163802573566582
+    ],
+    "equilibrium_m": [
+      -6.110451324327355e-05,
+      -0.007981603884025041,
+      0.04924352832718173
+    ],
+    "residual_force_n": [
+      -1.678035795981813e-17,
+      -2.7193728073803295e-19,
+      1.4754255149985844e-17
+    ],
+    "residual_scaled_norm": 2.0054084129900337e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.09400694345054995,
+      0.028301716883460438,
+      -1.163802573538675
+    ],
+    "equilibrium_m": [
+      -6.110451324285746e-05,
+      -0.00798160388402575,
+      0.049243528327199866
+    ],
+    "residual_force_n": [
+      -1.686709942757289e-17,
+      4.162855915844566e-18,
+      -2.4843052826495002e-17
+    ],
+    "residual_scaled_norm": 2.7205875487554524e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.09400694345215169,
+      0.028301716886017503,
+      -1.163802573562068
+    ],
+    "equilibrium_m": [
+      -6.11045132438986e-05,
+      -0.007981603884024089,
+      0.049243528327184656
+    ],
+    "residual_force_n": [
+      -1.1685931238116344e-17,
+      -2.707056088059415e-17,
+      -9.548814172634541e-18
+    ],
+    "residual_scaled_norm": 2.781409769033029e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.0940069434522197,
+      0.02830171688475744,
+      -1.1638025735661153
+    ],
+    "equilibrium_m": [
+      -6.11045132439428e-05,
+      -0.007981603884024907,
+      0.049243528327182026
+    ],
+    "residual_force_n": [
+      -5.1320138087361956e-18,
+      5.859873190778756e-18,
+      8.948903087741683e-19
+    ],
+    "residual_scaled_norm": 7.036524479901433e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.09400694345180831,
+      0.02830171688494256,
+      -1.1638025735638635
+    ],
+    "equilibrium_m": [
+      -6.11045132436754e-05,
+      -0.007981603884024788,
+      0.04924352832718349
+    ],
+    "residual_force_n": [
+      -7.237817124949191e-18,
+      2.0731660779641035e-18,
+      -8.325275080325704e-18
+    ],
+    "residual_scaled_norm": 1.0073465817669616e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.09400694345224417,
+      0.028301716884931986,
+      -1.1638025735677058
+    ],
+    "equilibrium_m": [
+      -6.11045132439587e-05,
+      -0.007981603884024795,
+      0.04924352832718099
+    ],
+    "residual_force_n": [
+      -1.9913215194356567e-19,
+      4.11003547064938e-18,
+      -4.737667032230115e-18
+    ],
+    "residual_scaled_norm": 5.631548969832629e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.08490247019574264,
+      0.08520845769530579,
+      -2.385921906323417
+    ],
+    "equilibrium_m": [
+      -5.5186605627232713e-05,
+      -0.007944614502498051,
+      0.048449150760889785
+    ],
+    "residual_force_n": [
+      3.334871053622384e-20,
+      -5.774721567118173e-20,
+      -1.8422966602781032e-20
+    ],
+    "residual_scaled_norm": 6.20873035285166e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.08490247019573818,
+      0.08520845769530372,
+      -2.3859219063234303
+    ],
+    "equilibrium_m": [
+      -5.518660562722981e-05,
+      -0.007944614502498053,
+      0.04844915076088977
+    ],
+    "residual_force_n": [
+      -8.670664739418199e-20,
+      3.2441429440753046e-20,
+      5.082197683525802e-21
+    ],
+    "residual_scaled_norm": 8.320699496464626e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.08490247019573842,
+      0.0852084576953058,
+      -2.3859219063234454
+    ],
+    "equilibrium_m": [
+      -5.518660562722997e-05,
+      -0.007944614502498051,
+      0.048449150760889764
+    ],
+    "residual_force_n": [
+      -1.0436184708982991e-19,
+      -3.531039939129583e-20,
+      -3.6845933205562065e-20
+    ],
+    "residual_scaled_norm": 1.0425661090052703e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.0849024701957265,
+      0.08520845769528061,
+      -2.3859219063233215
+    ],
+    "equilibrium_m": [
+      -5.5186605627222224e-05,
+      -0.007944614502498068,
+      0.04844915076088984
+    ],
+    "residual_force_n": [
+      -3.0366943476514415e-19,
+      5.261004298196195e-19,
+      -7.940933880509066e-20
+    ],
+    "residual_scaled_norm": 5.497869301102755e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.08490247019574186,
+      0.08520845769530487,
+      -2.385921906323437
+    ],
+    "equilibrium_m": [
+      -5.5186605627232205e-05,
+      -0.007944614502498053,
+      0.04844915076088977
+    ],
+    "residual_force_n": [
+      4.4726505895641387e-20,
+      1.7875889691843514e-20,
+      1.2705494208814505e-21
+    ],
+    "residual_scaled_norm": 4.324136227601302e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.08490247019573902,
+      0.08520845769530243,
+      -2.3859219063234067
+    ],
+    "equilibrium_m": [
+      -5.5186605627230355e-05,
+      -0.007944614502498053,
+      0.04844915076088979
+    ],
+    "residual_force_n": [
+      -7.179781209563486e-20,
+      -3.2613077215571846e-21,
+      -9.719703069743096e-20
+    ],
+    "residual_scaled_norm": 1.0848525007111152e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.000_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.08490247019573832,
+      0.08520845769530455,
+      -2.3859219063234334
+    ],
+    "equilibrium_m": [
+      -5.518660562722991e-05,
+      -0.007944614502498053,
+      0.04844915076088977
+    ],
+    "residual_force_n": [
+      -8.082158082896601e-20,
+      3.391269608205704e-20,
+      1.6517142471458857e-20
+    ],
+    "residual_scaled_norm": 8.004313775180412e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.02042574643777272,
+      -0.001042472399908974,
+      -0.7381252104767193
+    ],
+    "equilibrium_m": [
+      0.007986723264815348,
+      -6.77607059940833e-07,
+      0.056186885279856734
+    ],
+    "residual_force_n": [
+      -1.661234103379636e-17,
+      9.236558454479449e-18,
+      -1.2041632136403947e-17
+    ],
+    "residual_scaled_norm": 2.0193009404038883e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.02042574643733951,
+      -0.0010424723996936053,
+      -0.7381252104787912
+    ],
+    "equilibrium_m": [
+      0.007986723264815629,
+      -6.776070598008434e-07,
+      0.05618688527985539
+    ],
+    "residual_force_n": [
+      -1.5264791024053573e-17,
+      -1.0784822185497002e-17,
+      -1.8556374291973585e-18
+    ],
+    "residual_scaled_norm": 1.6855793358668446e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.02042574643711913,
+      -0.001042472399439301,
+      -0.7381252104737358
+    ],
+    "equilibrium_m": [
+      0.007986723264815773,
+      -6.776070596355457e-07,
+      0.05618688527985867
+    ],
+    "residual_force_n": [
+      1.8007788109728417e-18,
+      -4.5795580755855046e-18,
+      -8.24268936796841e-18
+    ],
+    "residual_scaled_norm": 8.615251702810012e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.0204257464374782,
+      -0.0010424724008443395,
+      -0.7381252104914424
+    ],
+    "equilibrium_m": [
+      0.007986723264815539,
+      -6.776070605488207e-07,
+      0.056186885279847165
+    ],
+    "residual_force_n": [
+      -1.600399932410036e-17,
+      1.4391223777109796e-17,
+      -3.1289397071573855e-18
+    ],
+    "residual_scaled_norm": 1.951847668412954e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.020425746439160928,
+      -0.0010424724001026813,
+      -0.7381252104942493
+    ],
+    "equilibrium_m": [
+      0.007986723264814446,
+      -6.776070600667428e-07,
+      0.05618688527984534
+    ],
+    "residual_force_n": [
+      -7.93274148372234e-18,
+      2.117068523539233e-17,
+      1.5270733489574154e-17
+    ],
+    "residual_scaled_norm": 2.4484087257436145e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.020425746437068452,
+      -0.0010424723990119778,
+      -0.7381252104725439
+    ],
+    "equilibrium_m": [
+      0.007986723264815806,
+      -6.776070593577855e-07,
+      0.05618688527985945
+    ],
+    "residual_force_n": [
+      -1.4415719903769942e-17,
+      -8.203133591076124e-18,
+      -1.0334225472976091e-17
+    ],
+    "residual_scaled_norm": 1.753794789989566e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.020425746439054246,
+      -0.0010424723995948546,
+      -0.7381252104835943
+    ],
+    "equilibrium_m": [
+      0.007986723264814513,
+      -6.776070597366555e-07,
+      0.056186885279852265
+    ],
+    "residual_force_n": [
+      -1.2448869695576054e-18,
+      1.2029695920164807e-17,
+      6.064332385867163e-18
+    ],
+    "residual_scaled_norm": 1.214160118717903e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.07153745781363456,
+      0.0007299937046547677,
+      -2.1240797240279665
+    ],
+    "equilibrium_m": [
+      0.007953500652421038,
+      4.74495908025599e-07,
+      0.05528601484604842
+    ],
+    "residual_force_n": [
+      6.767826549998368e-21,
+      6.807060327099808e-20,
+      6.564505341220828e-20
+    ],
+    "residual_scaled_norm": 8.50847353347802e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.07153745781355968,
+      0.0007299937046150073,
+      -2.124079724025909
+    ],
+    "equilibrium_m": [
+      0.007953500652421086,
+      4.744959079997547e-07,
+      0.05528601484604976
+    ],
+    "residual_force_n": [
+      2.4521110688399884e-20,
+      7.522586336987317e-19,
+      -2.2456961014079638e-18
+    ],
+    "residual_scaled_norm": 2.125549915684019e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.07153745781363317,
+      0.0007299937046581436,
+      -2.1240797240279354
+    ],
+    "equilibrium_m": [
+      0.007953500652421038,
+      4.744959080277934e-07,
+      0.05528601484604844
+    ],
+    "residual_force_n": [
+      3.2465950551441445e-20,
+      -7.581927424853244e-20,
+      2.752857078576476e-21
+    ],
+    "residual_scaled_norm": 7.405985457703877e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.07153745781363174,
+      0.0007299937046545106,
+      -2.124079724027917
+    ],
+    "equilibrium_m": [
+      0.00795350065242104,
+      4.7449590802543185e-07,
+      0.055286014846048455
+    ],
+    "residual_force_n": [
+      -9.906528718113553e-21,
+      6.395105667534689e-20,
+      -2.1175823681357508e-20
+    ],
+    "residual_scaled_norm": 6.11067265065903e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.07153745781363047,
+      0.0007299937046520532,
+      -2.124079724027936
+    ],
+    "equilibrium_m": [
+      0.00795350065242104,
+      4.744959080238346e-07,
+      0.05528601484604844
+    ],
+    "residual_force_n": [
+      -2.707130619999347e-20,
+      9.425914948620915e-20,
+      2.541098841762901e-21
+    ],
+    "residual_scaled_norm": 8.80407374721177e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.0715374578136319,
+      0.0007299937046565038,
+      -2.124079724027927
+    ],
+    "equilibrium_m": [
+      0.00795350065242104,
+      4.7449590802672744e-07,
+      0.05528601484604845
+    ],
+    "residual_force_n": [
+      -3.9233777101439813e-22,
+      -3.187744389491985e-20,
+      6.352747104407253e-22
+    ],
+    "residual_scaled_norm": 2.861582016692838e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.07153745781363281,
+      0.0007299937046552086,
+      -2.124079724027941
+    ],
+    "equilibrium_m": [
+      0.007953500652421038,
+      4.744959080258856e-07,
+      0.05528601484604844
+    ],
+    "residual_force_n": [
+      3.491806162028143e-20,
+      4.055791707861341e-20,
+      2.1175823681357508e-20
+    ],
+    "residual_scaled_norm": 5.165235760091664e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.0779778526354965,
+      0.08365532880711965,
+      -0.8720003610733007
+    ],
+    "equilibrium_m": [
+      0.007949314395786828,
+      5.437596372462777e-05,
+      0.05609986643196896
+    ],
+    "residual_force_n": [
+      -1.9102789952291413e-17,
+      1.417856391342854e-17,
+      -1.0984958534704208e-17
+    ],
+    "residual_scaled_norm": 2.351587071708007e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.07797785263549763,
+      0.08365532880648603,
+      -0.8720003610803889
+    ],
+    "equilibrium_m": [
+      0.007949314395786826,
+      5.4375963724215916e-05,
+      0.05609986643196435
+    ],
+    "residual_force_n": [
+      2.0006918214146574e-18,
+      -2.1096862674444422e-17,
+      -1.5930572155485254e-18
+    ],
+    "residual_scaled_norm": 1.9071696687819813e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.077977852635917,
+      0.08365532880714677,
+      -0.872000361088625
+    ],
+    "equilibrium_m": [
+      0.007949314395786554,
+      5.4375963724645395e-05,
+      0.056099866431958995
+    ],
+    "residual_force_n": [
+      -1.3480860227797211e-17,
+      4.834830975703044e-18,
+      -2.3674570875757694e-19
+    ],
+    "residual_scaled_norm": 1.285450889761347e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.07797785263698397,
+      0.08365532880707739,
+      -0.8720003610867976
+    ],
+    "equilibrium_m": [
+      0.00794931439578586,
+      5.43759637246003e-05,
+      0.05609986643196018
+    ],
+    "residual_force_n": [
+      -9.14835287704047e-19,
+      1.0832547198118862e-17,
+      7.067431153653068e-18
+    ],
+    "residual_scaled_norm": 1.163658853186767e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.07797785263623709,
+      0.0836553288068617,
+      -0.872000361091404
+    ],
+    "equilibrium_m": [
+      0.007949314395786345,
+      5.4375963724460105e-05,
+      0.05609986643195719
+    ],
+    "residual_force_n": [
+      -8.47510726776111e-18,
+      7.120890182281146e-18,
+      3.875175733688424e-20
+    ],
+    "residual_scaled_norm": 9.934259384945345e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.07797785263544217,
+      0.08365532880809791,
+      -0.8720003610800527
+    ],
+    "equilibrium_m": [
+      0.007949314395786862,
+      5.437596372526364e-05,
+      0.056099866431964567
+    ],
+    "residual_force_n": [
+      1.976194040393287e-18,
+      -2.708493397091787e-17,
+      5.906148982967423e-18
+    ],
+    "residual_scaled_norm": 2.4941327371041008e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.07797785263547463,
+      0.08365532880741895,
+      -0.8720003610930367
+    ],
+    "equilibrium_m": [
+      0.007949314395786842,
+      5.437596372482232e-05,
+      0.05609986643195613
+    ],
+    "residual_force_n": [
+      -1.8107565943937013e-17,
+      1.346961388018894e-17,
+      1.6536412471008892e-17
+    ],
+    "residual_scaled_norm": 2.510845363110711e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.13616238804133632,
+      0.07820723065126779,
+      -2.2627717415640656
+    ],
+    "equilibrium_m": [
+      0.00791149444777303,
+      5.083469992332406e-05,
+      0.05519586503464996
+    ],
+    "residual_force_n": [
+      -6.042001673621732e-20,
+      -1.0220398934925071e-19,
+      -1.0164395367051604e-20
+    ],
+    "residual_scaled_norm": 1.0694017219329821e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.13616238804133643,
+      0.0782072306512664,
+      -2.262771741564049
+    ],
+    "equilibrium_m": [
+      0.00791149444777303,
+      5.083469992332316e-05,
+      0.05519586503464997
+    ],
+    "residual_force_n": [
+      -5.355410574346535e-20,
+      4.2372479269555e-20,
+      -3.663417496874849e-20
+    ],
+    "residual_scaled_norm": 6.954715201695676e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.13616238804133815,
+      0.07820723065126799,
+      -2.262771741564066
+    ],
+    "equilibrium_m": [
+      0.00791149444777303,
+      5.083469992332419e-05,
+      0.05519586503464996
+    ],
+    "residual_force_n": [
+      -6.17931989347677e-20,
+      -1.049503537463515e-19,
+      -1.0164395367051604e-20
+    ],
+    "residual_scaled_norm": 1.0967938124193469e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.13616238804133826,
+      0.07820723065126678,
+      -2.2627717415640562
+    ],
+    "equilibrium_m": [
+      0.00791149444777303,
+      5.08346999233234e-05,
+      0.05519586503464997
+    ],
+    "residual_force_n": [
+      -5.786982122462373e-20,
+      5.080774134636456e-20,
+      -4.8069119756681544e-20
+    ],
+    "residual_scaled_norm": 8.146913733194038e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.13616238804133657,
+      0.07820723065126486,
+      -2.262771741564042
+    ],
+    "equilibrium_m": [
+      0.00791149444777303,
+      5.083469992332216e-05,
+      0.055195865034649974
+    ],
+    "residual_force_n": [
+      -6.31663811333181e-20,
+      4.374566146810539e-20,
+      -4.8492636230308694e-20
+    ],
+    "residual_scaled_norm": 8.15394315344421e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.13616238804133957,
+      0.07820723065126836,
+      -2.262771741564061
+    ],
+    "equilibrium_m": [
+      0.007911494447773029,
+      5.083469992332443e-05,
+      0.05519586503464996
+    ],
+    "residual_force_n": [
+      -3.9233777101439814e-21,
+      -1.0965840699852427e-19,
+      -2.964615315390051e-20
+    ],
+    "residual_scaled_norm": 1.020052012645673e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.13616238804134026,
+      0.07820723065126842,
+      -2.262771741564088
+    ],
+    "equilibrium_m": [
+      0.007911494447773029,
+      5.0834699923324466e-05,
+      0.055195865034649946
+    ],
+    "residual_force_n": [
+      -1.4516497527532732e-20,
+      -9.494574058548435e-20,
+      -1.418780186650953e-20
+    ],
+    "residual_scaled_norm": 8.713323135511931e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.042479259446355395,
+      -0.03188436342089649,
+      -1.0775126894445866
+    ],
+    "equilibrium_m": [
+      0.007972388481359768,
+      0.007979275163776316,
+      0.05596628341852762
+    ],
+    "residual_force_n": [
+      -1.1267748425078936e-17,
+      -1.4060604649356027e-17,
+      -1.2602367947486294e-17
+    ],
+    "residual_scaled_norm": 1.9733038237933283e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.04247925944786546,
+      -0.0318843634216569,
+      -1.0775126894647569
+    ],
+    "equilibrium_m": [
+      0.007972388481358787,
+      0.007979275163775822,
+      0.055966283418514506
+    ],
+    "residual_force_n": [
+      1.1491404827823474e-17,
+      8.635719272939306e-18,
+      1.0763459418997208e-17
+    ],
+    "residual_scaled_norm": 1.6115918433282146e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.042479259446643026,
+      -0.03188436342125385,
+      -1.0775126894491713
+    ],
+    "equilibrium_m": [
+      0.007972388481359581,
+      0.007979275163776084,
+      0.05596628341852464
+    ],
+    "residual_force_n": [
+      1.6387837598104567e-18,
+      8.080330357336502e-18,
+      2.4360667563033678e-18
+    ],
+    "residual_scaled_norm": 7.715434957692297e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.04247925944636912,
+      -0.03188436342147088,
+      -1.077512689455063
+    ],
+    "equilibrium_m": [
+      0.00797238848135976,
+      0.007979275163775943,
+      0.05596628341852081
+    ],
+    "residual_force_n": [
+      -8.53719213581689e-18,
+      -1.3534531014662102e-17,
+      -1.4547790869092608e-19
+    ],
+    "residual_scaled_norm": 1.4361457323798979e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.04247925944770158,
+      -0.0318843634211265,
+      -1.077512689458276
+    ],
+    "equilibrium_m": [
+      0.007972388481358894,
+      0.007979275163776167,
+      0.055966283418518725
+    ],
+    "residual_force_n": [
+      8.616813232858794e-18,
+      4.088323633931088e-19,
+      -1.5464704034495388e-18
+    ],
+    "residual_scaled_norm": 7.865156306775163e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.042479259447445045,
+      -0.03188436342143495,
+      -1.0775126894579141
+    ],
+    "equilibrium_m": [
+      0.00797238848135906,
+      0.007979275163775968,
+      0.055966283418518954
+    ],
+    "residual_force_n": [
+      5.25390714380201e-18,
+      6.353044889427772e-19,
+      -5.39898800579891e-18
+    ],
+    "residual_scaled_norm": 6.784773750214139e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.04247925944682196,
+      -0.03188436342107896,
+      -1.0775126894494609
+    ],
+    "equilibrium_m": [
+      0.007972388481359465,
+      0.007979275163776198,
+      0.05596628341852445
+    ],
+    "residual_force_n": [
+      -1.4361933311619294e-17,
+      -1.0867929021640205e-18,
+      9.105604182983729e-20
+    ],
+    "residual_scaled_norm": 1.2926027542750408e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.09566062149957995,
+      -0.08752292647967026,
+      -2.434439996487491
+    ],
+    "equilibrium_m": [
+      0.007937820596025172,
+      0.007943110097788114,
+      0.055084280668949735
+    ],
+    "residual_force_n": [
+      -2.2363252947820693e-20,
+      1.0225303157062752e-19,
+      -1.2896076621946723e-19
+    ],
+    "residual_scaled_norm": 1.490573170893463e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.09566062149958708,
+      -0.08752292647967039,
+      -2.4344399964875856
+    ],
+    "equilibrium_m": [
+      0.007937820596025168,
+      0.007943110097788114,
+      0.05508428066894967
+    ],
+    "residual_force_n": [
+      -3.138702168115185e-20,
+      -9.367064282968755e-21,
+      2.0964065444543933e-20
+    ],
+    "residual_scaled_norm": 3.4900683723471996e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.09566062149960805,
+      -0.0875229264796842,
+      -2.4344399964884795
+    ],
+    "equilibrium_m": [
+      0.007937820596025155,
+      0.007943110097788105,
+      0.05508428066894909
+    ],
+    "residual_force_n": [
+      -2.8611231951224985e-19,
+      -4.0783511296946685e-19,
+      9.96746020681498e-19
+    ],
+    "residual_scaled_norm": 1.0000244371827156e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.09566062149958295,
+      -0.08752292647966974,
+      -2.434439996487558
+    ],
+    "equilibrium_m": [
+      0.00793782059602517,
+      0.007943110097788114,
+      0.05508428066894969
+    ],
+    "residual_force_n": [
+      -4.894413693404617e-20,
+      3.0259050589485455e-20,
+      -8.893845946170154e-21
+    ],
+    "residual_scaled_norm": 5.2253907967817386e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.09566062149958272,
+      -0.08752292647966936,
+      -2.434439996487494
+    ],
+    "equilibrium_m": [
+      0.00793782059602517,
+      0.007943110097788114,
+      0.05508428066894973
+    ],
+    "residual_force_n": [
+      1.1966302015939143e-20,
+      4.2715774819192596e-20,
+      -8.110340469959926e-20
+    ],
+    "residual_scaled_norm": 8.296113504691224e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.09566062149958636,
+      -0.08752292647967091,
+      -2.43443999648759
+    ],
+    "equilibrium_m": [
+      0.007937820596025168,
+      0.007943110097788114,
+      0.055084280668949666
+    ],
+    "residual_force_n": [
+      -1.461458197028633e-20,
+      -1.9420719665212706e-20,
+      1.0376153603865179e-20
+    ],
+    "residual_scaled_norm": 2.3717033211000725e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.09566062149958396,
+      -0.08752292647967004,
+      -2.4344399964875922
+    ],
+    "equilibrium_m": [
+      0.00793782059602517,
+      0.007943110097788114,
+      0.055084280668949666
+    ],
+    "residual_force_n": [
+      -5.963534119418852e-20,
+      -3.379009052861504e-20,
+      -3.3881317890172014e-21
+    ],
+    "residual_scaled_norm": 6.158808566628328e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.06159929964969613,
+      -0.07780288502463384,
+      -1.347893160142036
+    ],
+    "equilibrium_m": [
+      0.007959960455227597,
+      0.007949428124733888,
+      0.05579053611257428
+    ],
+    "residual_force_n": [
+      4.392395227105581e-18,
+      8.126685558863974e-18,
+      1.2196850923988298e-17
+    ],
+    "residual_scaled_norm": 1.3731048113879223e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.061599299648618426,
+      -0.07780288502321878,
+      -1.3478931601275346
+    ],
+    "equilibrium_m": [
+      0.007959960455228298,
+      0.007949428124734807,
+      0.0557905361125837
+    ],
+    "residual_force_n": [
+      -2.1003571590599466e-17,
+      4.291545366823116e-19,
+      -6.471966991733295e-18
+    ],
+    "residual_scaled_norm": 1.9727693163357584e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.06159929964855954,
+      -0.0778028850230992,
+      -1.3478931601343236
+    ],
+    "equilibrium_m": [
+      0.007959960455228336,
+      0.007949428124734885,
+      0.05579053611257929
+    ],
+    "residual_force_n": [
+      -1.3519572280464693e-18,
+      -1.0596150559579782e-17,
+      -6.085084693074894e-18
+    ],
+    "residual_scaled_norm": 1.103278977240054e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.06159929964947757,
+      -0.07780288502276081,
+      -1.3478931601209556
+    ],
+    "equilibrium_m": [
+      0.00795996045522774,
+      0.007949428124735106,
+      0.05579053611258798
+    ],
+    "residual_force_n": [
+      3.10998205100665e-17,
+      2.174538716393702e-18,
+      -1.978457206549232e-18
+    ],
+    "residual_scaled_norm": 2.803453155761519e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.06159929964879536,
+      -0.07780288502295331,
+      -1.347893160132702
+    ],
+    "equilibrium_m": [
+      0.007959960455228182,
+      0.00794942812473498,
+      0.05579053611258034
+    ],
+    "residual_force_n": [
+      3.3337363919357143e-18,
+      4.3321103040627165e-19,
+      3.615560135354981e-18
+    ],
+    "residual_scaled_norm": 4.430622415881739e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.06159929964850137,
+      -0.07780288502323073,
+      -1.3478931601288244
+    ],
+    "equilibrium_m": [
+      0.007959960455228374,
+      0.0079494281247348,
+      0.05579053611258287
+    ],
+    "residual_force_n": [
+      -7.969719765825911e-18,
+      -9.719967767539113e-19,
+      -2.2503547826178624e-18
+    ],
+    "residual_scaled_norm": 7.482988298620797e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.06159929964832158,
+      -0.07780288502456682,
+      -1.347893160130559
+    ],
+    "equilibrium_m": [
+      0.00795996045522849,
+      0.007949428124733931,
+      0.05579053611258174
+    ],
+    "residual_force_n": [
+      -1.5131608327987635e-17,
+      1.1349493721933877e-17,
+      -2.299906210032239e-18
+    ],
+    "residual_scaled_norm": 1.7100014747938083e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.11761292322397282,
+      -0.13357034246697874,
+      -2.7403264117248187
+    ],
+    "equilibrium_m": [
+      0.007923551599904318,
+      0.007913179277396364,
+      0.05488545449904547
+    ],
+    "residual_force_n": [
+      6.072162639768463e-19,
+      2.1509918295864378e-19,
+      -5.552300969251939e-19
+    ],
+    "residual_scaled_norm": 7.632217590423001e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.11761292322395211,
+      -0.13357034246697866,
+      -2.740326411725101
+    ],
+    "equilibrium_m": [
+      0.00792355159990433,
+      0.007913179277396364,
+      0.054885454499045284
+    ],
+    "residual_force_n": [
+      -7.724149866845963e-21,
+      -4.0214621528975806e-21,
+      -2.0688779736686286e-19
+    ],
+    "residual_scaled_norm": 1.8583301325061387e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.11761292322395933,
+      -0.13357034246699032,
+      -2.7403264117253223
+    ],
+    "equilibrium_m": [
+      0.007923551599904327,
+      0.007913179277396355,
+      0.05488545449904514
+    ],
+    "residual_force_n": [
+      -7.920318752353163e-20,
+      8.229284747027e-20,
+      5.124549330888517e-20
+    ],
+    "residual_scaled_norm": 1.1234582198460163e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.11761292322395728,
+      -0.1335703424669861,
+      -2.7403264117253014
+    ],
+    "equilibrium_m": [
+      0.007923551599904327,
+      0.007913179277396359,
+      0.05488545449904515
+    ],
+    "residual_force_n": [
+      -3.251499277281825e-20,
+      -3.138702168115185e-20,
+      -6.564505341220828e-20
+    ],
+    "residual_scaled_norm": 7.152315181318304e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.11761292322395914,
+      -0.13357034246699062,
+      -2.7403264117253294
+    ],
+    "equilibrium_m": [
+      0.007923551599904327,
+      0.007913179277396355,
+      0.05488545449904514
+    ],
+    "residual_force_n": [
+      -7.920318752353163e-20,
+      8.229284747027e-20,
+      5.124549330888517e-20
+    ],
+    "residual_scaled_norm": 1.1234582198460163e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.11761292322395799,
+      -0.13357034246698712,
+      -2.7403264117253223
+    ],
+    "equilibrium_m": [
+      0.007923551599904327,
+      0.007913179277396359,
+      0.05488545449904514
+    ],
+    "residual_force_n": [
+      -8.101774971447321e-20,
+      -3.432955496375984e-20,
+      6.6280328122649e-20
+    ],
+    "residual_scaled_norm": 9.8862597042167e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.11761292322396212,
+      -0.1335703424669882,
+      -2.7403264117252655
+    ],
+    "equilibrium_m": [
+      0.007923551599904325,
+      0.007913179277396357,
+      0.05488545449904518
+    ],
+    "residual_force_n": [
+      6.34851555722673e-20,
+      1.1009978699091548e-19,
+      -6.416274575451325e-20
+    ],
+    "residual_scaled_norm": 1.2776790124984763e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.03188438851702484,
+      0.04247925450708559,
+      -1.077512673951737
+    ],
+    "equilibrium_m": [
+      0.007979275147463834,
+      -0.007972388484570395,
+      0.055966283428597975
+    ],
+    "residual_force_n": [
+      1.5018516194639385e-17,
+      -1.8615287749560836e-17,
+      -2.1959752674041363e-17
+    ],
+    "residual_scaled_norm": 2.913995678508734e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.031884388517492264,
+      0.04247925450725351,
+      -1.077512673966415
+    ],
+    "equilibrium_m": [
+      0.00797927514746353,
+      -0.007972388484570285,
+      0.055966283428588434
+    ],
+    "residual_force_n": [
+      -1.4058695516502254e-17,
+      -1.0546559427496003e-17,
+      -3.679722881109494e-18
+    ],
+    "residual_scaled_norm": 1.6114346768256707e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.03188438851707075,
+      0.04247925450711438,
+      -1.0775126739613752
+    ],
+    "equilibrium_m": [
+      0.007979275147463804,
+      -0.007972388484570376,
+      0.05596628342859171
+    ],
+    "residual_force_n": [
+      2.1525185067430505e-17,
+      -1.0144258482219613e-17,
+      -4.420241435246566e-18
+    ],
+    "residual_scaled_norm": 2.172051782800803e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.03188438851696658,
+      0.042479254506023606,
+      -1.0775126739534242
+    ],
+    "equilibrium_m": [
+      0.007979275147463872,
+      -0.007972388484571085,
+      0.05596628342859688
+    ],
+    "residual_force_n": [
+      5.6259398961038595e-18,
+      2.248537963120451e-17,
+      -8.9865960538945e-18
+    ],
+    "residual_scaled_norm": 2.2309954759097045e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.03188438851673513,
+      0.04247925450696021,
+      -1.0775126739619723
+    ],
+    "equilibrium_m": [
+      0.007979275147464021,
+      -0.007972388484570476,
+      0.05596628342859132
+    ],
+    "residual_force_n": [
+      -6.881957407983978e-18,
+      -1.077035479658345e-18,
+      -1.6768287740319757e-17
+    ],
+    "residual_scaled_norm": 1.6295248357058416e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.03188438851713407,
+      0.04247925450743957,
+      -1.0775126739706307
+    ],
+    "equilibrium_m": [
+      0.007979275147463763,
+      -0.007972388484570164,
+      0.05596628342858569
+    ],
+    "residual_force_n": [
+      -7.611729231602762e-18,
+      -1.0835359612201542e-17,
+      -7.917640474459572e-19
+    ],
+    "residual_scaled_norm": 1.190483364957724e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.03188438851781698,
+      0.04247925450731825,
+      -1.0775126739718923
+    ],
+    "equilibrium_m": [
+      0.007979275147463319,
+      -0.007972388484570244,
+      0.055966283428584875
+    ],
+    "residual_force_n": [
+      1.7305438977776992e-17,
+      -7.153464554803484e-18,
+      -4.717761757969639e-18
+    ],
+    "residual_scaled_norm": 1.7330224735801385e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.08752294827272038,
+      0.09566061672095919,
+      -2.4344399866893243
+    ],
+    "equilibrium_m": [
+      0.007943110083622631,
+      -0.007937820599131376,
+      0.055084280675318543
+    ],
+    "residual_force_n": [
+      -1.7459030810140716e-20,
+      2.481536401666068e-20,
+      3.0472010277473455e-19
+    ],
+    "residual_scaled_norm": 2.7481918866425173e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.08752294827271033,
+      0.09566061672095445,
+      -2.4344399866890867
+    ],
+    "equilibrium_m": [
+      0.007943110083622638,
+      -0.00793782059913138,
+      0.055084280675318696
+    ],
+    "residual_force_n": [
+      -4.840467249890137e-20,
+      1.059311981738875e-20,
+      1.3976043629695956e-20
+    ],
+    "residual_scaled_norm": 4.62032072620717e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.0875229482727141,
+      0.09566061672095377,
+      -2.434439986689266
+    ],
+    "equilibrium_m": [
+      0.007943110083622635,
+      -0.00793782059913138,
+      0.05508428067531858
+    ],
+    "residual_force_n": [
+      -5.679089235433413e-20,
+      1.255480867246074e-19,
+      2.5093351062408648e-19
+    ],
+    "residual_scaled_norm": 2.569163497461569e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.08752294827271395,
+      0.09566061672097667,
+      -2.4344399866893
+    ],
+    "equilibrium_m": [
+      0.007943110083622636,
+      -0.007937820599131366,
+      0.05508428067531856
+    ],
+    "residual_force_n": [
+      -1.8336886572785432e-19,
+      -2.725766664122531e-19,
+      2.420396646779163e-19
+    ],
+    "residual_scaled_norm": 3.6619949513490417e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.08752294827270916,
+      0.09566061672095348,
+      -2.434439986689037
+    ],
+    "equilibrium_m": [
+      0.007943110083622638,
+      -0.00793782059913138,
+      0.05508428067531873
+    ],
+    "residual_force_n": [
+      -2.12352818561543e-20,
+      -6.963995435505566e-20,
+      -1.0587911840678754e-20
+    ],
+    "residual_scaled_norm": 6.602572298884201e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.08752294827271191,
+      0.09566061672095685,
+      -2.434439986689154
+    ],
+    "equilibrium_m": [
+      0.007943110083622636,
+      -0.007937820599131378,
+      0.055084280675318655
+    ],
+    "residual_force_n": [
+      -6.581466108766528e-20,
+      -7.846755420287963e-21,
+      8.195043764685356e-20
+    ],
+    "residual_scaled_norm": 9.458916496915581e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.08752294827271145,
+      0.09566061672095307,
+      -2.434439986689045
+    ],
+    "equilibrium_m": [
+      0.007943110083622636,
+      -0.00793782059913138,
+      0.055084280675318724
+    ],
+    "residual_force_n": [
+      2.790502396339907e-20,
+      -4.7178616964481374e-20,
+      -5.992758101824175e-20
+    ],
+    "residual_scaled_norm": 7.288501414561787e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.05089240402940653,
+      -0.04092078869518265,
+      -1.1517907021125235
+    ],
+    "equilibrium_m": [
+      0.007966919937380785,
+      -0.008026598512651868,
+      0.055918002710293464
+    ],
+    "residual_force_n": [
+      3.3871788769515403e-18,
+      -2.5722289569357217e-18,
+      -6.05882667171001e-18
+    ],
+    "residual_scaled_norm": 6.643375898849373e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.050892404029990894,
+      -0.04092078869462672,
+      -1.1517907021228013
+    ],
+    "equilibrium_m": [
+      0.007966919937380405,
+      -0.008026598512651507,
+      0.05591800271028678
+    ],
+    "residual_force_n": [
+      -4.67206168348731e-18,
+      -4.2138863421941876e-18,
+      8.679758368751629e-18
+    ],
+    "residual_scaled_norm": 9.620717651930393e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.05089240402958946,
+      -0.04092078869570496,
+      -1.1517907021145903
+    ],
+    "equilibrium_m": [
+      0.007966919937380667,
+      -0.008026598512652208,
+      0.05591800271029212
+    ],
+    "residual_force_n": [
+      1.1848932140903594e-18,
+      7.458340167533378e-18,
+      -3.672523101057833e-18
+    ],
+    "residual_scaled_norm": 7.53623316214228e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.05089240402897108,
+      -0.040920788695210056,
+      -1.1517907021253453
+    ],
+    "equilibrium_m": [
+      0.007966919937381068,
+      -0.008026598512651887,
+      0.055918002710285124
+    ],
+    "residual_force_n": [
+      -1.446765361134847e-17,
+      3.249698150422777e-18,
+      1.4090181319338473e-17
+    ],
+    "residual_scaled_norm": 1.835705238602423e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.050892404030667526,
+      -0.04092078869439529,
+      -1.1517907021308964
+    ],
+    "equilibrium_m": [
+      0.007966919937379966,
+      -0.008026598512651357,
+      0.055918002710281516
+    ],
+    "residual_force_n": [
+      -7.938286902548896e-19,
+      8.249692279034284e-18,
+      9.081251985750168e-18
+    ],
+    "residual_scaled_norm": 1.1033602725802869e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.0508924040300152,
+      -0.04092078869484196,
+      -1.1517907021190228
+    ],
+    "equilibrium_m": [
+      0.00796691993738039,
+      -0.008026598512651648,
+      0.05591800271028924
+    ],
+    "residual_force_n": [
+      3.514816154190923e-18,
+      -7.095967230424923e-18,
+      7.108512251594902e-18
+    ],
+    "residual_scaled_norm": 9.549903703464213e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.05089240402944144,
+      -0.040920788695618174,
+      -1.1517907021037832
+    ],
+    "equilibrium_m": [
+      0.007966919937380763,
+      -0.008026598512652153,
+      0.05591800271029914
+    ],
+    "residual_force_n": [
+      9.758004840826752e-18,
+      6.7481394372076e-21,
+      -9.184801763552006e-18
+    ],
+    "residual_scaled_norm": 1.2026291569845036e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.10188254309256858,
+      0.022419565164143604,
+      -2.5657827082796754
+    ],
+    "equilibrium_m": [
+      0.00793377634698973,
+      -0.007985427282643306,
+      0.05499890790628481
+    ],
+    "residual_force_n": [
+      -4.4334168124626987e-20,
+      -4.7080532521727774e-21,
+      -5.52688998083431e-20
+    ],
+    "residual_scaled_norm": 6.372641344742789e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.10188254309251488,
+      0.022419565164144898,
+      -2.565782708278902
+    ],
+    "equilibrium_m": [
+      0.007933776346989765,
+      -0.007985427282643306,
+      0.05499890790628532
+    ],
+    "residual_force_n": [
+      -5.399548573585654e-19,
+      -6.136162738665187e-19,
+      -8.116693217064333e-19
+    ],
+    "residual_scaled_norm": 1.0337605757252273e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.10188254309256888,
+      0.022419565164145082,
+      -2.565782708279715
+    ],
+    "equilibrium_m": [
+      0.00793377634698973,
+      -0.007985427282643306,
+      0.05499890790628479
+    ],
+    "residual_force_n": [
+      -5.267134575868295e-20,
+      1.490883529854713e-20,
+      2.795208725939191e-20
+    ],
+    "residual_scaled_norm": 5.516031296652266e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      -0.10188254309256523,
+      0.022419565164143798,
+      -2.5657827082796767
+    ],
+    "equilibrium_m": [
+      0.007933776346989732,
+      -0.007985427282643306,
+      0.05499890790628481
+    ],
+    "residual_force_n": [
+      -7.366141650795324e-20,
+      2.3540266260863887e-21,
+      -4.468098796766434e-20
+    ],
+    "residual_scaled_norm": 7.73459708964799e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      -0.10188254309256901,
+      0.022419565164144235,
+      -2.565782708279667
+    ],
+    "equilibrium_m": [
+      0.00793377634698973,
+      -0.007985427282643306,
+      0.05499890790628482
+    ],
+    "residual_force_n": [
+      -3.3250626093470245e-20,
+      -4.7865208063756574e-20,
+      -4.468098796766434e-20
+    ],
+    "residual_scaled_norm": 6.590551451365256e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      -0.10188254309254416,
+      0.02241956516415008,
+      -2.565782708279534
+    ],
+    "equilibrium_m": [
+      0.007933776346989746,
+      -0.007985427282643303,
+      0.0549989079062849
+    ],
+    "residual_force_n": [
+      -3.8802205553323976e-19,
+      -2.448187691129844e-19,
+      -1.2557263443045003e-19
+    ],
+    "residual_scaled_norm": 4.268871628384833e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x+0.667_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      -0.10188254309257136,
+      0.022419565164146796,
+      -2.5657827082797273
+    ],
+    "equilibrium_m": [
+      0.007933776346989729,
+      -0.007985427282643304,
+      0.054998907906284776
+    ],
+    "residual_force_n": [
+      -3.580082160506383e-20,
+      -1.8439875237676713e-20,
+      -3.3881317890172014e-20
+    ],
+    "residual_scaled_norm": 4.7229977657255375e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.01969211916172801,
+      0.01294651217167607,
+      -0.4743796877574747
+    ],
+    "equilibrium_m": [
+      -0.007987200122544877,
+      8.415232911589444e-06,
+      0.04302498653629094
+    ],
+    "residual_force_n": [
+      -1.7683295081591215e-17,
+      -2.1314206034753955e-17,
+      1.3117787495890536e-17
+    ],
+    "residual_scaled_norm": 2.750126944035393e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.019692119160773732,
+      0.01294651217084584,
+      -0.47437968775089884
+    ],
+    "equilibrium_m": [
+      -0.007987200122545498,
+      8.415232911049794e-06,
+      0.04302498653629522
+    ],
+    "residual_force_n": [
+      1.089718474554498e-17,
+      2.3185875878583816e-17,
+      -1.0226864046911609e-17
+    ],
+    "residual_scaled_norm": 2.4755616207121585e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.019692119160757766,
+      0.012946512170454281,
+      -0.47437968774857364
+    ],
+    "equilibrium_m": [
+      -0.007987200122545508,
+      8.415232910795283e-06,
+      0.04302498653629673
+    ],
+    "residual_force_n": [
+      -4.596503697614266e-18,
+      1.3454562501762925e-17,
+      -7.9009115737513e-18
+    ],
+    "residual_scaled_norm": 1.459755306799263e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.01969211916102002,
+      0.012946512170867047,
+      -0.4743796877569905
+    ],
+    "equilibrium_m": [
+      -0.007987200122545337,
+      8.415232911063579e-06,
+      0.043024986536291256
+    ],
+    "residual_force_n": [
+      3.396006548448706e-18,
+      1.9354719388373014e-18,
+      9.824946913439443e-18
+    ],
+    "residual_scaled_norm": 9.489449209300133e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.019692119161076646,
+      0.012946512171115785,
+      -0.4743796877573588
+    ],
+    "equilibrium_m": [
+      -0.0079872001225453,
+      8.415232911225259e-06,
+      0.04302498653629102
+    ],
+    "residual_force_n": [
+      -7.491966713794884e-18,
+      -6.390890056813298e-18,
+      -1.3478411773184054e-18
+    ],
+    "residual_scaled_norm": 8.919889555587153e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      0.01969211915965454,
+      0.012946512170730435,
+      -0.4743796877503456
+    ],
+    "equilibrium_m": [
+      -0.007987200122546225,
+      8.415232910974783e-06,
+      0.04302498653629558
+    ],
+    "residual_force_n": [
+      1.265378549436259e-17,
+      -5.0573094732553065e-18,
+      -4.355655173018426e-18
+    ],
+    "residual_scaled_norm": 1.2838872336226229e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      0.01969211916164192,
+      0.012946512170716015,
+      -0.4743796877545168
+    ],
+    "equilibrium_m": [
+      -0.007987200122544932,
+      8.41523291096541e-06,
+      0.043024986536292865
+    ],
+    "residual_force_n": [
+      -1.3402125868371964e-17,
+      5.241835269942411e-18,
+      -8.98426671328955e-18
+    ],
+    "residual_scaled_norm": 1.5224996372222444e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.0595392804353554,
+      0.006800521995422974,
+      -1.3829277120404584
+    ],
+    "equilibrium_m": [
+      -0.00796129946771702,
+      4.420339297024933e-06,
+      0.042434430320507005
+    ],
+    "residual_force_n": [
+      -2.4324941802892684e-20,
+      -5.571196348404453e-20,
+      -5.1457251545698746e-20
+    ],
+    "residual_scaled_norm": 7.147658252469418e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.05953928043535519,
+      0.006800521995423104,
+      -1.3829277120404615
+    ],
+    "equilibrium_m": [
+      -0.00796129946771702,
+      4.4203392970250175e-06,
+      0.042434430320507
+    ],
+    "residual_force_n": [
+      -2.0401564092748703e-20,
+      -4.649202586520618e-20,
+      8.682087709356578e-21
+    ],
+    "residual_scaled_norm": 4.622546743952892e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.05953928043535408,
+      0.006800521995420692,
+      -1.382927712040461
+    ],
+    "equilibrium_m": [
+      -0.00796129946771702,
+      4.42033929702345e-06,
+      0.042434430320507
+    ],
+    "residual_force_n": [
+      -3.452572384926704e-20,
+      6.081235450723171e-21,
+      -1.9058241313221758e-21
+    ],
+    "residual_scaled_norm": 3.15080549248348e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.05953928043535491,
+      0.006800521995424526,
+      -1.3829277120404784
+    ],
+    "equilibrium_m": [
+      -0.00796129946771702,
+      4.420339297025942e-06,
+      0.04243443032050699
+    ],
+    "residual_force_n": [
+      2.3540266260863887e-21,
+      -5.747748345360933e-20,
+      3.006966962752766e-20
+    ],
+    "residual_scaled_norm": 5.825313625611635e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.05953928043535436,
+      0.006800521995419927,
+      -1.3829277120404662
+    ],
+    "equilibrium_m": [
+      -0.00796129946771702,
+      4.4203392970229525e-06,
+      0.042434430320507
+    ],
+    "residual_force_n": [
+      -3.766442601738222e-20,
+      1.0004613160867153e-20,
+      1.291725244562808e-20
+    ],
+    "residual_scaled_norm": 3.684472230944172e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      0.05953928043535245,
+      0.00680052199542296,
+      -1.3829277120404673
+    ],
+    "equilibrium_m": [
+      -0.007961299467717021,
+      4.4203392970249235e-06,
+      0.042434430320507
+    ],
+    "residual_force_n": [
+      4.5118843666655786e-20,
+      -2.922916394057266e-20,
+      2.9010878443459787e-20
+    ],
+    "residual_scaled_norm": 5.482215507530338e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      0.05953928043535445,
+      0.00680052199542145,
+      -1.3829277120404866
+    ],
+    "equilibrium_m": [
+      -0.00796129946771702,
+      4.420339297023942e-06,
+      0.042434430320506984
+    ],
+    "residual_force_n": [
+      4.7080532521727774e-21,
+      -3.2956372765209445e-20,
+      1.9058241313221758e-21
+    ],
+    "residual_scaled_norm": 2.992543438189418e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 5,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.0105417329190607,
+      0.011598000398697052,
+      -0.5798744949458354
+    ],
+    "equilibrium_m": [
+      -0.007993147873602611,
+      7.538700259153083e-06,
+      0.04295641491161851
+    ],
+    "residual_force_n": [
+      -6.18236113311113e-18,
+      -2.798901260193628e-18,
+      5.252239547687103e-18
+    ],
+    "residual_scaled_norm": 7.701313365888909e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.0105417329189034,
+      0.011598000398441805,
+      -0.5798744949418972
+    ],
+    "equilibrium_m": [
+      -0.007993147873602714,
+      7.538700258987172e-06,
+      0.04295641491162107
+    ],
+    "residual_force_n": [
+      -7.517880628024945e-18,
+      2.1937599122875968e-17,
+      -1.2531852454627374e-18
+    ],
+    "residual_scaled_norm": 2.0841925745572e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.010541732918808657,
+      0.011598000399637277,
+      -0.5798744949400902
+    ],
+    "equilibrium_m": [
+      -0.007993147873602774,
+      7.53870025976423e-06,
+      0.04295641491162224
+    ],
+    "residual_force_n": [
+      -3.3846907176689808e-18,
+      -9.939298015679999e-18,
+      7.60889696518538e-18
+    ],
+    "residual_scaled_norm": 1.1636986626061789e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.01054173291905979,
+      0.01159800039941358,
+      -0.5798744949449747
+    ],
+    "equilibrium_m": [
+      -0.007993147873602611,
+      7.538700259618826e-06,
+      0.04295641491161906
+    ],
+    "residual_force_n": [
+      -4.896909226313924e-22,
+      2.856866768798894e-19,
+      1.769197716930057e-17
+    ],
+    "residual_scaled_norm": 1.5879491509547724e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.010541732918581861,
+      0.011598000399045124,
+      -0.5798744949364943
+    ],
+    "equilibrium_m": [
+      -0.007993147873602922,
+      7.53870025937933e-06,
+      0.04295641491162458
+    ],
+    "residual_force_n": [
+      8.208821284968039e-18,
+      5.604262800971295e-18,
+      -2.3215055501872237e-18
+    ],
+    "residual_scaled_norm": 9.160089904632157e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      0.01054173291904861,
+      0.011598000398853654,
+      -0.5798744949374594
+    ],
+    "equilibrium_m": [
+      -0.007993147873602618,
+      7.5387002592548745e-06,
+      0.04295641491162395
+    ],
+    "residual_force_n": [
+      -1.8947121178453834e-17,
+      4.203726909910811e-18,
+      1.407218186920932e-17
+    ],
+    "residual_scaled_norm": 2.151398262943049e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      0.01054173291850667,
+      0.011598000399712934,
+      -0.5798744949408873
+    ],
+    "equilibrium_m": [
+      -0.00799314787360297,
+      7.538700259813406e-06,
+      0.04295641491162172
+    ],
+    "residual_force_n": [
+      1.5857290570657956e-17,
+      5.726766595329173e-18,
+      3.366320690625403e-18
+    ],
+    "residual_scaled_norm": 1.5429161691178118e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.04582400893332306,
+      0.007791640639218484,
+      -1.4815715367581237
+    ],
+    "equilibrium_m": [
+      -0.007970214394193341,
+      5.064566415492015e-06,
+      0.04237031183444052
+    ],
+    "residual_force_n": [
+      5.6888976797087725e-21,
+      -4.502382436273823e-20,
+      -1.5627757876841841e-19
+    ],
+    "residual_scaled_norm": 1.4604293588517235e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.04582400893334138,
+      0.007791640639218941,
+      -1.4815715367582878
+    ],
+    "equilibrium_m": [
+      -0.007970214394193329,
+      5.064566415492311e-06,
+      0.04237031183444041
+    ],
+    "residual_force_n": [
+      -3.781155268151262e-19,
+      -4.909892644526669e-20,
+      8.322098706773501e-20
+    ],
+    "residual_scaled_norm": 3.5023912844945754e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.04582400893332644,
+      0.007791640639217858,
+      -1.481571536758231
+    ],
+    "equilibrium_m": [
+      -0.007970214394193337,
+      5.064566415491607e-06,
+      0.04237031183444045
+    ],
+    "residual_force_n": [
+      -6.169511449201411e-20,
+      -1.057472898437245e-21,
+      1.1858461261560205e-20
+    ],
+    "residual_scaled_norm": 5.6388916089258134e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.0458240089333243,
+      0.007791640639218811,
+      -1.4815715367582278
+    ],
+    "equilibrium_m": [
+      -0.00797021439419334,
+      5.064566415492227e-06,
+      0.042370311834440455
+    ],
+    "residual_force_n": [
+      5.365219018621894e-20,
+      -5.532575599070224e-22,
+      -1.3552527156068805e-20
+    ],
+    "residual_scaled_norm": 4.96642759921426e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.045824008933328365,
+      0.007791640639219898,
+      -1.481571536758252
+    ],
+    "equilibrium_m": [
+      -0.007970214394193337,
+      5.064566415492934e-06,
+      0.042370311834440434
+    ],
+    "residual_force_n": [
+      -4.4726505895641387e-20,
+      -1.7737958444221265e-20,
+      2.0117032497289633e-20
+    ],
+    "residual_scaled_norm": 4.6802745796116966e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      0.04582400893332006,
+      0.007791640639210659,
+      -1.481571536758147
+    ],
+    "equilibrium_m": [
+      -0.007970214394193343,
+      5.064566415486928e-06,
+      0.042370311834440504
+    ],
+    "residual_force_n": [
+      1.2250746899924582e-19,
+      2.0024092245089148e-19,
+      -1.257843926672636e-19
+    ],
+    "residual_scaled_norm": 2.3900501597731847e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.000_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      0.0458240089333257,
+      0.007791640639216335,
+      -1.4815715367582198
+    ],
+    "equilibrium_m": [
+      -0.00797021439419334,
+      5.064566415490617e-06,
+      0.042370311834440455
+    ],
+    "residual_force_n": [
+      6.110660783549251e-20,
+      3.522151036505038e-20,
+      -2.964615315390051e-21
+    ],
+    "residual_scaled_norm": 6.33526509830892e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 5,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.007583277754969076,
+      -0.017000639522491836,
+      -0.4163714628423019
+    ],
+    "equilibrium_m": [
+      -0.00799507086945927,
+      0.00798894958431028,
+      0.04306269188248581
+    ],
+    "residual_force_n": [
+      1.2669918825029824e-17,
+      8.682944668471183e-18,
+      -2.8881705919003506e-18
+    ],
+    "residual_scaled_norm": 1.402592372371169e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.007583277755054775,
+      -0.017000639522185126,
+      -0.41637146284702636
+    ],
+    "equilibrium_m": [
+      -0.007995070869459215,
+      0.007988949584310479,
+      0.04306269188248273
+    ],
+    "residual_force_n": [
+      1.387784074737366e-17,
+      -7.947286627613473e-18,
+      1.666071455601846e-17
+    ],
+    "residual_scaled_norm": 2.0725400517159348e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.00758327775444101,
+      -0.017000639521336267,
+      -0.41637146283905785
+    ],
+    "equilibrium_m": [
+      -0.007995070869459614,
+      0.00798894958431103,
+      0.04306269188248791
+    ],
+    "residual_force_n": [
+      8.544947781240187e-18,
+      -1.3664543954620736e-17,
+      9.351243737687476e-19
+    ],
+    "residual_scaled_norm": 1.4487699786658165e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.007583277755006525,
+      -0.01700063952217905,
+      -0.41637146284197235
+    ],
+    "equilibrium_m": [
+      -0.007995070869459246,
+      0.007988949584310482,
+      0.043062691882486015
+    ],
+    "residual_force_n": [
+      -1.2310168050463162e-18,
+      -1.285516426884985e-17,
+      1.0615440411464519e-18
+    ],
+    "residual_scaled_norm": 1.1628555122278383e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.0075832777544061975,
+      -0.017000639521910745,
+      -0.4163714628411048
+    ],
+    "equilibrium_m": [
+      -0.007995070869459636,
+      0.007988949584310658,
+      0.043062691882486584
+    ],
+    "residual_force_n": [
+      -3.3845186641015697e-18,
+      -6.4787862687031825e-18,
+      6.276302380917552e-18
+    ],
+    "residual_scaled_norm": 8.646257284948363e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      0.007583277754143136,
+      -0.017000639523121565,
+      -0.41637146284048254
+    ],
+    "equilibrium_m": [
+      -0.007995070869459808,
+      0.00798894958430987,
+      0.043062691882486986
+    ],
+    "residual_force_n": [
+      6.911074165545845e-18,
+      1.4483585109946242e-17,
+      -4.463440115556536e-18
+    ],
+    "residual_scaled_norm": 1.494869881855326e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      0.007583277754498903,
+      -0.017000639522340474,
+      -0.4163714628404341
+    ],
+    "equilibrium_m": [
+      -0.007995070869459575,
+      0.007988949584310378,
+      0.04306269188248702
+    ],
+    "residual_force_n": [
+      2.4327050942939523e-17,
+      3.2677902447805367e-18,
+      5.94447722383068e-18
+    ],
+    "residual_scaled_norm": 2.2664852735867843e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.04649851620196004,
+      -0.05090086816035851,
+      -1.2655486090002679
+    ],
+    "equilibrium_m": [
+      -0.007969775964468725,
+      0.007966914435695667,
+      0.04251072673748313
+    ],
+    "residual_force_n": [
+      -2.697322175723987e-20,
+      7.846755420287963e-21,
+      -3.5998900258307764e-20
+    ],
+    "residual_scaled_norm": 4.097901733607477e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.046498516201958585,
+      -0.05090086816035757,
+      -1.2655486090002712
+    ],
+    "equilibrium_m": [
+      -0.007969775964468727,
+      0.007966914435695667,
+      0.04251072673748312
+    ],
+    "residual_force_n": [
+      5.286751464419015e-20,
+      1.9616888550719906e-20,
+      2.625802136488331e-20
+    ],
+    "residual_scaled_norm": 5.582370950235282e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.04649851620196083,
+      -0.05090086816035507,
+      -1.265548609000251
+    ],
+    "equilibrium_m": [
+      -0.007969775964468725,
+      0.007966914435695669,
+      0.042510726737483136
+    ],
+    "residual_force_n": [
+      -9.808444275359953e-21,
+      -7.101313655360606e-20,
+      -2.795208725939191e-20
+    ],
+    "residual_scaled_norm": 6.905239989306343e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.0464985162019619,
+      -0.05090086816035748,
+      -1.265548609000257
+    ],
+    "equilibrium_m": [
+      -0.007969775964468725,
+      0.007966914435695667,
+      0.042510726737483136
+    ],
+    "residual_force_n": [
+      -1.059311981738875e-20,
+      3.177935945216625e-20,
+      -2.4352197233561135e-20
+    ],
+    "residual_scaled_norm": 3.716698805396267e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.04649851620196117,
+      -0.050900868160357715,
+      -1.2655486090002739
+    ],
+    "equilibrium_m": [
+      -0.007969775964468725,
+      0.007966914435695667,
+      0.04251072673748312
+    ],
+    "residual_force_n": [
+      2.481536401666068e-20,
+      8.239093191302361e-21,
+      2.3928680759933985e-20
+    ],
+    "residual_scaled_norm": 3.180859838196411e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      0.046498516201960424,
+      -0.05090086816035724,
+      -1.265548609000258
+    ],
+    "equilibrium_m": [
+      -0.007969775964468725,
+      0.007966914435695667,
+      0.042510726737483136
+    ],
+    "residual_force_n": [
+      -1.059311981738875e-20,
+      3.177935945216625e-20,
+      -2.4352197233561135e-20
+    ],
+    "residual_scaled_norm": 3.716698805396267e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      0.04649851620195987,
+      -0.05090086816035581,
+      -1.2655486090002597
+    ],
+    "equilibrium_m": [
+      -0.007969775964468725,
+      0.007966914435695669,
+      0.04251072673748313
+    ],
+    "residual_force_n": [
+      -1.3339484214489537e-20,
+      -7.768287866085083e-20,
+      -4.129285617864714e-20
+    ],
+    "residual_scaled_norm": 7.985504246593116e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 5,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.09370758021361329,
+      -0.054645348957995936,
+      -0.7423175855393432
+    ],
+    "equilibrium_m": [
+      -0.007939090072861152,
+      0.007964480523177202,
+      0.04285082690273273
+    ],
+    "residual_force_n": [
+      3.525642294048017e-18,
+      -7.910341432734405e-18,
+      3.823294965669098e-18
+    ],
+    "residual_scaled_norm": 8.49589389811818e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.09370758021383181,
+      -0.0546453489576473,
+      -0.7423175855378119
+    ],
+    "equilibrium_m": [
+      -0.00793909007286101,
+      0.007964480523177428,
+      0.04285082690273372
+    ],
+    "residual_force_n": [
+      -2.3969444220520598e-18,
+      3.76607722833758e-18,
+      5.9705234869587495e-18
+    ],
+    "residual_scaled_norm": 6.6903153568965435e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.09370758021325375,
+      -0.054645348957463036,
+      -0.742317585534453
+    ],
+    "equilibrium_m": [
+      -0.007939090072861385,
+      0.00796448052317755,
+      0.04285082690273591
+    ],
+    "residual_force_n": [
+      -3.9780108274410165e-18,
+      -2.717525547636376e-17,
+      1.2978662334304017e-18
+    ],
+    "residual_scaled_norm": 2.4675474944125892e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 10,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.09370758021397106,
+      -0.05464534895790071,
+      -0.74231758554304
+    ],
+    "equilibrium_m": [
+      -0.00793909007286092,
+      0.007964480523177265,
+      0.04285082690273032
+    ],
+    "residual_force_n": [
+      8.358640237513643e-18,
+      -6.056087049521235e-18,
+      1.0512525908373122e-17
+    ],
+    "residual_scaled_norm": 1.3221775007677097e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.09370758021317775,
+      -0.05464534895782459,
+      -0.7423175855370404
+    ],
+    "equilibrium_m": [
+      -0.007939090072861435,
+      0.007964480523177313,
+      0.04285082690273422
+    ],
+    "residual_force_n": [
+      1.25478666712864e-17,
+      3.677813748255722e-18,
+      7.760727620980713e-18
+    ],
+    "residual_scaled_norm": 1.3645876413320938e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      0.09370758021343997,
+      -0.054645348958382765,
+      -0.7423175855394482
+    ],
+    "equilibrium_m": [
+      -0.007939090072861265,
+      0.007964480523176951,
+      0.04285082690273266
+    ],
+    "residual_force_n": [
+      2.9262632517251526e-17,
+      8.621816021203515e-18,
+      -3.0217900393297165e-19
+    ],
+    "residual_scaled_norm": 2.7378847104173217e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      0.09370758021361238,
+      -0.05464534895715963,
+      -0.7423175855375259
+    ],
+    "equilibrium_m": [
+      -0.007939090072861152,
+      0.007964480523177745,
+      0.04285082690273391
+    ],
+    "residual_force_n": [
+      1.3583933549566219e-17,
+      -1.622971706093138e-17,
+      -5.536630859727734e-18
+    ],
+    "residual_scaled_norm": 1.9632763982762303e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.12661388336051807,
+      -0.08591992130815054,
+      -1.5985638702568705
+    ],
+    "equilibrium_m": [
+      -0.007917700975815664,
+      0.007944152051149601,
+      0.042294266817666334
+    ],
+    "residual_force_n": [
+      1.5693510840575926e-20,
+      4.181002629313983e-20,
+      -2.9857911390714087e-20
+    ],
+    "residual_scaled_norm": 4.821045108745573e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.1266138833605166,
+      -0.08591992130814748,
+      -1.598563870256754
+    ],
+    "equilibrium_m": [
+      -0.007917700975815664,
+      0.007944152051149603,
+      0.04229426681766641
+    ],
+    "residual_force_n": [
+      -1.4084925979416893e-19,
+      1.1369672741502013e-19,
+      -2.2319318160150814e-19
+    ],
+    "residual_scaled_norm": 2.578949104319165e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.1266138833605184,
+      -0.08591992130814693,
+      -1.5985638702568647
+    ],
+    "equilibrium_m": [
+      -0.007917700975815662,
+      0.007944152051149605,
+      0.04229426681766634
+    ],
+    "residual_force_n": [
+      -7.022846101157726e-20,
+      -9.585608681979119e-20,
+      -3.8116482626443515e-20
+    ],
+    "residual_scaled_norm": 1.1199375991933804e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.12661388336051574,
+      -0.08591992130815024,
+      -1.598563870256871
+    ],
+    "equilibrium_m": [
+      -0.007917700975815664,
+      0.007944152051149601,
+      0.042294266817666334
+    ],
+    "residual_force_n": [
+      1.5693510840575926e-20,
+      4.181002629313983e-20,
+      -2.9857911390714087e-20
+    ],
+    "residual_scaled_norm": 4.821045108745573e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.12661388336055016,
+      -0.08591992130816908,
+      -1.598563870257172
+    ],
+    "equilibrium_m": [
+      -0.007917700975815643,
+      0.00794415205114959,
+      0.04229426681766614
+    ],
+    "residual_force_n": [
+      -6.18912833775213e-19,
+      2.630778011593342e-19,
+      4.345279019414561e-19
+    ],
+    "residual_scaled_norm": 7.185531240395631e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      0.1266138833605186,
+      -0.08591992130815035,
+      -1.598563870256949
+    ],
+    "equilibrium_m": [
+      -0.007917700975815662,
+      0.007944152051149601,
+      0.042294266817666286
+    ],
+    "residual_force_n": [
+      4.884605249129257e-20,
+      -3.1826869104125025e-20,
+      1.2472560148319572e-19
+    ],
+    "residual_scaled_norm": 1.2355765278392705e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y+0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      0.1266138833605165,
+      -0.08591992130814881,
+      -1.598563870256885
+    ],
+    "equilibrium_m": [
+      -0.007917700975815664,
+      0.007944152051149603,
+      0.04229426681766633
+    ],
+    "residual_force_n": [
+      3.942994598694701e-20,
+      -8.219169788868036e-21,
+      -9.529120656610879e-21
+    ],
+    "residual_scaled_norm": 3.7144316398931433e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.017000631073908198,
+      0.007583270444130064,
+      -0.41637151183981785
+    ],
+    "equilibrium_m": [
+      -0.00798894958980196,
+      -0.007995070874211316,
+      0.04306269185063742
+    ],
+    "residual_force_n": [
+      1.0853893421006405e-17,
+      3.1555037853489134e-18,
+      -8.814013090891436e-18
+    ],
+    "residual_scaled_norm": 1.28634591525633e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.017000631073939954,
+      0.007583270444057704,
+      -0.4163715118391536
+    ],
+    "equilibrium_m": [
+      -0.007988949589801939,
+      -0.007995070874211363,
+      0.04306269185063785
+    ],
+    "residual_force_n": [
+      2.301547336367544e-19,
+      -1.0319263430056232e-17,
+      -7.750351467376848e-19
+    ],
+    "residual_scaled_norm": 9.28926061473272e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.017000631073758248,
+      0.007583270443831337,
+      -0.416371511836649
+    ],
+    "equilibrium_m": [
+      -0.007988949589802057,
+      -0.00799507087421151,
+      0.043062691850639476
+    ],
+    "residual_force_n": [
+      -1.521545135487601e-17,
+      -1.1721000387366143e-18,
+      -4.322197371601881e-18
+    ],
+    "residual_scaled_norm": 1.4234062267306436e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.017000631074886127,
+      0.0075832704436124025,
+      -0.41637151183703525
+    ],
+    "equilibrium_m": [
+      -0.007988949589801324,
+      -0.007995070874211653,
+      0.043062691850639226
+    ],
+    "residual_force_n": [
+      -1.2724327457001112e-17,
+      1.0682243517734302e-18,
+      6.639044240579206e-18
+    ],
+    "residual_scaled_norm": 1.2915804481202064e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.017000631074320014,
+      0.007583270443587521,
+      -0.41637151183495896
+    ],
+    "equilibrium_m": [
+      -0.007988949589801692,
+      -0.007995070874211668,
+      0.04306269185064058
+    ],
+    "residual_force_n": [
+      -1.5968225416968667e-17,
+      -5.730412807469307e-18,
+      -7.083101263177273e-18
+    ],
+    "residual_scaled_norm": 1.649897374036218e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      0.01700063107462124,
+      0.00758327044354693,
+      -0.4163715118391852
+    ],
+    "equilibrium_m": [
+      -0.007988949589801496,
+      -0.007995070874211694,
+      0.04306269185063783
+    ],
+    "residual_force_n": [
+      -4.35820950674999e-18,
+      2.2166604075461274e-18,
+      1.4480239991549078e-17
+    ],
+    "residual_scaled_norm": 1.3715953722234188e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      0.017000631074212416,
+      0.007583270443586237,
+      -0.4163715118411984
+    ],
+    "equilibrium_m": [
+      -0.007988949589801762,
+      -0.007995070874211668,
+      0.04306269185063652
+    ],
+    "residual_force_n": [
+      -6.375577289313716e-18,
+      8.18232503558674e-18,
+      8.81549539854913e-19
+    ],
+    "residual_scaled_norm": 9.342632821980517e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.05090085937980873,
+      0.04649850985571364,
+      -1.2655486587393097
+    ],
+    "equilibrium_m": [
+      -0.007966914441403124,
+      -0.007969775968593787,
+      0.04251072670515275
+    ],
+    "residual_force_n": [
+      5.1788585773900554e-20,
+      1.471266641303993e-20,
+      3.5998900258307764e-20
+    ],
+    "residual_scaled_norm": 5.812201353090411e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.05090085937980979,
+      0.04649850985571398,
+      -1.2655486587393183
+    ],
+    "equilibrium_m": [
+      -0.007966914441403124,
+      -0.007969775968593787,
+      0.04251072670515274
+    ],
+    "residual_force_n": [
+      5.2180923544914954e-20,
+      3.6977834918107025e-20,
+      5.209252625613947e-20
+    ],
+    "residual_scaled_norm": 7.40253831669266e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.050900859379811904,
+      0.046498509855714486,
+      -1.265548658739315
+    ],
+    "equilibrium_m": [
+      -0.007966914441403123,
+      -0.007969775968593785,
+      0.04251072670515275
+    ],
+    "residual_force_n": [
+      -7.532885203476444e-20,
+      -6.34606344615789e-20,
+      1.9693516023662483e-20
+    ],
+    "residual_scaled_norm": 9.014443408221995e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.050900859379809066,
+      0.04649850985571372,
+      -1.265548658739311
+    ],
+    "equilibrium_m": [
+      -0.007966914441403124,
+      -0.007969775968593787,
+      0.04251072670515275
+    ],
+    "residual_force_n": [
+      5.1788585773900554e-20,
+      1.471266641303993e-20,
+      3.5998900258307764e-20
+    ],
+    "residual_scaled_norm": 5.812201353090411e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.050900859379806734,
+      0.04649850985571226,
+      -1.2655486587392903
+    ],
+    "equilibrium_m": [
+      -0.007966914441403126,
+      -0.007969775968593787,
+      0.04251072670515276
+    ],
+    "residual_force_n": [
+      7.964456751592282e-20,
+      7.552502092027164e-21,
+      -2.4352197233561135e-20
+    ],
+    "residual_scaled_norm": 7.504910590633458e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      0.05090085937980753,
+      0.04649850985571244,
+      -1.26554865873931
+    ],
+    "equilibrium_m": [
+      -0.007966914441403124,
+      -0.007969775968593787,
+      0.04251072670515275
+    ],
+    "residual_force_n": [
+      5.1788585773900554e-20,
+      1.471266641303993e-20,
+      3.5998900258307764e-20
+    ],
+    "residual_scaled_norm": 5.812201353090411e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      0.0509008593798101,
+      0.046498509855713986,
+      -1.2655486587392872
+    ],
+    "equilibrium_m": [
+      -0.007966914441403124,
+      -0.007969775968593787,
+      0.04251072670515276
+    ],
+    "residual_force_n": [
+      1.8047537466662313e-20,
+      -2.3540266260863887e-21,
+      -3.705769144237564e-20
+    ],
+    "residual_scaled_norm": 3.7051484984367416e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 5,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.09747124390719164,
+      0.063565829437911,
+      -0.4554932475986385
+    ],
+    "equilibrium_m": [
+      -0.007936643691460325,
+      -0.007958682210865358,
+      0.043037262722394186
+    ],
+    "residual_force_n": [
+      -1.953095187223866e-17,
+      -7.59820813730997e-18,
+      1.1365064569784575e-18
+    ],
+    "residual_scaled_norm": 1.8835100149832238e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.0974712439058882,
+      0.06356582943763411,
+      -0.4554932475974802
+    ],
+    "equilibrium_m": [
+      -0.007936643691461173,
+      -0.007958682210865538,
+      0.043037262722394935
+    ],
+    "residual_force_n": [
+      8.360347538297953e-19,
+      -8.288912220597873e-19,
+      6.166188097774493e-18
+    ],
+    "residual_scaled_norm": 5.63371924588882e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 8,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.09747124390684973,
+      0.06356582943787326,
+      -0.4554932476043828
+    ],
+    "equilibrium_m": [
+      -0.007936643691460549,
+      -0.007958682210865382,
+      0.04303726272239045
+    ],
+    "residual_force_n": [
+      -1.511407209900151e-17,
+      -4.0165409003737365e-18,
+      7.05154928589205e-18
+    ],
+    "residual_scaled_norm": 1.5395469093971532e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.09747124390674582,
+      0.0635658294374713,
+      -0.4554932475969791
+    ],
+    "equilibrium_m": [
+      -0.007936643691460615,
+      -0.007958682210865644,
+      0.04303726272239526
+    ],
+    "residual_force_n": [
+      -5.64170264985667e-18,
+      -6.539306111040012e-18,
+      -4.6474580233475324e-18
+    ],
+    "residual_scaled_norm": 8.801749800111477e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.0974712439064526,
+      0.06356582943731577,
+      -0.45549324758789744
+    ],
+    "equilibrium_m": [
+      -0.007936643691460805,
+      -0.007958682210865745,
+      0.043037262722401166
+    ],
+    "residual_force_n": [
+      -1.842435626621012e-17,
+      -9.065978922919988e-18,
+      -1.1242880067143142e-17
+    ],
+    "residual_scaled_norm": 2.1009425902994845e-11,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      0.0974712439054931,
+      0.06356582943680722,
+      -0.4554932475949321
+    ],
+    "equilibrium_m": [
+      -0.00793664369146143,
+      -0.007958682210866076,
+      0.043037262722396594
+    ],
+    "residual_force_n": [
+      4.292061527525349e-18,
+      -8.082547201378144e-20,
+      -2.066125116590052e-18
+    ],
+    "residual_scaled_norm": 4.27552774580195e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1_Conventional",
+    "model": "elastic",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      0.09747124390668359,
+      0.06356582943715722,
+      -0.455493247596839
+    ],
+    "equilibrium_m": [
+      -0.007936643691460656,
+      -0.007958682210865847,
+      0.04303726272239535
+    ],
+    "residual_force_n": [
+      -2.1286335011194593e-18,
+      4.602358481989916e-18,
+      3.9577614460457183e-19
+    ],
+    "residual_scaled_norm": 4.564539581106643e-12,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 9,
+    "message": "`xtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.1260012462173277,
+      0.10038704066324658,
+      -1.303289739297396
+    ],
+    "equilibrium_m": [
+      -0.007918099189958738,
+      -0.00793474842356889,
+      0.042486195002789995
+    ],
+    "residual_force_n": [
+      8.101774971447321e-20,
+      8.121391859998041e-20,
+      -4.235164736271502e-22
+    ],
+    "residual_scaled_norm": 1.029502772449164e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 5,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.12600124621732947,
+      0.10038704066325016,
+      -1.3032897392974052
+    ],
+    "equilibrium_m": [
+      -0.007918099189958736,
+      -0.007934748423568887,
+      0.04248619500278999
+    ],
+    "residual_force_n": [
+      -2.275559071883509e-20,
+      -1.1809366907533383e-19,
+      2.541098841762901e-20
+    ],
+    "residual_scaled_norm": 1.1031404455925826e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.12600124621732894,
+      0.1003870406632474,
+      -1.3032897392974019
+    ],
+    "equilibrium_m": [
+      -0.007918099189958736,
+      -0.00793474842356889,
+      0.04248619500278999
+    ],
+    "residual_force_n": [
+      -2.942533282607986e-20,
+      8.082158082896601e-20,
+      1.8846483076408183e-20
+    ],
+    "residual_scaled_norm": 7.902112456778259e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "solution_offset_a": [
+      0.12600124621732608,
+      0.10038704066324655,
+      -1.3032897392973903
+    ],
+    "equilibrium_m": [
+      -0.007918099189958738,
+      -0.00793474842356889,
+      0.042486195002789995
+    ],
+    "residual_force_n": [
+      8.101774971447321e-20,
+      8.121391859998041e-20,
+      -4.235164736271502e-22
+    ],
+    "residual_scaled_norm": 1.029502772449164e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "solution_offset_a": [
+      0.1260012462173303,
+      0.1003870406632453,
+      -1.3032897392973761
+    ],
+    "equilibrium_m": [
+      -0.007918099189958736,
+      -0.00793474842356889,
+      0.04248619500279001
+    ],
+    "residual_force_n": [
+      -6.963995435505566e-20,
+      6.963995435505566e-20,
+      -5.61159327555974e-20
+    ],
+    "residual_scaled_norm": 1.0172527708724478e-13,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "solution_offset_a": [
+      0.12600124621732878,
+      0.10038704066324787,
+      -1.3032897392973968
+    ],
+    "equilibrium_m": [
+      -0.007918099189958736,
+      -0.007934748423568888,
+      0.042486195002789995
+    ],
+    "residual_force_n": [
+      -4.551118143767018e-20,
+      -4.629585697969898e-20,
+      -1.461131834013668e-20
+    ],
+    "residual_scaled_norm": 5.9718732640639e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 7,
+    "message": "`gtol` termination condition is satisfied."
+  },
+  {
+    "case_id": "hub_x-0.667_y-0.667_D1_Conventional",
+    "model": "gorkov",
+    "initial_offset_a": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "solution_offset_a": [
+      0.1260012462173285,
+      0.1003870406632457,
+      -1.3032897392973914
+    ],
+    "equilibrium_m": [
+      -0.007918099189958736,
+      -0.00793474842356889,
+      0.042486195002789995
+    ],
+    "residual_force_n": [
+      -4.5118843666655786e-20,
+      7.944839863041562e-20,
+      -1.1434944787933055e-20
+    ],
+    "residual_scaled_norm": 8.263490467438228e-14,
+    "optimizer_success": true,
+    "on_search_boundary": false,
+    "nfev": 6,
+    "message": "`gtol` termination condition is satisfied."
+  }
+]

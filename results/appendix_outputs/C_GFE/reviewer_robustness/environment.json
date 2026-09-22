@@ -1,0 +1,30 @@
+{
+  "python": "3.12.4",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "blas": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\yoonc\\.codex\\visualizations\\2026\\09\\13\\01a098c3-38af-75d0-a45f-b4de200d7dfb\\rineng_smoke_pdf_compare_20260918\\.venv_smoke\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\yoonc\\.codex\\visualizations\\2026\\09\\13\\01a098c3-38af-75d0-a45f-b4de200d7dfb\\rineng_smoke_pdf_compare_20260918\\.venv_smoke\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "threads": 1,
+  "dtype": "float64/complex128"
+}

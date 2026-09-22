@@ -1,0 +1,279 @@
+{
+  "figure": "1B",
+  "task": "Single",
+  "subplot_count": 6,
+  "setting_ids": [
+    "F20",
+    "S06",
+    "F28",
+    "A06",
+    "S07",
+    "S08"
+  ],
+  "contour_levels_fraction": [
+    0.2,
+    0.4,
+    0.6,
+    0.8
+  ],
+  "contour_methods": [
+    "Conventional",
+    "FE",
+    "GFE"
+  ],
+  "background_methods": {
+    "F20": "GFE",
+    "S06": "FE",
+    "F28": "FE",
+    "A06": "GFE",
+    "S07": "GFE",
+    "S08": "FE"
+  },
+  "command_alignment": {
+    "passed": true,
+    "task": "Single",
+    "settings": [
+      "F20",
+      "S06",
+      "F28",
+      "A06",
+      "S07",
+      "S08"
+    ],
+    "records": [
+      {
+        "setting_id": "F20",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000080ffaa870c9cf171082",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "F20",
+        "method": "FE",
+        "phase_fingerprint": "000000000000080f890a65a915c8fd7c",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "F20",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000080f7550b9632503067f",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S06",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000080f6df8111ab7d01d2f",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S06",
+        "method": "FE",
+        "phase_fingerprint": "000000000000080ff4db4681ed4c2cd4",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S06",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000080f3e0ee3d657310ec2",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "F28",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000080ff57c6e42583f1091",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "F28",
+        "method": "FE",
+        "phase_fingerprint": "000000000000080f33fa4be4fb441208",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "F28",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000080f78e75390e74e1026",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "A06",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000080f46b181ee49fe0e43",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "A06",
+        "method": "FE",
+        "phase_fingerprint": "000000000000080f589bc129c05f1134",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "A06",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000080fc84089755638157f",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S07",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000080f806362fabca4fd22",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S07",
+        "method": "FE",
+        "phase_fingerprint": "000000000000080f7ca846b20fac1f7b",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S07",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000080f9c69f654802d068c",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S08",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000080f57edbcd61e342362",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S08",
+        "method": "FE",
+        "phase_fingerprint": "000000000000080f8d10b95857d2139f",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S08",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000080ffa76c2d3540003bc",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      }
+    ],
+    "endpoint_scope": "Terminal Conventional for fixed seed260828; nearest FE and GFE members of the unchanged eight-endpoint bank",
+    "benchmark_scope": "The separate Triple benchmark retains all five methods and its own commands"
+  },
+  "data_axes_count": 6,
+  "colorbar_axes_count": 1,
+  "axes_count": 7,
+  "array_inset_axes_count": 0,
+  "array_insets": [],
+  "field_plane": "XZ through the Single target",
+  "normalization": "one shared maximum over Conventional, FE and GFE pressure fields per setting",
+  "metrics": [
+    {
+      "setting_id": "F20",
+      "methods": [
+        "Conventional",
+        "FE",
+        "GFE"
+      ],
+      "contour_methods": [
+        "Conventional",
+        "FE",
+        "GFE"
+      ],
+      "background_method": "GFE",
+      "pressure_scale_pa": 7185.908907154319,
+      "conventional_to_representative_amplitude_cosine": 0.9992112231243417
+    },
+    {
+      "setting_id": "S06",
+      "methods": [
+        "Conventional",
+        "FE",
+        "GFE"
+      ],
+      "contour_methods": [
+        "Conventional",
+        "FE",
+        "GFE"
+      ],
+      "background_method": "FE",
+      "pressure_scale_pa": 7004.008732161133,
+      "conventional_to_representative_amplitude_cosine": 0.9999493664240903
+    },
+    {
+      "setting_id": "F28",
+      "methods": [
+        "Conventional",
+        "FE",
+        "GFE"
+      ],
+      "contour_methods": [
+        "Conventional",
+        "FE",
+        "GFE"
+      ],
+      "background_method": "FE",
+      "pressure_scale_pa": 7178.113781180855,
+      "conventional_to_representative_amplitude_cosine": 0.9999569735831103
+    },
+    {
+      "setting_id": "A06",
+      "methods": [
+        "Conventional",
+        "FE",
+        "GFE"
+      ],
+      "contour_methods": [
+        "Conventional",
+        "FE",
+        "GFE"
+      ],
+      "background_method": "GFE",
+      "pressure_scale_pa": 7033.108672798765,
+      "conventional_to_representative_amplitude_cosine": 0.9999529221567242
+    },
+    {
+      "setting_id": "S07",
+      "methods": [
+        "Conventional",
+        "FE",
+        "GFE"
+      ],
+      "contour_methods": [
+        "Conventional",
+        "FE",
+        "GFE"
+      ],
+      "background_method": "GFE",
+      "pressure_scale_pa": 7052.881830286918,
+      "conventional_to_representative_amplitude_cosine": 0.9999924758476384
+    },
+    {
+      "setting_id": "S08",
+      "methods": [
+        "Conventional",
+        "FE",
+        "GFE"
+      ],
+      "contour_methods": [
+        "Conventional",
+        "FE",
+        "GFE"
+      ],
+      "background_method": "FE",
+      "pressure_scale_pa": 7070.603467936658,
+      "conventional_to_representative_amplitude_cosine": 0.9999989315422523
+    }
+  ]
+}

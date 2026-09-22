@@ -1,0 +1,58 @@
+{
+  "schema_version": 2,
+  "single": {
+    "paired_seeds": [
+      260828,
+      260829,
+      260830,
+      260831
+    ],
+    "references_per_setting": 8,
+    "reference_methods": [
+      "FE",
+      "GFE"
+    ],
+    "cold_maxiter": 10000,
+    "cold_gtol": 1e-08,
+    "proposal_bank": "data/recorded_proposals/initial_phase_bank.npz",
+    "proposal_manifest": "data/recorded_proposals/manifest.json",
+    "selected_weights": "../tables/selected_weights.csv"
+  },
+  "triple": {
+    "methods": [
+      "Conventional",
+      "FE",
+      "GFE",
+      "IB",
+      "GS"
+    ],
+    "recipe_file": "data/selected_triple_recipes.csv",
+    "cold_iteration_cap": 30000,
+    "intervention_iteration_cap": 4000
+  },
+  "modes": {
+    "smoke": {
+      "pressure_grid_points_per_axis": 201,
+      "decision_grid_points_per_axis": 61,
+      "triple_seeds": [
+        260869
+      ]
+    },
+    "full": {
+      "pressure_grid_points_per_axis": 301,
+      "decision_grid_points_per_axis": 101,
+      "triple_seeds": [
+        260869,
+        260870,
+        260871,
+        260872,
+        260873,
+        260874,
+        260875,
+        260876,
+        260877,
+        260878
+      ]
+    }
+  }
+}

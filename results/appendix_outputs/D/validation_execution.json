@@ -1,0 +1,6 @@
+{
+  "records_reused_before_execution": 0,
+  "records_computed": 120,
+  "concurrent_workers_for_new_records": 2,
+  "scope": "Evaluator setup, 7 root starts and force Jacobian; wall times are observational under worker contention, not synthesis or controlled comparison timings."
+}

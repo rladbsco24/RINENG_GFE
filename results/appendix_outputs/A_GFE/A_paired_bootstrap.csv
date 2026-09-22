@@ -1,0 +1,5 @@
+metric,statistic,paired_targets,total_targets,estimate,ci_low,ci_high,conventional_lower_count,fe_median,conventional_median,bootstrap_seed,bootstrap_resamples,scope
+angular_error_median_deg,median paired Conventional minus FE,9,9,-0.1542520571685051,-0.3358437924713966,0.06285322630608992,6,6.676837458603984,6.522585401435479,20260906,10000,Nine fixed target clusters; all force neighbors belong to their command
+model_root_separation_a,median paired Conventional minus FE,9,9,0.013509546531271122,-0.001668879917997912,0.04101028040785493,2,1.182467112987332,1.1959766637092302,20260906,10000,Nine fixed target clusters; all force neighbors belong to their command
+magnitude_ratio_median,median paired Conventional minus FE,9,9,0.0007357757899644213,-0.001972235201650241,0.0015858520122218334,3,1.106960409511877,1.1049881743102268,20260906,10000,Nine fixed target clusters; all force neighbors belong to their command
+elastic_target_offset_a,median paired Conventional minus FE,9,9,0.14105916612429392,0.07481952520163815,0.2727202688494783,0,0.7384085076712978,0.8794676737955918,20260906,10000,Nine fixed target clusters; all force neighbors belong to their command

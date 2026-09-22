@@ -1,0 +1,18 @@
+scope,parameter,symbol,value,unit
+host medium,density,rho0,1.225,kg m^-3
+host medium,sound speed,c0,343.0,m s^-1
+host medium,gravity,g,9.80665,m s^-2
+Gor'kov optimization surrogate bead,radius,a,0.00065,m
+Gor'kov optimization surrogate bead,density,rho_p,100.0,kg m^-3
+Gor'kov optimization surrogate bead,compressional sound speed,c_p,2400.0,m s^-1
+exact elastic bead,radius,a,0.00065,m
+exact elastic bead,density,rho_p,100.0,kg m^-3
+exact elastic bead,longitudinal wave speed,c_L,2400.0,m s^-1
+exact elastic bead,shear wave speed,c_T,1150.0,m s^-1
+exact elastic bead,bulk modulus,K,399666666.6666667,Pa
+exact elastic bead,shear modulus,mu,132250000.0,Pa
+acoustic drive,frequency,f,40000.0,Hz
+Gor'kov,monopole contrast,f1,0.9997497916232639,1
+Gor'kov,dipole contrast,f2,0.9817368617219531,1
+Gor'kov,pressure coefficient,Kp,1.9949668404104734e-15,J Pa^-2
+Gor'kov,pressure-gradient coefficient,Kg,5.4731737685871445e-21,J m^2 Pa^-2

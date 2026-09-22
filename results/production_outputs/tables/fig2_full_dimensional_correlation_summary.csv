@@ -1,0 +1,3 @@
+scope,target_id,component,n,spearman_rho_objective_vs_similarity,primary_method,reference_method
+representative root target,xi+0.000000_eta+0.000000,B1,49,-0.910408163265306,GFE,GFE
+representative root target,xi+0.000000_eta+0.000000,B2,51,-0.9368325791855202,GFE,GFE

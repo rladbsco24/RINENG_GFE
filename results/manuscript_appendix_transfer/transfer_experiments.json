@@ -1,0 +1,191 @@
+{
+  "schema": "original-CDE-transfer-v1",
+  "scope": "Preparation and cache export; no new numerical solves",
+  "source_pdf": "handoff/reference_manuscript_received.pdf",
+  "notebook_registration": "None: pending experiments are not counted among current Run All figures",
+  "experiments": [
+    {
+      "id": "original_C",
+      "original_pages": [
+        44,
+        45,
+        46
+      ],
+      "original_definition": "Tables C.1 reproducibility controls, C.2 generation environment, C.3 plotting and analysis environment",
+      "status": "ready_to_transfer_as_current_parameter_appendix",
+      "current_sources": [
+        "appendix_outputs/P_parameters/P_parameters.csv",
+        "appendix_outputs/P_parameters/P_actual_seeds.csv",
+        "appendix_outputs/P_parameters/P_software_versions.csv",
+        "appendix_outputs/P_parameters/P_current_hardware_and_threads.json"
+      ],
+      "historical_values": "original_reproducibility_tables.csv",
+      "changes": [
+        "Use actual current seed inventories, solver budgets and termination records",
+        "Keep historical GPU/PyTorch environment separate from current NumPy/SciPy runtime",
+        "Record all stochastic embedding parameters and deterministic inputs, content_ids and cache identities"
+      ]
+    },
+    {
+      "id": "original_D1",
+      "original_pages": [
+        46,
+        47
+      ],
+      "original_definition": "Paired single-target optimizer comparison: BFGS, L-BFGS-B, Adam, AdamW; Conventional, FE and RH; wall-clock distributions plus terminal phase-gradient L2 norms; displayed reporting threshold 0.001",
+      "status": "historical_figure_recovered_new_GFE_campaign_not_executed",
+      "current_raw_compatible_cache": null,
+      "source_figure": "original_figures/Original_D1.png",
+      "reported_numbers": "original_optimizer_reported_values.csv",
+      "missing_original_inputs": [
+        "Per-run phase vectors, seed list and raw timing/gradient histories",
+        "Exact optimizer-specific settings, including Adam learning rate, betas, epsilon and AdamW weight decay",
+        "Native stopping rules versus common callback reporting threshold",
+        "Objective scaling and any phase wrapping during first-order optimizer steps",
+        "Exact single-target geometry and evaluation grid for this auxiliary sweep"
+      ],
+      "narrow_GFE_port_proposal": {
+        "status": "proposed_protocol_only",
+        "objective_families": [
+          "Conventional",
+          "FE control",
+          "GFE"
+        ],
+        "same_objective_across_optimizers": true,
+        "objective_adapter": "gfe_transfer_adapter.objective_for_method(ctx, method)",
+        "geometry": "Current main Single benchmark context; target [0,0,0.05] m",
+        "proposed_paired_seeds": [
+          260828,
+          260829,
+          260830
+        ],
+        "proposed_per_run_iteration_cap": 10000,
+        "scope_of_cap": "Single only; current main Triple uses its separate 30000-step protocol",
+        "report_gradient_l2_threshold": 0.001,
+        "optimizer_settings": {
+          "BFGS": null,
+          "L-BFGS-B": null,
+          "Adam": null,
+          "AdamW": null
+        },
+        "settings_gate": "Declare a complete optimizer protocol before running; null is intentional and must not be replaced by undocumented library defaults",
+        "paired_export_columns": [
+          "method",
+          "optimizer",
+          "seed",
+          "initial_phase_content_id",
+          "final_phase_content_id",
+          "objective_scale",
+          "iterations",
+          "evaluations",
+          "iteration_cap",
+          "native_status",
+          "native_message",
+          "native_success",
+          "terminal_full_phase_gradient_l2",
+          "terminal_reduced_phase_gradient_l2",
+          "reported_near_stationary",
+          "solve_wall_time_s",
+          "timing_scope",
+          "cache_identity",
+          "command_cosine_to_fixed_GFE",
+          "complex_field_cosine_to_fixed_GFE",
+          "elastic_displacement_a",
+          "minimum_elastic_stiffness_n_m"
+        ],
+        "timing_scope": "Fresh solve wall time including optimizer and declared callback bookkeeping; exclude objective construction, validation, rendering and cache retrieval. Preserve recorded original solve time on replay.",
+        "figure_layout": "Two columns: runtime and terminal gradient. Display native early exits, rather than interpreting speed alone as success."
+      }
+    },
+    {
+      "id": "original_D2",
+      "original_pages": [
+        48
+      ],
+      "original_definition": "Representative L-BFGS-B Twin run 001: Conventional and FE terminal phases reconstructed on XY, XZ and YZ pressure slices",
+      "status": "historical_figure_recovered_terminal_phases_missing",
+      "source_figure": "original_figures/Original_D2.png",
+      "missing_original_inputs": [
+        "Both original terminal phase vectors",
+        "Exact geometry, target, field grid, source calibration and normalization"
+      ],
+      "narrow_GFE_port_proposal": {
+        "status": "conditional_on_D1_new_runs",
+        "selection": "Predeclare one paired seed before inspecting pressure plots; Conventional versus GFE, FE control retained in exports",
+        "layout": "Three rows by two columns: rows XY, XZ and YZ; columns GFE and Conventional. Common physical extents and declared pressure normalization. FE control retained in exports.",
+        "scope": "A current Vortex example would be an explicit adaptation, not reproduction of the original Twin example. Twin/RH formulation remains in current Appendix B.",
+        "claim_limit": "Pressure structure illustrates endpoint morphology; mechanical trapping requires independent force/equilibrium validation."
+      }
+    },
+    {
+      "id": "original_E1",
+      "original_pages": [
+        49
+      ],
+      "original_definition": "Cold-start sweep at alpha=10^3,10^4,10^5,10^6,10^7,10^8 under coarse/default/fine derivative spacings; accepted iterations; final residual and NTS; perturbed force-term response",
+      "status": "historical_figure_recovered_GFE_derivative_spacing_sweep_not_executed",
+      "source_figure": "original_figures/Original_E1.png",
+      "current_raw_compatible_cache": null,
+      "missing_original_inputs": [
+        "Numeric coarse/default/fine stencil spacings",
+        "Perturbation magnitude, direction construction, seed and normalization",
+        "Per-run source phases, exact seeds and native stopping histories",
+        "Numeric definitions and implementation provenance of the original reported NTS panel"
+      ],
+      "narrow_GFE_port_proposal": {
+        "status": "proposed_protocol_only",
+        "alpha_per_m": [
+          1000.0,
+          1000000.0,
+          10000000.0
+        ],
+        "nominal_stencil_m": 0.0005,
+        "proposed_spacing_factors": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "proposed_seed": 260828,
+        "iteration_cap": 10000,
+        "controls": "Paired initial phase; fixed GFE reference; fixed independent elastic validator. Compare optimized endpoints, not just reevaluation of one endpoint at different spacings.",
+        "proposed_metrics": [
+          "Native accepted iterations and stopping status",
+          "Evaluated surrogate force residual with stencil h recorded",
+          "Command and complex-field cosine to the frozen nominal GFE solution",
+          "Independent elastic equilibrium displacement/a and minimum stiffness"
+        ],
+        "perturbation_protocol": null,
+        "settings_gate": "Choose and record the perturbation norm, gauge, directions, magnitude and normalization before recreating original E1(c). Current candidates are an adaptation, not recovered original settings.",
+        "layout": "At most two columns per figure; put residual and mechanical displacement in separate axes with explicit units."
+      }
+    },
+    {
+      "id": "original_E2",
+      "original_pages": [
+        50
+      ],
+      "original_definition": "Warm continuation from a formed Vortex across alpha=10^4,10^5,10^6,10^7,10^8; residual/NTS trends and five XY pressure maps",
+      "status": "current_GFE_initialization_adaptation_replayable_from_cache",
+      "current_figure": "Appendix C3",
+      "current_table": "appendix_outputs/C_GFE/C3_warm_cold_results.csv",
+      "current_source": "runtime/src/hat_revision_pipeline/appendix_c_warm_gfe.py",
+      "current_cache_namespaces": [
+        "appendix_outputs/C_GFE/cache/C_GFE_single",
+        "appendix_outputs/C_GFE/cache/C3_gfe_warm_run",
+        "appendix_outputs/C_GFE/cache/C3_pressure_volume",
+        "appendix_outputs/C_GFE/cache/finite_ka_static_validation"
+      ],
+      "current_alpha_per_m": [
+        1000.0,
+        1000000.0,
+        10000000.0
+      ],
+      "current_reference_alpha_per_m": 10.0,
+      "current_reference_seed": 260828,
+      "current_derivative_spacings_count": 1,
+      "important_result": "All six large-alpha solves ended with precision loss. Warm complex-field similarity remains high but elastic displacement remains about one bead radius, versus 0.04485 radius for the nominal reference. This is descriptive initialization dependence, not demonstrated converged preservation or improved mechanical accuracy.",
+      "export": "current_GFE_cold_warm_transfer.csv",
+      "scope": "Carries the original E2 question using current GFE and physical metrics; different alpha grid and validation model. Does not execute or replace original E1."
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "commands": [
+    {
+      "task": "Single",
+      "method": "GFE",
+      "seed": 172817509,
+      "phase_content_id": "000000000000080f57f18575ab090e06",
+      "source": "main Single GFE mechanical benchmark; smallest paired seed",
+      "objective_parameters": {
+        "alpha_per_m": 10.0,
+        "beta_curvature_per_pa": 0.0,
+        "curvature_weight": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "compensate_effective_gravity": true,
+        "fixed_upward_force_target_n": [
+          0.0,
+          0.0,
+          1.1142852793561358e-06
+        ]
+      },
+      "targets_m": [
+        [
+          0.0,
+          0.0,
+          0.05
+        ]
+      ],
+      "solver_iteration_cap": 10000,
+      "native_gtol": 1e-08
+    },
+    {
+      "task": "Triple",
+      "method": "GFE",
+      "seed": 260869,
+      "phase_content_id": "000000000000080f41d566cd4e7b05fe",
+      "source": "main Triple GFE mechanical benchmark",
+      "objective_parameters": {
+        "method": "Regularized-FE",
+        "components": {
+          "force_smoothing": true,
+          "pressure_retention": true,
+          "uniformity": true
+        },
+        "alpha_force": 3000.0,
+        "beta_pressure": 5e-05,
+        "gamma_uniformity": 1.0,
+        "curvature_weight_override": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            10.0
+          ]
+        ],
+        "pressure_epsilon_rel": 0.001,
+        "smooth_stage_factors": [
+          0.05,
+          0.01
+        ],
+        "smooth_stage_maxiters": [
+          250,
+          29750
+        ],
+        "smooth_scale_floor": 1e-20,
+        "gtol": 1e-08,
+        "report_gradient_tol": 0.001,
+        "compensate_effective_gravity": true,
+        "fixed_upward_force_target_n": [
+          0.0,
+          0.0,
+          1.1142852793561358e-06
+        ]
+      },
+      "targets_m": [
+        [
+          0.0,
+          0.010066666666666666,
+          0.03
+        ],
+        [
+          -0.0088,
+          -0.007533333333333333,
+          0.03
+        ],
+        [
+          0.0088,
+          -0.007533333333333333,
+          0.03
+        ]
+      ],
+      "solver_iteration_cap": 30000,
+      "native_gtol": 1e-08
+    }
+  ],
+  "field": {
+    "field_type": "ArbitraryArrayPressureField",
+    "frequency_hz": 40000.0,
+    "sound_speed_m_s": 343.0,
+    "wavenumber_rad_m": 732.7329804291063,
+    "number_of_elements": 256,
+    "source_strength_pa_m_peak": 8.48528137423857,
+    "source_calibration": "120 dB SPL re 20 uPa RMS at 0.30 m on axis; converted to peak phasor",
+    "directivity_model": "murata_table",
+    "piston_radius_m": 0.005,
+    "front_only": true,
+    "pressure_phasor": {
+      "amplitude_convention": "peak pressure phasor",
+      "time_dependence": "p(x,t) = Re[p_hat(x) exp(-i omega t)]",
+      "outgoing_wave": "exp(+i k r) / r"
+    }
+  },
+  "sphere": {
+    "radius_m": 0.00065,
+    "density_kg_m3": 100.0,
+    "longitudinal_sound_speed_m_s": 2400.0,
+    "shear_sound_speed_m_s": 1150.0,
+    "material_label": "declared homogeneous isotropic elastic bead",
+    "parameter_provenance": "declared simulation defaults; replace density and elastic wave speeds with measured bead values for quantitative experiment matching"
+  },
+  "medium": {
+    "density_kg_m3": 1.225,
+    "sound_speed_m_s": 343.0,
+    "gravity_m_s2": 9.80665,
+    "dynamic_viscosity_pa_s": 1.854e-05
+  },
+  "levels": [
+    4,
+    8,
+    10,
+    16,
+    32,
+    128,
+    256,
+    640,
+    2048
+  ],
+  "historical_d1_d2_levels": [
+    4,
+    8,
+    10,
+    16,
+    32,
+    128,
+    2048
+  ],
+  "phase_level_definition": "Q distinct phases over 2*pi; delta_phi=2*pi/Q",
+  "literature_sources": "phase_resolution_literature.csv",
+  "protocol": {
+    "numerics": {
+      "lmax": 3,
+      "fit_shell_wavelengths": [
+        0.1,
+        0.16,
+        0.22
+      ],
+      "fit_n_mu": 6,
+      "fit_n_phi": 12,
+      "control_radius_a": 2.0,
+      "surface_n_mu": 8,
+      "surface_n_phi": 16,
+      "velocity_step_a": 0.002,
+      "fit_rcond": 1e-12
+    },
+    "root_starts_a": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        -0.0,
+        -0.0,
+        -1.0
+      ]
+    ],
+    "search_half_width_a": 4.0,
+    "max_nfev_per_start": 14,
+    "numerical_root_tolerance": 0.0025,
+    "least_squares": {
+      "algorithm": "scipy.optimize.least_squares with bounded default method",
+      "xtol": 1e-10,
+      "ftol": 1e-10,
+      "gtol": 1e-10
+    },
+    "root_acceptance": "optimizer success and interior point and scaled total-force residual <= numerical_root_tolerance",
+    "boundary_fraction_epsilon": 1e-07,
+    "resolved_root_selection": "minimum displacement norm, then minimum scaled residual",
+    "unresolved_candidate_selection": "interior, then optimizer success, then scaled residual, then displacement norm",
+    "jacobian_step_a": 0.1,
+    "medium": {
+      "density_kg_m3": 1.225,
+      "sound_speed_m_s": 343.0,
+      "gravity_m_s2": 9.80665,
+      "dynamic_viscosity_pa_s": 1.854e-05
+    },
+    "sphere": {
+      "radius_m": 0.00065,
+      "density_kg_m3": 100.0,
+      "longitudinal_sound_speed_m_s": 2400.0,
+      "shear_sound_speed_m_s": 1150.0,
+      "material_label": "declared homogeneous isotropic elastic bead",
+      "parameter_provenance": "declared simulation defaults; replace density and elastic wave speeds with measured bead values for quantitative experiment matching"
+    },
+    "include_effective_gravity": true,
+    "source_strength_pa_m_peak": 8.48528137423857,
+    "directivity": "Murata MA40S4S amplitude table evaluated globally",
+    "front_only": true,
+    "model": "finite-ka elastic-solid-sphere partial-wave reference",
+    "model_role": "independent finite-ka elastic-bead force reference",
+    "model_scope": "homogeneous isotropic elastic solid sphere with internal longitudinal and shear modes; inviscid host momentum-flux integration",
+    "dependencies": {
+      "python": "3.12.4",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.8"
+    }
+  }
+}

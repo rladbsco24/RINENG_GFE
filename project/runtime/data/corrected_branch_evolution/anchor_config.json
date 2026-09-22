@@ -1,0 +1,15 @@
+{
+  "config": {
+    "seed_start": 260826,
+    "base_seeds": 10,
+    "max_seeds": 24,
+    "minimum_per_branch": 2,
+    "anchor_maxiter": 2000,
+    "conventional_maxiter": 10000,
+    "gtol": 0.0,
+    "tilt_deg": 25.0,
+    "chart_mode": "core-volume",
+    "workers": 8
+  },
+  "implementation_id": "fixed-fe-rh-landmarks-c-trajectory-v1"
+}

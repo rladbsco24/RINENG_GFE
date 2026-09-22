@@ -1,0 +1,433 @@
+{
+  "stem": "Appendix_2A_Decision_Arrays",
+  "setting_ids": [
+    "A06",
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "A07",
+    "A08",
+    "A09"
+  ],
+  "case_tile_count": 9,
+  "data_axes_count": 18,
+  "axes_count": 19,
+  "layout": [
+    3,
+    3
+  ],
+  "inner_layout": [
+    2,
+    1
+  ],
+  "colorbar_axes_count": 1,
+  "array_inset_axes_count": 0,
+  "methods_by_setting": {
+    "A06": [
+      "Conventional",
+      "GFE"
+    ],
+    "S01": [
+      "Conventional",
+      "FE"
+    ],
+    "S02": [
+      "Conventional",
+      "FE"
+    ],
+    "S03": [
+      "Conventional",
+      "FE"
+    ],
+    "S04": [
+      "Conventional",
+      "GFE"
+    ],
+    "S05": [
+      "Conventional",
+      "FE"
+    ],
+    "A07": [
+      "Conventional",
+      "GFE"
+    ],
+    "A08": [
+      "Conventional",
+      "FE"
+    ],
+    "A09": [
+      "Conventional",
+      "FE"
+    ]
+  },
+  "command_alignment": {
+    "passed": true,
+    "task": "Single",
+    "settings": [
+      "A06",
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "A07",
+      "A08",
+      "A09"
+    ],
+    "records": [
+      {
+        "setting_id": "A06",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000080f46b181ee49fe0e43",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "A06",
+        "method": "FE",
+        "phase_fingerprint": "000000000000080f589bc129c05f1134",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "A06",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000080fc84089755638157f",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S01",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000080f5cab68371b931a53",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S01",
+        "method": "FE",
+        "phase_fingerprint": "000000000000080f571a3874a1d620ab",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S01",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000080f98ed56be0921111b",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S02",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000100fb5a03aeb177109d7",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S02",
+        "method": "FE",
+        "phase_fingerprint": "000000000000100f1271fe4209621685",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S02",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000100f0ce586816baa1141",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S03",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000080fb454c929d6fe09af",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S03",
+        "method": "FE",
+        "phase_fingerprint": "000000000000080ff00330f88ba812bd",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S03",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000080fc307cc429edd1a55",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S04",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000080fd60d46762269133c",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S04",
+        "method": "FE",
+        "phase_fingerprint": "000000000000080fa71b80d4820d1d98",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S04",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000080f3472149afdce1aec",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S05",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000080f787b01a8df371966",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S05",
+        "method": "FE",
+        "phase_fingerprint": "000000000000080f3ca23b8c003f0cb5",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "S05",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000080ff14adbadeebf00a8",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "A07",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000100f49c63130be50295c",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "A07",
+        "method": "FE",
+        "phase_fingerprint": "000000000000100fd488054e07ab2702",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "A07",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000100f49c72f392b2715ed",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "A08",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000080fbdea089204770b0b",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "A08",
+        "method": "FE",
+        "phase_fingerprint": "000000000000080f22ac6bca102108cb",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "A08",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000080fedded554d06a101e",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "A09",
+        "method": "Conventional",
+        "phase_fingerprint": "000000000000080f5af06bf0a31303a6",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "A09",
+        "method": "FE",
+        "phase_fingerprint": "000000000000080ffb6350d816e516b9",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      },
+      {
+        "setting_id": "A09",
+        "method": "GFE",
+        "phase_fingerprint": "000000000000080f3b2801f9c7a71280",
+        "source": "Generated native cold solve or retained recorded proposal replay",
+        "field_decision_hash_match": true
+      }
+    ],
+    "endpoint_scope": "Terminal Conventional for fixed seed260828; nearest FE and GFE members of the unchanged eight-endpoint bank",
+    "benchmark_scope": "The separate Triple benchmark retains all five methods and its own commands"
+  },
+  "half_range_l2_rad": null,
+  "half_ranges_l2_rad": {
+    "A06": 3.0,
+    "S01": 3.0,
+    "S02": 20.0,
+    "S03": 3.0,
+    "S04": 3.0,
+    "S05": 3.0,
+    "A07": 3.0,
+    "A08": 3.0,
+    "A09": 20.0
+  },
+  "scales": "linear",
+  "contours": false,
+  "viewing_scope": "Case-specific wider cached windows; same range for both compared methods, exact original Single endpoint and native basis retained",
+  "plane_algorithm": "main Figure 3 native endpoint gradient / last accepted step",
+  "arrow_algorithm": "main Figure 4 sparse normalized projected analytic negative gradients",
+  "normalization": "main Figure 4: Delta J / per-section 98.5th percentile",
+  "observations": [
+    {
+      "setting_id": "A06",
+      "methods": [
+        "Conventional",
+        "GFE"
+      ],
+      "data_source": "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\data\\final_decision\\A06_decision.npz",
+      "half_range_l2_rad": 3.0,
+      "grid_size": 61,
+      "command_and_native_basis_unchanged": true,
+      "dimensional_color_limits": {
+        "Conventional": 2065.998604747845,
+        "GFE": 0.004572073805504726
+      }
+    },
+    {
+      "setting_id": "S01",
+      "methods": [
+        "Conventional",
+        "FE"
+      ],
+      "data_source": "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\data\\final_decision\\S01_decision.npz",
+      "half_range_l2_rad": 3.0,
+      "grid_size": 61,
+      "command_and_native_basis_unchanged": true,
+      "dimensional_color_limits": {
+        "Conventional": 2467.782992141694,
+        "FE": 0.004228210977388534
+      }
+    },
+    {
+      "setting_id": "S02",
+      "methods": [
+        "Conventional",
+        "FE"
+      ],
+      "data_source": "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\data\\decision_reveal\\range20\\S02_decision.npz",
+      "half_range_l2_rad": 20.0,
+      "grid_size": 61,
+      "command_and_native_basis_unchanged": true,
+      "dimensional_color_limits": {
+        "Conventional": 18517.296111723,
+        "FE": 2.084102576689404
+      }
+    },
+    {
+      "setting_id": "S03",
+      "methods": [
+        "Conventional",
+        "FE"
+      ],
+      "data_source": "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\data\\final_decision\\S03_decision.npz",
+      "half_range_l2_rad": 3.0,
+      "grid_size": 61,
+      "command_and_native_basis_unchanged": true,
+      "dimensional_color_limits": {
+        "Conventional": 2762.634037171752,
+        "FE": 0.012149104626505905
+      }
+    },
+    {
+      "setting_id": "S04",
+      "methods": [
+        "Conventional",
+        "GFE"
+      ],
+      "data_source": "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\data\\final_decision\\S04_decision.npz",
+      "half_range_l2_rad": 3.0,
+      "grid_size": 61,
+      "command_and_native_basis_unchanged": true,
+      "dimensional_color_limits": {
+        "Conventional": 1722.2658409010241,
+        "GFE": 0.003351903876011793
+      }
+    },
+    {
+      "setting_id": "S05",
+      "methods": [
+        "Conventional",
+        "FE"
+      ],
+      "data_source": "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\data\\final_decision\\S05_decision.npz",
+      "half_range_l2_rad": 3.0,
+      "grid_size": 61,
+      "command_and_native_basis_unchanged": true,
+      "dimensional_color_limits": {
+        "Conventional": 2018.9172401240219,
+        "FE": 0.03175007405101658
+      }
+    },
+    {
+      "setting_id": "A07",
+      "methods": [
+        "Conventional",
+        "GFE"
+      ],
+      "data_source": "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\data\\final_decision\\A07_decision.npz",
+      "half_range_l2_rad": 3.0,
+      "grid_size": 61,
+      "command_and_native_basis_unchanged": true,
+      "dimensional_color_limits": {
+        "Conventional": 1237.3843665607972,
+        "GFE": 0.004833562208810276
+      }
+    },
+    {
+      "setting_id": "A08",
+      "methods": [
+        "Conventional",
+        "FE"
+      ],
+      "data_source": "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\data\\final_decision\\A08_decision.npz",
+      "half_range_l2_rad": 3.0,
+      "grid_size": 61,
+      "command_and_native_basis_unchanged": true,
+      "dimensional_color_limits": {
+        "Conventional": 905.6140142625458,
+        "FE": 0.0034459162144723264
+      }
+    },
+    {
+      "setting_id": "A09",
+      "methods": [
+        "Conventional",
+        "FE"
+      ],
+      "data_source": "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\data\\decision_reveal\\range20\\A09_decision.npz",
+      "half_range_l2_rad": 20.0,
+      "grid_size": 61,
+      "command_and_native_basis_unchanged": true,
+      "dimensional_color_limits": {
+        "Conventional": 5982.750576614185,
+        "FE": 0.07456894596550943
+      }
+    }
+  ],
+  "paths": [
+    "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_2A_Decision_Arrays.png",
+    "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_2A_Decision_Arrays.pdf",
+    "\\\\?\\C:\\RINENG_COMPACT_FULL_20260920\\RINENG_GFE_Standalone_Run\\unified_outputs\\generality\\smoke\\revision_f1_f2\\figures\\Appendix_2A_Decision_Arrays.svg"
+  ]
+}

@@ -1,0 +1,12 @@
+model,parameter,value,unit,note
+common array,element count,256,1,16 x 16
+common array,pitch,0.01,m,square array
+common array,aperture x,0.15,m,center-to-center span
+common field,on-axis source strength,8.48528137423857,Pa m peak,120 dB SPL re 20 uPa RMS at 0.30 m
+optimization field,Murata-table unit scale,0.0848528137423857,Pa m peak per table unit,100 on-axis table units map to the common source strength
+both global fields,directivity,Murata MA40S4S amplitude table,,recomputed at every query point
+both global fields,rear policy,zero,,front-radiating elements
+optimization,stencil spacing,0.0005,m,5 x 5 x 5 target stencil
+canonical benchmark,target x,0.0,m,r*
+canonical benchmark,target y,0.0,m,r*
+canonical benchmark,target z,0.05,m,r*

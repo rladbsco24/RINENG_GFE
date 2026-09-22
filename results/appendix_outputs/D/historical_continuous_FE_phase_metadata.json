@@ -1,0 +1,143 @@
+{
+  "fingerprint": "00000000000003db50d677936127039f",
+  "payload": {
+    "schema": 2,
+    "target_specs": [
+      [
+        "X+0_Y+0_Z45",
+        [
+          0.0,
+          0.0,
+          0.045
+        ]
+      ],
+      [
+        "X+10_Y+0_Z45",
+        [
+          0.01,
+          0.0,
+          0.045
+        ]
+      ],
+      [
+        "X-10_Y+0_Z45",
+        [
+          -0.01,
+          0.0,
+          0.045
+        ]
+      ],
+      [
+        "X+0_Y+10_Z45",
+        [
+          0.0,
+          0.01,
+          0.045
+        ]
+      ],
+      [
+        "X+0_Y-10_Z45",
+        [
+          0.0,
+          -0.01,
+          0.045
+        ]
+      ],
+      [
+        "X+0_Y+0_Z50",
+        [
+          0.0,
+          0.0,
+          0.05
+        ]
+      ],
+      [
+        "X+10_Y+0_Z50",
+        [
+          0.01,
+          0.0,
+          0.05
+        ]
+      ],
+      [
+        "X-10_Y+0_Z50",
+        [
+          -0.01,
+          0.0,
+          0.05
+        ]
+      ],
+      [
+        "X+0_Y+10_Z50",
+        [
+          0.0,
+          0.01,
+          0.05
+        ]
+      ],
+      [
+        "X+0_Y-10_Z50",
+        [
+          0.0,
+          -0.01,
+          0.05
+        ]
+      ],
+      [
+        "X+0_Y+0_Z55",
+        [
+          0.0,
+          0.0,
+          0.055
+        ]
+      ],
+      [
+        "X+10_Y+0_Z55",
+        [
+          0.01,
+          0.0,
+          0.055
+        ]
+      ],
+      [
+        "X-10_Y+0_Z55",
+        [
+          -0.01,
+          0.0,
+          0.055
+        ]
+      ],
+      [
+        "X+0_Y+10_Z55",
+        [
+          0.0,
+          0.01,
+          0.055
+        ]
+      ],
+      [
+        "X+0_Y-10_Z55",
+        [
+          0.0,
+          -0.01,
+          0.055
+        ]
+      ]
+    ],
+    "array": {
+      "side": 16,
+      "pitch_m": 0.01
+    },
+    "fd_h_m": 0.0005,
+    "root_h_m": 0.0005,
+    "base_seed": 20260902,
+    "calibration_seed": 20260825,
+    "calibration_samples": 48,
+    "maxiter": 500,
+    "initializations": 3,
+    "source_selected_initializations": {},
+    "objective": "force_equilibrium",
+    "force_weight": 0.1
+  },
+  "model_regeneration": "Models are deterministically regenerated from target, array, finite-difference, calibration-sample, and calibration-seed metadata. Dense matrices are omitted to avoid a roughly 0.17-GB duplicate archive."
+}

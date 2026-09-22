@@ -1,0 +1,172 @@
+{
+  "Bottle__corrected_minus__Conventional__XY": {
+    "requested": "Bottle",
+    "sign": "corrected_minus",
+    "method": "Conventional",
+    "plane": "XY",
+    "phase_content_id": "0000000000000800d2879c64c35006d3",
+    "model_content_id": "0000000000008bd7e923264916cf9d32",
+    "cache_key": "c0bd5762bf9b424f2d51fd9c",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "frequency_hz": 40000.0,
+    "grid_points": 181,
+    "half_width_m": 0.01071875
+  },
+  "Bottle__corrected_minus__Conventional__XZ": {
+    "requested": "Bottle",
+    "sign": "corrected_minus",
+    "method": "Conventional",
+    "plane": "XZ",
+    "phase_content_id": "0000000000000800d2879c64c35006d3",
+    "model_content_id": "0000000000008bd7e923264916cf9d32",
+    "cache_key": "c0bd5762bf9b424f2d51fd9c",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "frequency_hz": 40000.0,
+    "grid_points": 181,
+    "half_width_m": 0.01071875
+  },
+  "Bottle__corrected_minus__FE__XY": {
+    "requested": "Bottle",
+    "sign": "corrected_minus",
+    "method": "FE",
+    "plane": "XY",
+    "phase_content_id": "0000000000000800117881bad32614a1",
+    "model_content_id": "0000000000008bd7e923264916cf9d32",
+    "cache_key": "405e937ab785215f24ad9260_fe-compact-task-specific-v3",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "frequency_hz": 40000.0,
+    "grid_points": 181,
+    "half_width_m": 0.01071875
+  },
+  "Bottle__corrected_minus__FE__XZ": {
+    "requested": "Bottle",
+    "sign": "corrected_minus",
+    "method": "FE",
+    "plane": "XZ",
+    "phase_content_id": "0000000000000800117881bad32614a1",
+    "model_content_id": "0000000000008bd7e923264916cf9d32",
+    "cache_key": "405e937ab785215f24ad9260_fe-compact-task-specific-v3",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "frequency_hz": 40000.0,
+    "grid_points": 181,
+    "half_width_m": 0.01071875
+  },
+  "Bottle__historical_plus__Conventional__XZ": {
+    "requested": "Bottle",
+    "sign": "historical_plus",
+    "method": "Conventional",
+    "plane": "XZ",
+    "phase_content_id": "0000000000000800d24934fa64b21803",
+    "model_content_id": "0000000000008bd7e923264916cf9d32",
+    "cache_key": "dddf945c5970b0b8b501b7c1",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "frequency_hz": 40000.0,
+    "grid_points": 181,
+    "half_width_m": 0.01071875
+  },
+  "Bottle__historical_plus__FE__XZ": {
+    "requested": "Bottle",
+    "sign": "historical_plus",
+    "method": "FE",
+    "plane": "XZ",
+    "phase_content_id": "00000000000008008b13f2a6850dffbc",
+    "model_content_id": "0000000000008bd7e923264916cf9d32",
+    "cache_key": "e2ab69ed9984f2778a9578a9_fe-compact-task-specific-v3",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "frequency_hz": 40000.0,
+    "grid_points": 181,
+    "half_width_m": 0.01071875
+  },
+  "Bottle__historical_plus__RH__XZ": {
+    "requested": "Bottle",
+    "sign": "historical_plus",
+    "method": "RH",
+    "plane": "XZ",
+    "phase_content_id": "0000000000000800b3b28b548662febd",
+    "model_content_id": "0000000000008bd7e923264916cf9d32",
+    "cache_key": "872eeb40ce46a934d4e4cf0d_fe-compact-task-specific-v3",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "frequency_hz": 40000.0,
+    "grid_points": 181,
+    "half_width_m": 0.01071875
+  },
+  "Twin__historical_plus__Conventional__XZ": {
+    "requested": "Twin",
+    "sign": "historical_plus",
+    "method": "Conventional",
+    "plane": "XZ",
+    "phase_content_id": "000000000000080012df6aac6c6e13ca",
+    "model_content_id": "0000000000008bd7e923264916cf9d32",
+    "cache_key": "36b2b323c750946d943c3f9e",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "frequency_hz": 40000.0,
+    "grid_points": 181,
+    "half_width_m": 0.01071875
+  },
+  "Twin__historical_plus__FE__XZ": {
+    "requested": "Twin",
+    "sign": "historical_plus",
+    "method": "FE",
+    "plane": "XZ",
+    "phase_content_id": "0000000000000800948908003d11f44f",
+    "model_content_id": "0000000000008bd7e923264916cf9d32",
+    "cache_key": "af3571f4a1ec620b15f743bf_fe-compact-task-specific-v3",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "frequency_hz": 40000.0,
+    "grid_points": 181,
+    "half_width_m": 0.01071875
+  },
+  "Twin__historical_plus__RH__XZ": {
+    "requested": "Twin",
+    "sign": "historical_plus",
+    "method": "RH",
+    "plane": "XZ",
+    "phase_content_id": "00000000000008000ca29c81f66e0ca2",
+    "model_content_id": "0000000000008bd7e923264916cf9d32",
+    "cache_key": "fdeff334fc7bfc714ff2851d_fe-compact-task-specific-v3",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "frequency_hz": 40000.0,
+    "grid_points": 181,
+    "half_width_m": 0.01071875
+  }
+}

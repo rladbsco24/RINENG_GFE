@@ -1,0 +1,253 @@
+[
+  {
+    "version": "appendix-B2-twin-final-v1",
+    "requested": "Twin",
+    "method": "Conventional",
+    "sign": "historical_plus",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "seed": 260905,
+    "frequency_hz": 40000.0,
+    "side": 16,
+    "pitch_m": 0.01,
+    "alpha_per_m": 0.0,
+    "beta_curvature_per_pa": 1.0,
+    "curvature_weights": [
+      1970.5882352941176,
+      19.705882352941178,
+      19.705882352941178
+    ],
+    "pressure_mode": "abs",
+    "smooth_pressure_relative": 0.001,
+    "stencil_spacing_m": 0.0005,
+    "solver": "BFGS",
+    "maxiter": 10000,
+    "gtol": 1e-08,
+    "initial_phase_protocol": "One shared reduced random phase vector, seed 260905; independently optimized at every target; no spatial continuation",
+    "formulation_provenance": "Existing Appendix B nominal Twin: FE alpha=1000, W=diag(1,.01,.01), beta=0; Conventional alpha=0, beta=1, W trace=2010 with the same directional ratio",
+    "status": "SMOKE",
+    "cache_key": "36b2b323c750946d943c3f9e"
+  },
+  {
+    "version": "appendix-B2-twin-final-v1",
+    "requested": "Twin",
+    "method": "FE",
+    "sign": "historical_plus",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "seed": 260905,
+    "frequency_hz": 40000.0,
+    "side": 16,
+    "pitch_m": 0.01,
+    "alpha_per_m": 1000.0,
+    "beta_curvature_per_pa": 0.0,
+    "curvature_weights": [
+      1.0,
+      0.01,
+      0.01
+    ],
+    "pressure_mode": "abs",
+    "smooth_pressure_relative": 0.001,
+    "stencil_spacing_m": 0.0005,
+    "solver": "BFGS",
+    "maxiter": 10000,
+    "gtol": 1e-08,
+    "initial_phase_protocol": "One shared reduced random phase vector, seed 260905; independently optimized at every target; no spatial continuation",
+    "formulation_provenance": "Existing Appendix B nominal Twin: FE alpha=1000, W=diag(1,.01,.01), beta=0; Conventional alpha=0, beta=1, W trace=2010 with the same directional ratio",
+    "status": "SMOKE",
+    "cache_key": "af3571f4a1ec620b15f743bf"
+  },
+  {
+    "version": "bottle-matched-branch-v1",
+    "requested": "Bottle",
+    "method": "FE",
+    "sign": "corrected_minus",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "seed": 260905,
+    "frequency_hz": 40000.0,
+    "side": 16,
+    "pitch_m": 0.01,
+    "alpha_per_m": 9.0,
+    "beta_curvature_per_pa": 0.0,
+    "curvature_weights": [
+      0.029411764705882353,
+      0.029411764705882353,
+      2.941176470588235
+    ],
+    "pressure_mode": "smooth_abs",
+    "smooth_pressure_relative": 0.001,
+    "stencil_spacing_m": 0.0005,
+    "solver": "BFGS",
+    "maxiter": 10000,
+    "gtol": 1e-08,
+    "initial_phase_protocol": "Same reduced random phase vector as Appendix B, transported unchanged to each target; no target continuation",
+    "status": "SMOKE",
+    "cache_key": "405e937ab785215f24ad9260"
+  },
+  {
+    "version": "bottle-matched-branch-v1",
+    "requested": "Bottle",
+    "method": "RH",
+    "sign": "historical_plus",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "seed": 260905,
+    "frequency_hz": 40000.0,
+    "side": 16,
+    "pitch_m": 0.01,
+    "alpha_per_m": 9.0,
+    "beta_curvature_per_pa": 4.242640687119285e-06,
+    "curvature_weights": [
+      0.029411764705882353,
+      0.029411764705882353,
+      2.941176470588235
+    ],
+    "pressure_mode": "smooth_abs",
+    "smooth_pressure_relative": 0.001,
+    "stencil_spacing_m": 0.0005,
+    "solver": "BFGS",
+    "maxiter": 10000,
+    "gtol": 1e-08,
+    "initial_phase_protocol": "Same reduced random phase vector as Appendix B, transported unchanged to each target; no target continuation",
+    "status": "SMOKE",
+    "cache_key": "872eeb40ce46a934d4e4cf0d"
+  },
+  {
+    "version": "bottle-matched-branch-v1",
+    "requested": "Bottle",
+    "method": "Conventional",
+    "sign": "corrected_minus",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "seed": 260905,
+    "frequency_hz": 40000.0,
+    "side": 16,
+    "pitch_m": 0.01,
+    "alpha_per_m": 0.0,
+    "beta_curvature_per_pa": 1.0,
+    "curvature_weights": [
+      19.705882352941178,
+      19.705882352941178,
+      1970.5882352941176
+    ],
+    "pressure_mode": "abs",
+    "smooth_pressure_relative": 0.001,
+    "stencil_spacing_m": 0.0005,
+    "solver": "BFGS",
+    "maxiter": 10000,
+    "gtol": 1e-08,
+    "initial_phase_protocol": "Same reduced random phase vector as Appendix B, transported unchanged to each target; no target continuation",
+    "status": "SMOKE",
+    "cache_key": "c0bd5762bf9b424f2d51fd9c"
+  },
+  {
+    "version": "bottle-matched-branch-v1",
+    "requested": "Bottle",
+    "method": "Conventional",
+    "sign": "historical_plus",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "seed": 260905,
+    "frequency_hz": 40000.0,
+    "side": 16,
+    "pitch_m": 0.01,
+    "alpha_per_m": 0.0,
+    "beta_curvature_per_pa": 1.0,
+    "curvature_weights": [
+      19.705882352941178,
+      19.705882352941178,
+      1970.5882352941176
+    ],
+    "pressure_mode": "abs",
+    "smooth_pressure_relative": 0.001,
+    "stencil_spacing_m": 0.0005,
+    "solver": "BFGS",
+    "maxiter": 10000,
+    "gtol": 1e-08,
+    "initial_phase_protocol": "Same reduced random phase vector as Appendix B, transported unchanged to each target; no target continuation",
+    "status": "SMOKE",
+    "cache_key": "dddf945c5970b0b8b501b7c1"
+  },
+  {
+    "version": "bottle-matched-branch-v1",
+    "requested": "Bottle",
+    "method": "FE",
+    "sign": "historical_plus",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "seed": 260905,
+    "frequency_hz": 40000.0,
+    "side": 16,
+    "pitch_m": 0.01,
+    "alpha_per_m": 9.0,
+    "beta_curvature_per_pa": 0.0,
+    "curvature_weights": [
+      0.029411764705882353,
+      0.029411764705882353,
+      2.941176470588235
+    ],
+    "pressure_mode": "smooth_abs",
+    "smooth_pressure_relative": 0.001,
+    "stencil_spacing_m": 0.0005,
+    "solver": "BFGS",
+    "maxiter": 10000,
+    "gtol": 1e-08,
+    "initial_phase_protocol": "Same reduced random phase vector as Appendix B, transported unchanged to each target; no target continuation",
+    "status": "SMOKE",
+    "cache_key": "e2ab69ed9984f2778a9578a9"
+  },
+  {
+    "version": "appendix-B-pressure-RH-Twin-center-v1",
+    "requested": "Twin",
+    "method": "RH",
+    "sign": "historical_plus",
+    "target_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "seed": 260905,
+    "frequency_hz": 40000.0,
+    "side": 16,
+    "pitch_m": 0.01,
+    "alpha_per_m": 9.0,
+    "beta_curvature_per_pa": 4.242640687119285e-06,
+    "curvature_weights": [
+      2.941176470588235,
+      0.029411764705882353,
+      0.029411764705882353
+    ],
+    "pressure_mode": "smooth_abs",
+    "smooth_pressure_relative": 0.001,
+    "stencil_spacing_m": 0.0005,
+    "solver": "BFGS",
+    "maxiter": 10000,
+    "gtol": 1e-08,
+    "initial_phase_protocol": "One shared reduced random phase vector, seed 260905; independently optimized at the center target; no spatial continuation",
+    "formulation_provenance": "Existing Appendix B RH settings; Twin directional ratio 1:.01:.01 normalized to curvature trace 3",
+    "status": "SMOKE",
+    "cache_key": "fdeff334fc7bfc714ff2851d"
+  }
+]

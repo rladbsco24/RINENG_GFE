@@ -1,0 +1,18 @@
+{
+  "formula": "U_G = V[f1|p|^2/(4 rho0 c0^2) - 3 f2 rho0|v|^2/8], F_G = -grad(U_G), peak-pressure phasors",
+  "phasor_convention": "peak complex pressure",
+  "force_definition": "F_G = -grad(U_G)",
+  "formula_self_test": {
+    "dense_particle_gradient_coefficient_positive": true,
+    "constant_pressure_potential_spread_j": 0.0,
+    "constant_pressure_force_norm_n": 0.0,
+    "passed": true
+  },
+  "canonical_array": "16x16",
+  "canonical_target_m": [
+    0.0,
+    0.0,
+    0.05
+  ],
+  "run_mode": "full"
+}
